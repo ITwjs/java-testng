@@ -1,0 +1,46 @@
+2020-07-20 10:02:33.440 [main] ERROR [Test#main:18] [] 我是logger1，error
+2020-07-20 10:02:33.441 [main] ERROR [Test#main:20] [] 我是logger1，fatal
+2020-07-20 10:44:27.715 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 10:56:57.380 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 10:59:13.894 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:05:10.914 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:06:33.884 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:13:36.766 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:17:49.021 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:33:06.109 [main] ERROR [org.testng.annotations.Test#loginTest1:35] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:50:45.416 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 13:43:14.171 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 13:48:59.196 [main] ERROR [org.testng.annotations.Test#loginTest1:36] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver

@@ -1,0 +1,116 @@
+2020-07-20 10:02:33.438 [main] INFO [Test#main:14] [] 我是logger1，info
+2020-07-20 10:02:33.440 [main] WARN [Test#main:16] [] 我是logger1，warn
+2020-07-20 10:02:33.440 [main] ERROR [Test#main:18] [] 我是logger1，error
+2020-07-20 10:02:33.441 [main] ERROR [Test#main:20] [] 我是logger1，fatal
+2020-07-20 10:30:35.254 [main] INFO [org.testng.annotations.Test#loginTest1:22] [] code=NBBW
+2020-07-20 10:44:17.456 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=XTQ6
+2020-07-20 10:44:27.715 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 10:56:47.102 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=VBTK
+2020-07-20 10:56:57.380 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 10:59:03.650 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=2L54
+2020-07-20 10:59:13.894 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:05:00.648 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=9HAF
+2020-07-20 11:05:10.914 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:06:23.615 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=PFD4
+2020-07-20 11:06:33.884 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:13:26.523 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=7C4B
+2020-07-20 11:13:36.766 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:17:38.778 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=U3HW
+2020-07-20 11:17:49.021 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:32:55.871 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=M2BX
+2020-07-20 11:33:06.109 [main] ERROR [org.testng.annotations.Test#loginTest1:35] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 11:33:06.109 [main] INFO [org.testng.annotations.Test#loginTest1:37] [] 用户登录成功
+2020-07-20 11:33:06.109 [main] INFO [org.testng.annotations.Test#loginTest1:38] [] 登录测试用例通过
+2020-07-20 11:50:35.180 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=DDV4
+2020-07-20 11:50:45.416 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 13:42:30.340 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=KXP4
+2020-07-20 13:43:14.171 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 13:44:43.025 [main] INFO [org.testng.annotations.Test#loginTest1:24] [] code=UU4B
+2020-07-20 13:48:59.196 [main] ERROR [org.testng.annotations.Test#loginTest1:36] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-20 13:50:44.133 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=UPTW
+2020-07-20 14:03:22.971 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=ME8L
+2020-07-20 14:11:07.082 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=MK7G
+2020-07-20 14:11:07.871 [main] INFO [org.testng.annotations.Test#loginTest1:38] [] 13333333333用户登录成功
+2020-07-20 14:11:07.872 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 登录测试用例通过
+2020-07-20 15:56:50.218 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=SVMW
+2020-07-20 15:56:50.783 [main] INFO [org.testng.annotations.Test#loginTest1:37] [] 13333333333用户登录成功
+2020-07-20 15:56:50.785 [main] INFO [org.testng.annotations.Test#loginTest1:38] [] 登录测试用例通过
+2020-07-20 16:12:19.926 [main] INFO [com.common.MySqlDbOperator#setConnection:43] [] 数据库登录成功
+2020-07-20 16:12:20.348 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_mainson_item where user_id in  (select id from user where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:20.458 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attachment_url  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000')) and  attestation_id != '278824B0158641B080990C50EEAD67CC';
+2020-07-20 16:12:20.536 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attachment_url_del_copy  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:20.558 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attachment_url_del  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.171 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000')) and id  not in ('BE88192FFD76405CA903A17FA96F7F48','64E685A073D741649624CA9652FC9CB7','E04126753707427F8665049A91F4EC82','E8B3E0B8D5D1418C9DE471812B553B33','654D1FD742954BFAA490B6FBDBFFC040','CDA51B67475D43E7AB6C0C1F7066FC5D','BC004DB2A2BB4C3489406EC87E48B829');
+2020-07-20 16:12:21.269 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_count  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.294 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_count_day  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.314 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_del  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.328 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_gtja  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.342 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_sandbox  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.359 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attestation_user_white_list  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.380 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_article  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.397 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_article_content  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.415 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_article_result  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.430 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_attestation  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.473 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_attestation_result  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.590 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_original  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.603 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_picture  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.657 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from monitor_picture_result  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.672 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from kyc_enterprise where organization_id in (select s.id from user t LEFT JOIN organization s on t.id = s.owner_id  where t.phone_number = '13500000000');
+2020-07-20 16:12:21.686 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from organization where owner_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.759 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from process_evidence  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000')) and id  not in('hskPKdepH8DwWc7kudZn1S','5bCZJaMfAztycaaA35WV3T','oJSkvHVqFSzeZEyW2cvZSf','tt8DVE1KPWzrS34Yr3iQvB');
+2020-07-20 16:12:21.819 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from process_evidence_del  where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.839 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_address where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.854 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_invoice_list where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.871 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_invoice_list_trade where trade_id in (select id from user_trade where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000')));
+2020-07-20 16:12:21.883 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_invoice where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.893 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_item_price where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:21.917 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_mainson_item_detail where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:22.075 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_trade where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000','13100000001','13200000000','13300000000','13400000000','13600000000')) and type != 'IN';
+2020-07-20 16:12:22.095 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from notary where user_id in (select id from user where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:22.106 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from attachment_url_feedback where user_id in (select id from user where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:22.128 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：update user_account set balance = '100000', url_attestation_count ='0' , e_contract_count = '0' , attestation_count = '0' , process_evidence = '0' , freeze = '0' , withdraw = '0' , monitor_count = '0',send_balance = '0' ,storage_capacity = '10737418240' ,consume_balance = '0', consume_send_balance = '0' where user_id  in (select id from user where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:22.199 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：update process_evidence set excep_status='',excep_remark='',excep_created_at=null,excep_updated_at = null, excep_updated_name ='' ,excep_sub_status ='',excep_operation = '',excep_operation_remark='' where user_id in (select id  from  user  where phone_number in ('13333333333','13100000000','13500000000'));
+2020-07-20 16:12:22.223 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from kyc where user_id in (select id from  user where phone_number like '13_00000000');
+2020-07-20 16:12:22.303 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from  user where phone_number like '13_00000000';
+2020-07-20 16:12:22.318 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from kyc where user_id = (select id from  user where phone_number = '13100000001');
+2020-07-20 16:12:22.329 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user where phone_number = '13100000001';
+2020-07-20 16:12:22.339 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：update user set client_model =Null and agent_create_time=null where phone_number= '15858231021';
+2020-07-20 16:12:22.347 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete user1,user2 FROM user_mainson_item user1 left join user_mainson_item_detail user2 on user1.user_id=user2.user_id and user1.id=user2.main_son_item_id where user1.id='261';
+2020-07-20 16:12:22.359 [main] INFO [com.common.MySqlDbOperator#setControldata:74] [] 执行成功：delete from user_mainson_item_detail where user_id = (select id from user where phone_number = '13691332632');
+2020-07-20 16:12:22.360 [main] INFO [com.common.MySqlDbOperator#dbClose:49] [] 数据库关闭连接
+2020-07-20 16:12:29.719 [main] INFO [org.testng.annotations.Test#loginTest1:23] [] code=CPBR
+2020-07-20 16:12:30.207 [main] INFO [org.testng.annotations.Test#loginTest1:37] [] 13333333333用户登录成功
+2020-07-20 16:12:30.207 [main] INFO [org.testng.annotations.Test#loginTest1:38] [] 登录测试用例通过
