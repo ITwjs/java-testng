@@ -2,25 +2,33 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="MSP-WebUI-AutoTest" duration-ms="53310" started-at="2020-07-20T09:20:47Z" finished-at="2020-07-20T09:21:40Z">
+  <suite name="MSP-WebUI-AutoTest" duration-ms="10959" started-at="2020-07-20T09:35:16Z" finished-at="2020-07-20T09:35:27Z">
     <groups>
     </groups>
-    <test name="packeage" duration-ms="53310" started-at="2020-07-20T09:20:47Z" finished-at="2020-07-20T09:21:40Z">
+    <test name="packeage" duration-ms="10959" started-at="2020-07-20T09:35:16Z" finished-at="2020-07-20T09:35:27Z">
       <class name="com.testng.testcase.testLogin">
-        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@1be2019a]" name="ClearData" is-config="true" duration-ms="2569" started-at="2020-07-20T09:20:47Z" finished-at="2020-07-20T09:20:49Z">
+        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@16267862]" name="ClearData" is-config="true" duration-ms="2564" started-at="2020-07-20T09:35:16Z" finished-at="2020-07-20T09:35:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearData -->
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@1be2019a]" name="startDriver" is-config="true" duration-ms="7107" started-at="2020-07-20T09:20:49Z" finished-at="2020-07-20T09:20:57Z">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@16267862]" name="startDriver" is-config="true" duration-ms="6469" started-at="2020-07-20T09:35:18Z" finished-at="2020-07-20T09:35:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="FAIL" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@1be2019a]" name="loginTest1" duration-ms="42981" started-at="2020-07-20T09:20:57Z" finished-at="2020-07-20T09:21:40Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@16267862]" name="loginTest1" duration-ms="1270" started-at="2020-07-20T09:35:25Z" finished-at="2020-07-20T09:35:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [13333333334] but found [13333333333]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.common.screenShot.screenShot(screenShot.java:22)
-at com.testng.testcase.testLogin.loginTest1(testLogin.java:44)
+              <![CDATA[java.lang.AssertionError: expected [13333333334] but found [13333333333]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.testng.testcase.testLogin.loginTest1(testLogin.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -47,11 +55,11 @@ at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@1be2019a]" name="endDriver" is-config="true" duration-ms="636" started-at="2020-07-20T09:21:40Z" finished-at="2020-07-20T09:21:40Z">
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@16267862]" name="endDriver" is-config="true" duration-ms="641" started-at="2020-07-20T09:35:26Z" finished-at="2020-07-20T09:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endDriver -->

@@ -12,9 +12,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class screenShot {
+public class screenShot extends UiBase {
     private static Logger log=Logger.getLogger(Test.class);
-    private static WebDriver driver;
     public void screenShot(){
         SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
         String filePath ="D:\\ObjectInformation\\BaoQuanWang\\UI\\screenshotFail\\"+df.format(new Date())+".jpg";

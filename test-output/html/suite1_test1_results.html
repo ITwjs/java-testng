@@ -12,7 +12,7 @@
 <body>
 <h1>packeage</h1>
 <p>
-  Test duration: 53.293s
+  Test duration: 10.944s
 </p>
 
 
@@ -28,17 +28,22 @@
           loginTest1
       </td>
   <td class="duration">
-    42.981s
+    1.270s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [13333333334] but found [13333333333]</b></a><br />
     <div class="stackTrace" id="exception-0">
-              com.common.screenShot.screenShot(screenShot.java:22)<br />
-              com.testng.testcase.testLogin.loginTest1(testLogin.java:44)<br />
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.testng.testcase.testLogin.loginTest1(testLogin.java:48)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />

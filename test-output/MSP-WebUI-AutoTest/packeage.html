@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 20 17:20:47 CST 2020</td>
+<td>Started on:</td><td>Mon Jul 20 17:35:16 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>53 seconds (53310 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10959 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.testng.testcase.testLogin.loginTest1()'><b>loginTest1</b><br>Test class: com.testng.testcase.testLogin</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.common.screenShot.screenShot(screenShot.java:22)
-	at com.testng.testcase.testLogin.loginTest1(testLogin.java:44)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1057841208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1057841208'><pre>java.lang.NullPointerException
-	at com.common.screenShot.screenShot(screenShot.java:22)
-	at com.testng.testcase.testLogin.loginTest1(testLogin.java:44)
+<td><div><pre>java.lang.AssertionError: expected [13333333334] but found [13333333333]
+	at com.testng.testcase.testLogin.loginTest1(testLogin.java:48)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace36550900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace36550900'><pre>java.lang.AssertionError: expected [13333333334] but found [13333333333]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.testng.testcase.testLogin.loginTest1(testLogin.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,8 +112,8 @@ function toggleAllBoxes() {
 	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </pre></div></td>
-<td>42</td>
-<td>com.testng.testcase.testLogin@1be2019a</td></tr>
+<td>1</td>
+<td>com.testng.testcase.testLogin@16267862</td></tr>
 </table><p>
 </body>
 </html>

@@ -56,3 +56,7 @@ Driver info: driver.version: RemoteWebDriver
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
+2020-07-20 17:29:21.734 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver

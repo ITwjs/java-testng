@@ -39,7 +39,13 @@ public class testLogin extends UiBase {
         }catch (Exception erro){
             log.error(erro);
         }
-        Assert.assertEquals(user_number,"13333333333");
+        try{
+            Assert.assertEquals(user_number,"13333333334");
+        }catch (AssertionError  erro){
+            screenShot s = new screenShot();
+            s.screenShot();
+        }
+        Assert.assertEquals(user_number,"13333333334");
         log.info(user_number+"用户登录成功");
         log.info("登录测试用例通过");
     }
