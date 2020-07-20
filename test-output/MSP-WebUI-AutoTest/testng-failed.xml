@@ -12,6 +12,7 @@
           <include name="startDriver"/>
           <include name="loginTest1"/>
           <include name="endDriver"/>
+          <include name="ClearData"/>
         </methods>
       </class> <!-- com.testng.testcase.testLogin -->
     </classes>
