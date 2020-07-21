@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class MySqlDbOperator {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://192.168.3.30:3306/eagle";
+    static final String DB_URL = "jdbc:mysql://192.168.3.236:3306/notarial";
     //账户密码
     static final String USER_NAME = "root";
     static final String USER_PASSWD = "shuqinkeji";
@@ -30,7 +30,7 @@ public class MySqlDbOperator {
         }
     }
 
-    void setConnection(){
+    public void setConnection(){
         Connection conn = null;
         try{
             conn = (Connection) DriverManager.getConnection(DB_URL,USER_NAME,USER_PASSWD);
@@ -41,7 +41,7 @@ public class MySqlDbOperator {
         this.conn = conn;
     }
 
-    void dbClose() throws SQLException {
+    public void dbClose() throws SQLException {
         conn.close();
         log.info("数据库关闭连接");
     }
@@ -64,7 +64,7 @@ public class MySqlDbOperator {
 
 
 
-    void setControldata(String sql) throws SQLException {
+    void setControldata(String sql){
         try {
             PreparedStatement presmtm = (PreparedStatement) this.conn.prepareStatement(sql);
             presmtm.executeUpdate();
@@ -79,7 +79,7 @@ public class MySqlDbOperator {
     public static void main(String[] args) throws SQLException {
         MySqlDbOperator dba =new MySqlDbOperator();
         dba.setConnection();
-        dba.setControldata("update user set name = 'bq-1589424711' where phone_number = '13333333333'");
+        dba.setControldata("UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');");
         dba.dbClose();
     }
 }

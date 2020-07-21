@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class ConnectionLinux {
-    private String host = "192.168.3.30";
+    private String host = "192.168.3.236";
     private String user = "frog";
     private int port = 22;
     private String password = "shuqinkeji";
@@ -75,7 +75,8 @@ public class ConnectionLinux {
 
     public void setCode(String Commond) throws IOException, JSchException {
         this.commond = Commond;
-        this.Code = ConnectionLinux(commond).substring(61, 65);
+        String str = ConnectionLinux(commond);
+        this.Code = str.substring(str.length()-9,str.length()).substring(0,4);
     }
 
     public void deletePngDate(String Commond) throws IOException, JSchException {
@@ -86,9 +87,9 @@ public class ConnectionLinux {
 
     public static void main(String[] args) throws IOException, JSchException {
         ConnectionLinux connectionLinux = new ConnectionLinux();
-        connectionLinux.deletePngDate("rm -rf /tmp/.eagle/images/*.png");
-//        connectionLinux.setCode("ls -lt /tmp/.eagle/images/*.png");
-//        String code = connectionLinux.getCode();
-//        System.out.println(code);
+//        connectionLinux.deletePngDate("ls -lt /var/backend/current/public/captcha/*.jpg");
+        connectionLinux.setCode("ls -lt /var/backend/current/public/captcha/*.jpg");
+        String code = connectionLinux.getCode();
+        System.out.println(code);
     }
 }

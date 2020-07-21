@@ -24,30 +24,30 @@ public class testLogin extends UiBase {
     public void loginTest1(){
         try {
             ConnectionLinux connectionLinux = new ConnectionLinux();
-            connectionLinux.setCode("ls -lt /tmp/.eagle/images/*.png");
+            connectionLinux.setCode("ls -lt /var/backend/current/public/captcha/*.jpg");
             String code = connectionLinux.getCode();
             log.info("登录验证码："+code);
-            driver.findElement(By.name("phoneNumber")).sendKeys("13333333333");
-            driver.findElement(By.name("password")).sendKeys("a123456");
-            driver.findElement(By.name("checkCode")).sendKeys(code);
-            driver.findElement(By.className("login")).click();
+            driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[2]/div/ul/form/div[1]/div/div/input")).sendKeys("17805121968");
+            driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[2]/div/ul/form/div[2]/div/div/input")).sendKeys("a123456");
+            driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[2]/div/ul/form/div[3]/div/div[1]/input")).sendKeys(code);
+            driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[2]/div/ul/button")).click();
         }catch (Exception erro){
             log.error(erro);
         }
         try {
-            user_number = driver.findElement(By.xpath("//*[@class=\"account\"]/span[2]")).getText();
+            user_number = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/h1")).getText();
+            log.info("获取的user_number:"+user_number);
         }catch (Exception erro){
             log.error(erro);
         }
         try{
-            Assert.assertEquals(user_number,"13333333334");
+            Assert.assertEquals(user_number,"数据存证");
         }catch (AssertionError  erro){
             screenShot s = new screenShot();
             s.screenShot();
         }
-        Assert.assertEquals(user_number,"13333333334");
+        Assert.assertEquals(user_number,"数据存证");
         log.info(user_number+"用户登录成功");
         log.info("登录测试用例通过");
     }
-
 }

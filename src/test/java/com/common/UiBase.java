@@ -8,8 +8,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import java.io.*;
 import java.sql.SQLException;
@@ -27,24 +27,24 @@ public  class UiBase {
         return createDriver;
     }
 
-    @BeforeClass
+    @BeforeSuite
     public void ClearData() throws SQLException {
         MySqlDbOperator dba =new MySqlDbOperator();
         dba.setConnection();
-        for(int i=0; i <41; i = i+1){
+        for(int i=0; i <13; i = i+1){
             dba.setControldata(readExcel(i));
         }
         dba.dbClose();
 
     }
-    @BeforeClass
+    @BeforeSuite
     public void startDriver() throws InterruptedException, IOException, JSchException {
         ConnectionLinux connectionLinux = new ConnectionLinux();
-        connectionLinux.deletePngDate("rm -rf /tmp/.eagle/images/*.png");
+        connectionLinux.deletePngDate("rm -rf /var/backend/current/public/captcha/*.jpg");
         Thread.sleep(1000);
         driver = CreateDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("http://192.168.3.30:81/sign-in?lang=zh");
+        driver.get("http://192.168.3.236/login");
         driver.manage().window().maximize();
         this.code = connectionLinux.getCode();
     }
@@ -52,7 +52,7 @@ public  class UiBase {
         return code;
     }
 
-    @AfterClass
+    @AfterSuite
     public void endDriver(){
         driver.quit();
     }

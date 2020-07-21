@@ -1,62 +1,221 @@
-2020-07-20 10:02:33.440 [main] ERROR [Test#main:18] [] 我是logger1，error
-2020-07-20 10:02:33.441 [main] ERROR [Test#main:20] [] 我是logger1，fatal
-2020-07-20 10:44:27.715 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-21 10:58:49.143 [main] ERROR [org.testng.annotations.Test#loginTest1:35] [] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //[@class="el-form demo-ruleForm"]/div[1]/div/div/input because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//[@class="el-form demo-ruleForm"]/div[1]/div/div/input' is not a valid XPath expression.
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: 67fde0f50ca5c30c8797bceabbe3f3ed
+*** Element info: {Using=xpath, value=//[@class="el-form demo-ruleForm"]/div[1]/div/div/input}
+2020-07-21 10:58:59.148 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 10:56:57.380 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-21 11:00:23.837 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 10:59:13.894 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-21 11:02:03.585 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:05:10.914 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+2020-07-21 14:11:44.570 [main] ERROR [org.testng.annotations.Test#testWordAttest:36] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,955.00]
+2020-07-21 14:13:08.104 [main] ERROR [org.testng.annotations.Test#testWordAttest:25] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:06:33.884 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-21 14:14:37.202 [main] ERROR [org.testng.annotations.Test#testWordAttest:36] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,945.00]
+2020-07-21 14:18:50.984 [main] ERROR [org.testng.annotations.Test#testWordAttest:37] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,940.00]
+2020-07-21 14:38:23.164 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,935.00]
+2020-07-21 14:38:27.009 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,930.00]
+2020-07-21 14:38:31.087 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,925.00]
+2020-07-21 14:38:35.498 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,920.00]
+2020-07-21 14:38:39.330 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,915.00]
+2020-07-21 14:46:59.351 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.per_user_details' doesn't exist
+2020-07-21 14:46:59.372 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data' doesn't exist
+2020-07-21 14:46:59.390 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data_sub' doesn't exist
+2020-07-21 14:46:59.406 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user_id' in 'where clause'
+2020-07-21 14:46:59.422 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.notify_push' doesn't exist
+2020-07-21 14:46:59.439 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.obtain_address' doesn't exist
+2020-07-21 14:46:59.456 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.order' doesn't exist
+2020-07-21 14:46:59.469 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data' doesn't exist
+2020-07-21 14:46:59.483 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.pro_order' doesn't exist
+2020-07-21 14:46:59.501 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'mobile' in 'where clause'
+2020-07-21 14:46:59.514 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.user_detail' doesn't exist
+2020-07-21 14:46:59.526 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.user_give' doesn't exist
+2020-07-21 14:46:59.538 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.web_forensics' doesn't exist
+2020-07-21 14:47:09.946 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,910.00]
+2020-07-21 14:47:13.977 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,905.00]
+2020-07-21 14:47:18.272 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,900.00]
+2020-07-21 14:47:22.673 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：9,895.00]
+2020-07-21 14:47:27.236 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,890.00]
+2020-07-21 14:52:35.253 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 14:52:35.576 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.596 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.612 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.627 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.641 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.655 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.668 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.682 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.693 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.710 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.720 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.731 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 14:52:35.741 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.511 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 15:00:35.841 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.861 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.877 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.891 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.905 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.920 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.934 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.948 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.959 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.971 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.986 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:35.997 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:00:36.006 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.488 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 15:01:04.826 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.846 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.865 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.879 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.894 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.909 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.922 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.935 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.946 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.962 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.973 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.983 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:04.992 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:01:15.329 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,885.00]
+2020-07-21 15:01:19.441 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,880.00]
+2020-07-21 15:01:23.524 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,875.00]
+2020-07-21 15:01:27.802 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：9,870.00]
+2020-07-21 15:01:31.746 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,865.00]
+2020-07-21 15:04:41.087 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 15:04:41.090 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:06:39.059 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 15:06:39.062 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:07:09.310 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
+2020-07-21 15:07:09.313 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
+2020-07-21 15:08:42.971 [main] ERROR [org.testng.annotations.Test#test1WordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
+2020-07-21 15:08:46.854 [main] ERROR [org.testng.annotations.Test#test2PngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
+2020-07-21 15:08:51.039 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
+2020-07-21 15:08:55.388 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
+2020-07-21 15:08:59.752 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
+2020-07-21 15:24:08.500 [main] ERROR [org.testng.annotations.Test#test1WordAttest:40] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
+2020-07-21 15:24:12.525 [main] ERROR [org.testng.annotations.Test#test2PngAttest:75] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
+2020-07-21 15:24:16.461 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:109] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
+2020-07-21 15:24:21.107 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:143] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
+2020-07-21 15:24:25.190 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:177] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
+2020-07-21 15:31:27.397 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:13:36.766 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-21 15:31:27.599 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
+2020-07-21 15:32:50.662 [main] ERROR [org.testng.annotations.Test#test1WordAttest:41] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
+2020-07-21 15:32:55.203 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：java.lang.NullPointerException
+2020-07-21 15:32:55.219 [main] ERROR [org.testng.annotations.Test#test2PngAttest:72] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+2020-07-21 15:32:55.220 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：10,000.00]
+2020-07-21 15:32:55.231 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:100] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
+2020-07-21 15:32:55.234 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:107] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+2020-07-21 15:32:55.234 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:112] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：10,000.00]
+2020-07-21 15:32:55.245 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:135] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
+2020-07-21 15:32:55.248 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:142] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+2020-07-21 15:32:55.248 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:147] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：10,000.00]
+2020-07-21 15:32:55.259 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:170] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
+2020-07-21 15:32:55.262 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:177] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
+Session ID: cfe8c07f0cfacc7146f7732d77a548aa
+2020-07-21 15:32:55.263 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：10,000.00]
+2020-07-21 15:36:38.164 [main] ERROR [org.testng.annotations.Test#test1WordAttest:41] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
+2020-07-21 15:38:03.295 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:17:49.021 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+2020-07-21 15:38:03.554 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
+2020-07-21 15:38:10.440 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:112] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
+2020-07-21 15:38:17.226 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:147] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
+2020-07-21 15:38:24.117 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
+2020-07-21 15:39:57.764 [main] ERROR [org.testng.annotations.Test#test1WordAttest:40] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
+2020-07-21 15:40:09.283 [main] ERROR [org.testng.annotations.Test#test2PngAttest:63] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:33:06.109 [main] ERROR [org.testng.annotations.Test#loginTest1:35] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 11:50:45.416 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 13:43:14.171 [main] ERROR [org.testng.annotations.Test#loginTest1:34] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 13:48:59.196 [main] ERROR [org.testng.annotations.Test#loginTest1:36] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 17:18:28.703 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 17:19:34.599 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 17:21:22.963 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-20 17:29:21.734 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
+2020-07-21 15:40:09.383 [main] ERROR [org.testng.annotations.Test#test2PngAttest:75] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
+2020-07-21 15:47:50.480 [main] ERROR [org.testng.annotations.Test#test1WordAttest:42] [] java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
+2020-07-21 15:47:54.561 [main] ERROR [org.testng.annotations.Test#test2PngAttest:79] [] java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
+2020-07-21 15:47:57.016 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:114] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
+2020-07-21 15:48:01.663 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:148] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
+2020-07-21 15:48:03.412 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,985.00]

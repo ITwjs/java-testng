@@ -7,14 +7,18 @@
   </listeners>
   <test thread-count="5" name="packeage(failed)">
     <classes>
-      <class name="com.testng.testcase.testLogin">
+      <class name="com.testng.testcase.testDateAttest">
         <methods>
+          <include name="test3YinPinAttest"/>
+          <include name="test4VideoAttest"/>
           <include name="startDriver"/>
-          <include name="loginTest1"/>
+          <include name="test1WordAttest"/>
           <include name="endDriver"/>
+          <include name="test5OtherAttest"/>
           <include name="ClearData"/>
+          <include name="test2PngAttest"/>
         </methods>
-      </class> <!-- com.testng.testcase.testLogin -->
+      </class> <!-- com.testng.testcase.testDateAttest -->
     </classes>
   </test> <!-- packeage(failed) -->
 </suite> <!-- Failed suite [MSP-WebUI-AutoTest] -->
