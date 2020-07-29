@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.*;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.util.concurrent.TimeUnit;
 
 public  class UiBase {
@@ -59,7 +60,8 @@ public  class UiBase {
 
     private String readExcel(int i) {
         try {
-            XSSFWorkbook xssfWorkbook = new XSSFWorkbook(new FileInputStream("D:\\ObjectInformation\\BaoQuanWang\\UI\\src\\test\\java\\com\\data\\sqldata.xlsx"));
+            File sqlDataPath = new File("src\\test\\java\\com\\data\\sqldata.xlsx");
+            XSSFWorkbook xssfWorkbook = new XSSFWorkbook(new FileInputStream(sqlDataPath.getAbsolutePath()));
             XSSFSheet sheet = xssfWorkbook.getSheetAt(0);
             XSSFRow row = sheet.getRow(i);
             this.cell0 = row.getCell(0);
@@ -71,10 +73,9 @@ public  class UiBase {
         return cell0.toString();
     }
 
-    public static void main(String[] args) {
-        for(int i =0;i<10;++i){
-            System.out.println(i);
-        }
-
+    public static void main(String[] args) throws ParseException {
+        File path = new File("src\\test\\java\\com\\data\\sqldata.xlsx");
+        System.out.println(path.getAbsolutePath());
+        System.out.println("蔡徐坤");
     }
 }

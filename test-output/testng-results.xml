@@ -1,247 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="3" total="9" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="22" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="MSP-WebUI-AutoTest" duration-ms="19175" started-at="2020-07-21T07:47:44Z" finished-at="2020-07-21T07:48:03Z">
+  <suite name="MSP-WebUI-AutoTest" duration-ms="63095" started-at="2020-07-29T08:26:17Z" finished-at="2020-07-29T08:27:20Z">
     <groups>
     </groups>
-    <test name="packeage" duration-ms="19175" started-at="2020-07-21T07:47:44Z" finished-at="2020-07-21T07:48:03Z">
-      <class name="com.testng.testcase.testDateAttest">
-        <test-method status="FAIL" signature="test1WordAttest()[pri:0, instance:com.testng.testcase.testDateAttest@71248c21]" name="test1WordAttest" duration-ms="4266" started-at="2020-07-21T07:47:46Z" finished-at="2020-07-21T07:47:50Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [存证条目（条）：1] but found [存证条目（条）：0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testDateAttest.test1WordAttest(testDateAttest.java:48)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="packeage" duration-ms="63095" started-at="2020-07-29T08:26:17Z" finished-at="2020-07-29T08:27:20Z">
+      <class name="com.testng.testcase.testOneDateAttest">
+        <test-method status="PASS" signature="test0WordAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test0WordAttest" duration-ms="4337" started-at="2020-07-29T08:26:20Z" finished-at="2020-07-29T08:26:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1WordAttest -->
-        <test-method status="FAIL" signature="test2PngAttest()[pri:0, instance:com.testng.testcase.testDateAttest@71248c21]" name="test2PngAttest" duration-ms="4086" started-at="2020-07-21T07:47:50Z" finished-at="2020-07-21T07:47:54Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [存证条目（条）：1] but found [存证条目（条）：0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testDateAttest.test2PngAttest(testDateAttest.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- test0WordAttest -->
+        <test-method status="PASS" signature="test1SearchWorldName()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test1SearchWorldName" duration-ms="333" started-at="2020-07-29T08:26:24Z" finished-at="2020-07-29T08:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1SearchWorldName -->
+        <test-method status="PASS" signature="test2PngAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test2PngAttest" duration-ms="3837" started-at="2020-07-29T08:26:24Z" finished-at="2020-07-29T08:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2PngAttest -->
-        <test-method status="FAIL" signature="test3YinPinAttest()[pri:0, instance:com.testng.testcase.testDateAttest@71248c21]" name="test3YinPinAttest" duration-ms="2472" started-at="2020-07-21T07:47:54Z" finished-at="2020-07-21T07:47:57Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [可用积分：9,985.00] but found [可用积分：9,990.00]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testDateAttest.test3YinPinAttest(testDateAttest.java:119)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="test3SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test3SearchPngName" duration-ms="289" started-at="2020-07-29T08:26:28Z" finished-at="2020-07-29T08:26:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3YinPinAttest -->
-        <test-method status="FAIL" signature="test4VideoAttest()[pri:0, instance:com.testng.testcase.testDateAttest@71248c21]" name="test4VideoAttest" duration-ms="4648" started-at="2020-07-21T07:47:57Z" finished-at="2020-07-21T07:48:02Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [可用积分：9,980.00] but found [可用积分：9,985.00]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testDateAttest.test4VideoAttest(testDateAttest.java:153)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- test3SearchPngName -->
+        <test-method status="PASS" signature="test4YinPinAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test4YinPinAttest" duration-ms="4786" started-at="2020-07-29T08:26:29Z" finished-at="2020-07-29T08:26:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4VideoAttest -->
-        <test-method status="FAIL" signature="test5OtherAttest()[pri:0, instance:com.testng.testcase.testDateAttest@71248c21]" name="test5OtherAttest" duration-ms="1753" started-at="2020-07-21T07:48:02Z" finished-at="2020-07-21T07:48:03Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [可用积分：9,975.00] but found [可用积分：9,985.00]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,985.00]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testDateAttest.test5OtherAttest(testDateAttest.java:187)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- test4YinPinAttest -->
+        <test-method status="PASS" signature="test5YinPinSearchName()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test5YinPinSearchName" duration-ms="313" started-at="2020-07-29T08:26:33Z" finished-at="2020-07-29T08:26:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5OtherAttest -->
-      </class> <!-- com.testng.testcase.testDateAttest -->
+        </test-method> <!-- test5YinPinSearchName -->
+        <test-method status="PASS" signature="test6VideoAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test6VideoAttest" duration-ms="4490" started-at="2020-07-29T08:26:34Z" finished-at="2020-07-29T08:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6VideoAttest -->
+        <test-method status="PASS" signature="test7SearchVideoName()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test7SearchVideoName" duration-ms="245" started-at="2020-07-29T08:26:38Z" finished-at="2020-07-29T08:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7SearchVideoName -->
+        <test-method status="PASS" signature="test8OtherAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test8OtherAttest" duration-ms="4342" started-at="2020-07-29T08:26:38Z" finished-at="2020-07-29T08:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8OtherAttest -->
+        <test-method status="PASS" signature="test9SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@442675e1]" name="test9SearchPngName" duration-ms="2354" started-at="2020-07-29T08:26:43Z" finished-at="2020-07-29T08:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9SearchPngName -->
+      </class> <!-- com.testng.testcase.testOneDateAttest -->
+      <class name="com.testng.testcase.testTwoDateAttest">
+        <test-method status="PASS" signature="test1TimeScopeSearch()[pri:0, instance:com.testng.testcase.testTwoDateAttest@6166e06f]" name="test1TimeScopeSearch" duration-ms="7939" started-at="2020-07-29T08:26:45Z" finished-at="2020-07-29T08:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1TimeScopeSearch -->
+        <test-method status="PASS" signature="test2TimeScopeSearch()[pri:0, instance:com.testng.testcase.testTwoDateAttest@6166e06f]" name="test2TimeScopeSearch" duration-ms="6545" started-at="2020-07-29T08:26:53Z" finished-at="2020-07-29T08:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2TimeScopeSearch -->
+        <test-method status="PASS" signature="test3TimeScopeSearch()[pri:0, instance:com.testng.testcase.testTwoDateAttest@6166e06f]" name="test3TimeScopeSearch" duration-ms="6534" started-at="2020-07-29T08:27:00Z" finished-at="2020-07-29T08:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3TimeScopeSearch -->
+        <test-method status="PASS" signature="test4TimeScopeSearch()[pri:0, instance:com.testng.testcase.testTwoDateAttest@6166e06f]" name="test4TimeScopeSearch" duration-ms="6510" started-at="2020-07-29T08:27:06Z" finished-at="2020-07-29T08:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4TimeScopeSearch -->
+        <test-method status="PASS" signature="test6ViewDetails()[pri:0, instance:com.testng.testcase.testTwoDateAttest@6166e06f]" name="test6ViewDetails" duration-ms="7630" started-at="2020-07-29T08:27:13Z" finished-at="2020-07-29T08:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6ViewDetails -->
+      </class> <!-- com.testng.testcase.testTwoDateAttest -->
       <class name="com.testng.testcase.testLogin">
-        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@453da22c]" name="ClearData" is-config="true" duration-ms="849" started-at="2020-07-21T07:47:37Z" finished-at="2020-07-21T07:47:38Z">
+        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@71248c21]" name="ClearData" is-config="true" duration-ms="1664" started-at="2020-07-29T08:26:02Z" finished-at="2020-07-29T08:26:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearData -->
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@453da22c]" name="startDriver" is-config="true" duration-ms="6059" started-at="2020-07-21T07:47:38Z" finished-at="2020-07-21T07:47:44Z">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@71248c21]" name="startDriver" is-config="true" duration-ms="13619" started-at="2020-07-29T08:26:04Z" finished-at="2020-07-29T08:26:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@453da22c]" name="loginTest1" duration-ms="1934" started-at="2020-07-21T07:47:44Z" finished-at="2020-07-21T07:47:46Z">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@71248c21]" name="loginTest1" duration-ms="2568" started-at="2020-07-29T08:26:17Z" finished-at="2020-07-29T08:26:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@453da22c]" name="endDriver" is-config="true" duration-ms="677" started-at="2020-07-21T07:48:03Z" finished-at="2020-07-21T07:48:04Z">
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@71248c21]" name="endDriver" is-config="true" duration-ms="926" started-at="2020-07-29T08:27:20Z" finished-at="2020-07-29T08:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endDriver -->

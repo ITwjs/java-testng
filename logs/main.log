@@ -1,778 +1,588 @@
-2020-07-21 10:58:49.113 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：MIEV
-2020-07-21 10:58:49.143 [main] ERROR [org.testng.annotations.Test#loginTest1:35] [] org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //[@class="el-form demo-ruleForm"]/div[1]/div/div/input because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//[@class="el-form demo-ruleForm"]/div[1]/div/div/input' is not a valid XPath expression.
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+2020-07-29 10:29:36.553 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 10:29:37.963 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.028 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.076 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.108 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.167 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.230 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.265 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.304 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.370 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.409 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.438 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.471 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.496 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:29:38.498 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 10:29:53.678 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：bgfL
+2020-07-29 10:29:56.138 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 10:29:56.143 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 10:29:56.143 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 10:29:56.271 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 10:29:57.507 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 10:29:58.505 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 10:30:08.581 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: 67fde0f50ca5c30c8797bceabbe3f3ed
-*** Element info: {Using=xpath, value=//[@class="el-form demo-ruleForm"]/div[1]/div/div/input}
-2020-07-21 10:58:59.148 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 10:58:59.597 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721105859.jpg
-2020-07-21 11:00:13.535 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：tMN.
-2020-07-21 11:00:23.837 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-29 10:30:08.600 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
+2020-07-29 10:30:08.600 [main] INFO [org.testng.annotations.Test#test0WordAttest:47] 断言失败，开始截图...
+2020-07-29 10:30:09.091 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729103008.jpg
+2020-07-29 10:30:19.155 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:63] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 11:00:24.316 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721110023.jpg
-2020-07-21 11:01:53.328 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：PpMG
-2020-07-21 11:02:03.585 [main] ERROR [org.testng.annotations.Test#loginTest1:40] [] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+2020-07-29 10:30:19.156 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:68] java.lang.AssertionError: expected [world.docx] but found [null]
+2020-07-29 10:30:19.595 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729103019.jpg
+2020-07-29 10:30:29.604 [main] ERROR [org.testng.annotations.Test#test2PngAttest:91] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 11:02:03.982 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721110203.jpg
-2020-07-21 11:08:30.963 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：GSjE
-2020-07-21 11:08:32.492 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:08:32.494 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:08:32.494 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:10:12.849 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：IKmM
-2020-07-21 11:10:14.382 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:10:14.383 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:10:14.384 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:41:29.308 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：Dbaa
-2020-07-21 11:41:30.877 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:41:30.879 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:41:30.879 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:41:56.456 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：jAkr
-2020-07-21 11:41:58.020 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:41:58.022 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:41:58.022 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:42:59.380 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：avvG
-2020-07-21 11:43:00.968 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:43:00.970 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:43:00.970 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:45:39.514 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：CiLz
-2020-07-21 11:45:41.080 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:45:41.082 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:45:41.082 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:45:41.155 [main] INFO [org.testng.annotations.Test#testWordAttest:13] [] 成功
-2020-07-21 11:45:42.188 [main] INFO [org.testng.annotations.Test#testWordAttest:16] [] c
-2020-07-21 11:46:15.003 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：ccme
-2020-07-21 11:46:16.607 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:46:16.608 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:46:16.609 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:46:16.688 [main] INFO [org.testng.annotations.Test#testWordAttest:13] [] 成功
-2020-07-21 11:46:17.723 [main] INFO [org.testng.annotations.Test#testWordAttest:16] [] c
-2020-07-21 11:49:23.880 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：uxSJ
-2020-07-21 11:49:25.461 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 11:49:25.463 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 11:49:25.463 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 11:49:25.546 [main] INFO [org.testng.annotations.Test#testWordAttest:13] [] 跳转到新增存证
-2020-07-21 11:49:25.629 [main] INFO [org.testng.annotations.Test#testWordAttest:15] [] 上传world文件成功
-2020-07-21 13:51:32.311 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：gHvx
-2020-07-21 13:51:33.851 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 13:51:33.853 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 13:51:33.853 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 13:51:33.940 [main] INFO [org.testng.annotations.Test#testWordAttest:13] [] 跳转到新增存证
-2020-07-21 13:51:34.021 [main] INFO [org.testng.annotations.Test#testWordAttest:15] [] 上传world文件成功
-2020-07-21 13:53:07.448 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：zfrc
-2020-07-21 13:53:09.026 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 13:53:09.028 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 13:53:09.028 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 13:53:09.109 [main] INFO [org.testng.annotations.Test#testWordAttest:13] [] 跳转到新增存证
-2020-07-21 13:53:09.184 [main] INFO [org.testng.annotations.Test#testWordAttest:15] [] 上传world文件成功
-2020-07-21 13:53:19.358 [main] INFO [org.testng.annotations.Test#testWordAttest:21] [] OK
-2020-07-21 14:11:40.588 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：SUzP
-2020-07-21 14:11:42.180 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:11:42.181 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:11:42.182 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:11:42.254 [main] INFO [org.testng.annotations.Test#testWordAttest:17] [] 跳转到新增存证
-2020-07-21 14:11:42.338 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 上传world文件成功
-2020-07-21 14:11:44.538 [main] INFO [org.testng.annotations.Test#testWordAttest:23] [] 存证成功
-2020-07-21 14:11:44.569 [main] INFO [org.testng.annotations.Test#testWordAttest:29] [] 余额：可用积分：9,955.00
-2020-07-21 14:11:44.570 [main] ERROR [org.testng.annotations.Test#testWordAttest:36] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,955.00]
-2020-07-21 14:12:56.198 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：pmqV
-2020-07-21 14:12:57.788 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:12:57.789 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:12:57.790 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:12:57.873 [main] INFO [org.testng.annotations.Test#testWordAttest:17] [] 跳转到新增存证
-2020-07-21 14:12:57.956 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 上传world文件成功
-2020-07-21 14:13:08.104 [main] ERROR [org.testng.annotations.Test#testWordAttest:25] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-29 10:30:39.608 [main] ERROR [org.testng.annotations.Test#test2PngAttest:98] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 14:13:08.152 [main] INFO [org.testng.annotations.Test#testWordAttest:29] [] 余额：可用积分：9,950.00
-2020-07-21 14:13:46.536 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：ryYT
-2020-07-21 14:13:48.091 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:13:48.093 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:13:48.093 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:13:48.185 [main] INFO [org.testng.annotations.Test#testWordAttest:17] [] 跳转到新增存证
-2020-07-21 14:13:48.264 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 上传world文件成功
-2020-07-21 14:13:50.448 [main] INFO [org.testng.annotations.Test#testWordAttest:23] [] 存证成功
-2020-07-21 14:13:50.474 [main] INFO [org.testng.annotations.Test#testWordAttest:29] [] 余额：可用积分：9,950.00
-2020-07-21 14:14:33.230 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：qkUp
-2020-07-21 14:14:34.786 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:14:34.788 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:14:34.788 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:14:34.877 [main] INFO [org.testng.annotations.Test#testWordAttest:17] [] 跳转到新增存证
-2020-07-21 14:14:34.957 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 上传world文件成功
-2020-07-21 14:14:37.175 [main] INFO [org.testng.annotations.Test#testWordAttest:23] [] 存证成功
-2020-07-21 14:14:37.201 [main] INFO [org.testng.annotations.Test#testWordAttest:29] [] 余额：可用积分：9,945.00
-2020-07-21 14:14:37.202 [main] ERROR [org.testng.annotations.Test#testWordAttest:36] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,945.00]
-2020-07-21 14:18:46.996 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：QchA
-2020-07-21 14:18:48.577 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:18:48.578 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:18:48.578 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:18:48.680 [main] INFO [org.testng.annotations.Test#testWordAttest:18] [] 跳转到新增存证
-2020-07-21 14:18:48.762 [main] INFO [org.testng.annotations.Test#testWordAttest:20] [] 上传world文件成功
-2020-07-21 14:18:50.958 [main] INFO [org.testng.annotations.Test#testWordAttest:24] [] 存证成功
-2020-07-21 14:18:50.983 [main] INFO [org.testng.annotations.Test#testWordAttest:30] [] 余额：可用积分：9,940.00
-2020-07-21 14:18:50.984 [main] ERROR [org.testng.annotations.Test#testWordAttest:37] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,940.00]
-2020-07-21 14:18:50.985 [main] INFO [org.testng.annotations.Test#testWordAttest:38] [] 断言失败，开始截图...
-2020-07-21 14:18:51.342 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721141850.jpg
-2020-07-21 14:38:19.175 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：rmdn
-2020-07-21 14:38:20.776 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:38:20.778 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:38:20.778 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:38:20.837 [main] INFO [org.testng.annotations.Test#testOtherAttest:150] [] 跳转到新增存证
-2020-07-21 14:38:20.934 [main] INFO [org.testng.annotations.Test#testOtherAttest:152] [] 勾选图片存证按钮
-2020-07-21 14:38:21.970 [main] INFO [org.testng.annotations.Test#testOtherAttest:155] [] 上传world文件成功
-2020-07-21 14:38:23.134 [main] INFO [org.testng.annotations.Test#testOtherAttest:159] [] 存证成功
-2020-07-21 14:38:23.163 [main] INFO [org.testng.annotations.Test#testOtherAttest:165] [] 余额：可用积分：9,935.00
-2020-07-21 14:38:23.164 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,935.00]
-2020-07-21 14:38:23.164 [main] INFO [org.testng.annotations.Test#testOtherAttest:173] [] 断言失败，开始截图...
-2020-07-21 14:38:23.518 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721143823.jpg
-2020-07-21 14:38:24.670 [main] INFO [org.testng.annotations.Test#testPngAttest:51] [] 跳转到新增存证
-2020-07-21 14:38:24.717 [main] INFO [org.testng.annotations.Test#testPngAttest:53] [] 勾选图片存证按钮
-2020-07-21 14:38:25.746 [main] INFO [org.testng.annotations.Test#testPngAttest:56] [] 上传world文件成功
-2020-07-21 14:38:26.987 [main] INFO [org.testng.annotations.Test#testPngAttest:60] [] 存证成功
-2020-07-21 14:38:27.009 [main] INFO [org.testng.annotations.Test#testPngAttest:66] [] 余额：可用积分：9,930.00
-2020-07-21 14:38:27.009 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,930.00]
-2020-07-21 14:38:27.010 [main] INFO [org.testng.annotations.Test#testPngAttest:74] [] 断言失败，开始截图...
-2020-07-21 14:38:27.371 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721143827.jpg
-2020-07-21 14:38:28.747 [main] INFO [org.testng.annotations.Test#testVideoAttest:117] [] 跳转到新增存证
-2020-07-21 14:38:28.803 [main] INFO [org.testng.annotations.Test#testVideoAttest:119] [] 勾选图片存证按钮
-2020-07-21 14:38:29.829 [main] INFO [org.testng.annotations.Test#testVideoAttest:122] [] 上传world文件成功
-2020-07-21 14:38:31.068 [main] INFO [org.testng.annotations.Test#testVideoAttest:126] [] 存证成功
-2020-07-21 14:38:31.087 [main] INFO [org.testng.annotations.Test#testVideoAttest:132] [] 余额：可用积分：9,925.00
-2020-07-21 14:38:31.087 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,925.00]
-2020-07-21 14:38:31.088 [main] INFO [org.testng.annotations.Test#testVideoAttest:140] [] 断言失败，开始截图...
-2020-07-21 14:38:31.439 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721143831.jpg
-2020-07-21 14:38:33.169 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 跳转到新增存证
-2020-07-21 14:38:34.199 [main] INFO [org.testng.annotations.Test#testWordAttest:22] [] 上传world文件成功
-2020-07-21 14:38:35.482 [main] INFO [org.testng.annotations.Test#testWordAttest:26] [] 存证成功
-2020-07-21 14:38:35.498 [main] INFO [org.testng.annotations.Test#testWordAttest:32] [] 余额：可用积分：9,920.00
-2020-07-21 14:38:35.498 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,920.00]
-2020-07-21 14:38:35.498 [main] INFO [org.testng.annotations.Test#testWordAttest:40] [] 断言失败，开始截图...
-2020-07-21 14:38:35.851 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721143835.jpg
-2020-07-21 14:38:36.960 [main] INFO [org.testng.annotations.Test#testYinPinAttest:84] [] 跳转到新增存证
-2020-07-21 14:38:37.020 [main] INFO [org.testng.annotations.Test#testYinPinAttest:86] [] 勾选图片存证按钮
-2020-07-21 14:38:38.046 [main] INFO [org.testng.annotations.Test#testYinPinAttest:89] [] 上传world文件成功
-2020-07-21 14:38:39.303 [main] INFO [org.testng.annotations.Test#testYinPinAttest:93] [] 存证成功
-2020-07-21 14:38:39.329 [main] INFO [org.testng.annotations.Test#testYinPinAttest:99] [] 余额：可用积分：9,915.00
-2020-07-21 14:38:39.330 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,950.00] but found [可用积分：9,915.00]
-2020-07-21 14:38:39.330 [main] INFO [org.testng.annotations.Test#testYinPinAttest:107] [] 断言失败，开始截图...
-2020-07-21 14:38:39.670 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721143839.jpg
-2020-07-21 14:46:58.938 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 14:46:59.351 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.per_user_details' doesn't exist
-2020-07-21 14:46:59.372 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data' doesn't exist
-2020-07-21 14:46:59.390 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data_sub' doesn't exist
-2020-07-21 14:46:59.406 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user_id' in 'where clause'
-2020-07-21 14:46:59.422 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.notify_push' doesn't exist
-2020-07-21 14:46:59.439 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.obtain_address' doesn't exist
-2020-07-21 14:46:59.456 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.order' doesn't exist
-2020-07-21 14:46:59.469 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.data' doesn't exist
-2020-07-21 14:46:59.483 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.pro_order' doesn't exist
-2020-07-21 14:46:59.501 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'mobile' in 'where clause'
-2020-07-21 14:46:59.514 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.user_detail' doesn't exist
-2020-07-21 14:46:59.526 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.user_give' doesn't exist
-2020-07-21 14:46:59.538 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'eagle.web_forensics' doesn't exist
-2020-07-21 14:46:59.539 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 14:47:05.953 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：jJRu
-2020-07-21 14:47:07.532 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 14:47:07.534 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 14:47:07.534 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 14:47:07.624 [main] INFO [org.testng.annotations.Test#testOtherAttest:150] [] 跳转到新增存证
-2020-07-21 14:47:07.720 [main] INFO [org.testng.annotations.Test#testOtherAttest:152] [] 勾选图片存证按钮
-2020-07-21 14:47:08.754 [main] INFO [org.testng.annotations.Test#testOtherAttest:155] [] 上传world文件成功
-2020-07-21 14:47:09.919 [main] INFO [org.testng.annotations.Test#testOtherAttest:159] [] 存证成功
-2020-07-21 14:47:09.946 [main] INFO [org.testng.annotations.Test#testOtherAttest:165] [] 余额：可用积分：9,910.00
-2020-07-21 14:47:09.946 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,910.00]
-2020-07-21 14:47:09.947 [main] INFO [org.testng.annotations.Test#testOtherAttest:173] [] 断言失败，开始截图...
-2020-07-21 14:47:10.312 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721144709.jpg
-2020-07-21 14:47:11.634 [main] INFO [org.testng.annotations.Test#testPngAttest:51] [] 跳转到新增存证
-2020-07-21 14:47:11.681 [main] INFO [org.testng.annotations.Test#testPngAttest:53] [] 勾选图片存证按钮
-2020-07-21 14:47:12.709 [main] INFO [org.testng.annotations.Test#testPngAttest:56] [] 上传world文件成功
-2020-07-21 14:47:13.960 [main] INFO [org.testng.annotations.Test#testPngAttest:60] [] 存证成功
-2020-07-21 14:47:13.976 [main] INFO [org.testng.annotations.Test#testPngAttest:66] [] 余额：可用积分：9,905.00
-2020-07-21 14:47:13.977 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,905.00]
-2020-07-21 14:47:13.977 [main] INFO [org.testng.annotations.Test#testPngAttest:74] [] 断言失败，开始截图...
-2020-07-21 14:47:14.321 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721144713.jpg
-2020-07-21 14:47:15.927 [main] INFO [org.testng.annotations.Test#testVideoAttest:117] [] 跳转到新增存证
-2020-07-21 14:47:15.972 [main] INFO [org.testng.annotations.Test#testVideoAttest:119] [] 勾选图片存证按钮
-2020-07-21 14:47:17.004 [main] INFO [org.testng.annotations.Test#testVideoAttest:122] [] 上传world文件成功
-2020-07-21 14:47:18.253 [main] INFO [org.testng.annotations.Test#testVideoAttest:126] [] 存证成功
-2020-07-21 14:47:18.271 [main] INFO [org.testng.annotations.Test#testVideoAttest:132] [] 余额：可用积分：9,900.00
-2020-07-21 14:47:18.272 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,900.00]
-2020-07-21 14:47:18.272 [main] INFO [org.testng.annotations.Test#testVideoAttest:140] [] 断言失败，开始截图...
-2020-07-21 14:47:18.626 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721144718.jpg
-2020-07-21 14:47:20.271 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 跳转到新增存证
-2020-07-21 14:47:21.301 [main] INFO [org.testng.annotations.Test#testWordAttest:22] [] 上传world文件成功
-2020-07-21 14:47:22.654 [main] INFO [org.testng.annotations.Test#testWordAttest:26] [] 存证成功
-2020-07-21 14:47:22.672 [main] INFO [org.testng.annotations.Test#testWordAttest:32] [] 余额：可用积分：9,895.00
-2020-07-21 14:47:22.673 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：9,895.00]
-2020-07-21 14:47:22.673 [main] INFO [org.testng.annotations.Test#testWordAttest:40] [] 断言失败，开始截图...
-2020-07-21 14:47:23.005 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721144722.jpg
-2020-07-21 14:47:24.839 [main] INFO [org.testng.annotations.Test#testYinPinAttest:84] [] 跳转到新增存证
-2020-07-21 14:47:24.881 [main] INFO [org.testng.annotations.Test#testYinPinAttest:86] [] 勾选图片存证按钮
-2020-07-21 14:47:25.909 [main] INFO [org.testng.annotations.Test#testYinPinAttest:89] [] 上传world文件成功
-2020-07-21 14:47:27.208 [main] INFO [org.testng.annotations.Test#testYinPinAttest:93] [] 存证成功
-2020-07-21 14:47:27.235 [main] INFO [org.testng.annotations.Test#testYinPinAttest:99] [] 余额：可用积分：9,890.00
-2020-07-21 14:47:27.236 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,890.00]
-2020-07-21 14:47:27.236 [main] INFO [org.testng.annotations.Test#testYinPinAttest:107] [] 断言失败，开始截图...
-2020-07-21 14:47:27.570 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721144727.jpg
-2020-07-21 14:52:35.253 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 14:52:35.255 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 14:52:35.576 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.596 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.612 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.627 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.641 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.655 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.668 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.682 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.693 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.710 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.720 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.731 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 14:52:35.741 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.511 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 15:00:35.513 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:00:35.841 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.861 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.877 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.891 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.905 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.920 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.934 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.948 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.959 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.971 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.986 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:35.997 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:00:36.006 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.488 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 15:01:04.490 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:01:04.826 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.846 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.865 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.879 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.894 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.909 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.922 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.935 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.946 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.962 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.973 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.983 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:04.992 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:01:11.344 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：oaOL
-2020-07-21 15:01:12.928 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:01:12.929 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:01:12.930 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:01:13.024 [main] INFO [org.testng.annotations.Test#testOtherAttest:150] [] 跳转到新增存证
-2020-07-21 15:01:13.124 [main] INFO [org.testng.annotations.Test#testOtherAttest:152] [] 勾选图片存证按钮
-2020-07-21 15:01:14.157 [main] INFO [org.testng.annotations.Test#testOtherAttest:155] [] 上传world文件成功
-2020-07-21 15:01:15.303 [main] INFO [org.testng.annotations.Test#testOtherAttest:159] [] 存证成功
-2020-07-21 15:01:15.328 [main] INFO [org.testng.annotations.Test#testOtherAttest:165] [] 余额：可用积分：9,885.00
-2020-07-21 15:01:15.329 [main] ERROR [org.testng.annotations.Test#testOtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,885.00]
-2020-07-21 15:01:15.329 [main] INFO [org.testng.annotations.Test#testOtherAttest:173] [] 断言失败，开始截图...
-2020-07-21 15:01:15.700 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150115.jpg
-2020-07-21 15:01:17.036 [main] INFO [org.testng.annotations.Test#testPngAttest:51] [] 跳转到新增存证
-2020-07-21 15:01:17.091 [main] INFO [org.testng.annotations.Test#testPngAttest:53] [] 勾选图片存证按钮
-2020-07-21 15:01:18.121 [main] INFO [org.testng.annotations.Test#testPngAttest:56] [] 上传world文件成功
-2020-07-21 15:01:19.423 [main] INFO [org.testng.annotations.Test#testPngAttest:60] [] 存证成功
-2020-07-21 15:01:19.440 [main] INFO [org.testng.annotations.Test#testPngAttest:66] [] 余额：可用积分：9,880.00
-2020-07-21 15:01:19.441 [main] ERROR [org.testng.annotations.Test#testPngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,880.00]
-2020-07-21 15:01:19.441 [main] INFO [org.testng.annotations.Test#testPngAttest:74] [] 断言失败，开始截图...
-2020-07-21 15:01:19.799 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150119.jpg
-2020-07-21 15:01:21.133 [main] INFO [org.testng.annotations.Test#testVideoAttest:117] [] 跳转到新增存证
-2020-07-21 15:01:21.192 [main] INFO [org.testng.annotations.Test#testVideoAttest:119] [] 勾选图片存证按钮
-2020-07-21 15:01:22.218 [main] INFO [org.testng.annotations.Test#testVideoAttest:122] [] 上传world文件成功
-2020-07-21 15:01:23.504 [main] INFO [org.testng.annotations.Test#testVideoAttest:126] [] 存证成功
-2020-07-21 15:01:23.524 [main] INFO [org.testng.annotations.Test#testVideoAttest:132] [] 余额：可用积分：9,875.00
-2020-07-21 15:01:23.524 [main] ERROR [org.testng.annotations.Test#testVideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,875.00]
-2020-07-21 15:01:23.525 [main] INFO [org.testng.annotations.Test#testVideoAttest:140] [] 断言失败，开始截图...
-2020-07-21 15:01:23.864 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150123.jpg
-2020-07-21 15:01:25.420 [main] INFO [org.testng.annotations.Test#testWordAttest:19] [] 跳转到新增存证
-2020-07-21 15:01:26.446 [main] INFO [org.testng.annotations.Test#testWordAttest:22] [] 上传world文件成功
-2020-07-21 15:01:27.788 [main] INFO [org.testng.annotations.Test#testWordAttest:26] [] 存证成功
-2020-07-21 15:01:27.801 [main] INFO [org.testng.annotations.Test#testWordAttest:32] [] 余额：可用积分：9,870.00
-2020-07-21 15:01:27.802 [main] ERROR [org.testng.annotations.Test#testWordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：9,870.00]
-2020-07-21 15:01:27.802 [main] INFO [org.testng.annotations.Test#testWordAttest:40] [] 断言失败，开始截图...
-2020-07-21 15:01:28.141 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150127.jpg
-2020-07-21 15:01:29.396 [main] INFO [org.testng.annotations.Test#testYinPinAttest:84] [] 跳转到新增存证
-2020-07-21 15:01:29.440 [main] INFO [org.testng.annotations.Test#testYinPinAttest:86] [] 勾选图片存证按钮
-2020-07-21 15:01:30.468 [main] INFO [org.testng.annotations.Test#testYinPinAttest:89] [] 上传world文件成功
-2020-07-21 15:01:31.720 [main] INFO [org.testng.annotations.Test#testYinPinAttest:93] [] 存证成功
-2020-07-21 15:01:31.746 [main] INFO [org.testng.annotations.Test#testYinPinAttest:99] [] 余额：可用积分：9,865.00
-2020-07-21 15:01:31.746 [main] ERROR [org.testng.annotations.Test#testYinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,865.00]
-2020-07-21 15:01:31.746 [main] INFO [org.testng.annotations.Test#testYinPinAttest:107] [] 断言失败，开始截图...
-2020-07-21 15:01:32.070 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150131.jpg
-2020-07-21 15:04:41.087 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 15:04:41.089 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:04:41.090 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:06:39.059 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 15:06:39.062 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:06:39.062 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:07:09.310 [main] ERROR [com.common.MySqlDbOperator#setConnection:38] [] 数据库登录失败：com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'notarial'
-2020-07-21 15:07:09.313 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:07:09.313 [main] ERROR [com.common.MySqlDbOperator#setControldata:73] [] 数据更新失败：java.lang.NullPointerException
-2020-07-21 15:08:31.975 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:08:32.317 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.404 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.465 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.499 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.531 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.547 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.562 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.575 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.701 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.724 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.735 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.752 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.785 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:08:32.786 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:08:39.021 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：MfJr
-2020-07-21 15:08:40.595 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:08:40.596 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:08:40.597 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:08:40.657 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:08:41.735 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:08:42.943 [main] INFO [org.testng.annotations.Test#test1WordAttest:26] [] 存证成功
-2020-07-21 15:08:42.970 [main] INFO [org.testng.annotations.Test#test1WordAttest:32] [] 余额：可用积分：10,000.00
-2020-07-21 15:08:42.971 [main] ERROR [org.testng.annotations.Test#test1WordAttest:39] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
-2020-07-21 15:08:42.972 [main] INFO [org.testng.annotations.Test#test1WordAttest:40] [] 断言失败，开始截图...
-2020-07-21 15:08:43.335 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150842.jpg
-2020-07-21 15:08:44.456 [main] INFO [org.testng.annotations.Test#test2PngAttest:51] [] 跳转到新增存证
-2020-07-21 15:08:44.508 [main] INFO [org.testng.annotations.Test#test2PngAttest:53] [] 勾选图片存证按钮
-2020-07-21 15:08:45.534 [main] INFO [org.testng.annotations.Test#test2PngAttest:56] [] 上传world文件成功
-2020-07-21 15:08:46.836 [main] INFO [org.testng.annotations.Test#test2PngAttest:60] [] 存证成功
-2020-07-21 15:08:46.854 [main] INFO [org.testng.annotations.Test#test2PngAttest:66] [] 余额：可用积分：9,995.00
-2020-07-21 15:08:46.854 [main] ERROR [org.testng.annotations.Test#test2PngAttest:73] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
-2020-07-21 15:08:46.855 [main] INFO [org.testng.annotations.Test#test2PngAttest:74] [] 断言失败，开始截图...
-2020-07-21 15:08:47.204 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150846.jpg
-2020-07-21 15:08:48.716 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:84] [] 跳转到新增存证
-2020-07-21 15:08:48.776 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:86] [] 勾选图片存证按钮
-2020-07-21 15:08:49.806 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:89] [] 上传world文件成功
-2020-07-21 15:08:51.022 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:93] [] 存证成功
-2020-07-21 15:08:51.038 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:99] [] 余额：可用积分：9,990.00
-2020-07-21 15:08:51.039 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:106] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
-2020-07-21 15:08:51.039 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:107] [] 断言失败，开始截图...
-2020-07-21 15:08:51.406 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150851.jpg
-2020-07-21 15:08:52.984 [main] INFO [org.testng.annotations.Test#test4VideoAttest:117] [] 跳转到新增存证
-2020-07-21 15:08:53.042 [main] INFO [org.testng.annotations.Test#test4VideoAttest:119] [] 勾选图片存证按钮
-2020-07-21 15:08:54.075 [main] INFO [org.testng.annotations.Test#test4VideoAttest:122] [] 上传world文件成功
-2020-07-21 15:08:55.370 [main] INFO [org.testng.annotations.Test#test4VideoAttest:126] [] 存证成功
-2020-07-21 15:08:55.388 [main] INFO [org.testng.annotations.Test#test4VideoAttest:132] [] 余额：可用积分：9,985.00
-2020-07-21 15:08:55.388 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:139] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
-2020-07-21 15:08:55.388 [main] INFO [org.testng.annotations.Test#test4VideoAttest:140] [] 断言失败，开始截图...
-2020-07-21 15:08:55.718 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150855.jpg
-2020-07-21 15:08:57.375 [main] INFO [org.testng.annotations.Test#test5OtherAttest:150] [] 跳转到新增存证
-2020-07-21 15:08:57.423 [main] INFO [org.testng.annotations.Test#test5OtherAttest:152] [] 勾选图片存证按钮
-2020-07-21 15:08:58.448 [main] INFO [org.testng.annotations.Test#test5OtherAttest:155] [] 上传world文件成功
-2020-07-21 15:08:59.735 [main] INFO [org.testng.annotations.Test#test5OtherAttest:159] [] 存证成功
-2020-07-21 15:08:59.751 [main] INFO [org.testng.annotations.Test#test5OtherAttest:165] [] 余额：可用积分：9,980.00
-2020-07-21 15:08:59.752 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:172] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
-2020-07-21 15:08:59.752 [main] INFO [org.testng.annotations.Test#test5OtherAttest:173] [] 断言失败，开始截图...
-2020-07-21 15:09:00.104 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721150859.jpg
-2020-07-21 15:23:56.648 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:23:56.984 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.027 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.065 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.108 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.134 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.152 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.167 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.182 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.198 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.211 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.224 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.239 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.253 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:23:57.254 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:24:03.573 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：LTFZ
-2020-07-21 15:24:05.121 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:24:05.124 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:24:05.124 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:24:05.176 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:24:06.261 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:24:08.475 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:24:08.499 [main] INFO [org.testng.annotations.Test#test1WordAttest:33] [] 余额：可用积分：10,000.00
-2020-07-21 15:24:08.500 [main] ERROR [org.testng.annotations.Test#test1WordAttest:40] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
-2020-07-21 15:24:08.500 [main] INFO [org.testng.annotations.Test#test1WordAttest:41] [] 断言失败，开始截图...
-2020-07-21 15:24:08.855 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721152408.jpg
-2020-07-21 15:24:09.179 [main] INFO [org.testng.annotations.Test#test2PngAttest:52] [] 跳转到新增存证
-2020-07-21 15:24:09.228 [main] INFO [org.testng.annotations.Test#test2PngAttest:54] [] 勾选图片存证按钮
-2020-07-21 15:24:10.257 [main] INFO [org.testng.annotations.Test#test2PngAttest:57] [] 上传world文件成功
-2020-07-21 15:24:11.509 [main] INFO [org.testng.annotations.Test#test2PngAttest:61] [] 存证成功
-2020-07-21 15:24:12.525 [main] INFO [org.testng.annotations.Test#test2PngAttest:68] [] 余额：可用积分：9,995.00
-2020-07-21 15:24:12.525 [main] ERROR [org.testng.annotations.Test#test2PngAttest:75] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
-2020-07-21 15:24:12.526 [main] INFO [org.testng.annotations.Test#test2PngAttest:76] [] 断言失败，开始截图...
-2020-07-21 15:24:12.846 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721152412.jpg
-2020-07-21 15:24:13.043 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:86] [] 跳转到新增存证
-2020-07-21 15:24:13.090 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:88] [] 勾选图片存证按钮
-2020-07-21 15:24:14.121 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:91] [] 上传world文件成功
-2020-07-21 15:24:15.438 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:95] [] 存证成功
-2020-07-21 15:24:16.461 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:102] [] 余额：可用积分：9,990.00
-2020-07-21 15:24:16.461 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:109] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
-2020-07-21 15:24:16.461 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:110] [] 断言失败，开始截图...
-2020-07-21 15:24:16.800 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721152416.jpg
-2020-07-21 15:24:17.781 [main] INFO [org.testng.annotations.Test#test4VideoAttest:120] [] 跳转到新增存证
-2020-07-21 15:24:17.828 [main] INFO [org.testng.annotations.Test#test4VideoAttest:122] [] 勾选图片存证按钮
-2020-07-21 15:24:18.856 [main] INFO [org.testng.annotations.Test#test4VideoAttest:125] [] 上传world文件成功
-2020-07-21 15:24:20.091 [main] INFO [org.testng.annotations.Test#test4VideoAttest:129] [] 存证成功
-2020-07-21 15:24:21.107 [main] INFO [org.testng.annotations.Test#test4VideoAttest:136] [] 余额：可用积分：9,985.00
-2020-07-21 15:24:21.107 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:143] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
-2020-07-21 15:24:21.108 [main] INFO [org.testng.annotations.Test#test4VideoAttest:144] [] 断言失败，开始截图...
-2020-07-21 15:24:21.445 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721152421.jpg
-2020-07-21 15:24:21.811 [main] INFO [org.testng.annotations.Test#test5OtherAttest:154] [] 跳转到新增存证
-2020-07-21 15:24:21.859 [main] INFO [org.testng.annotations.Test#test5OtherAttest:156] [] 勾选图片存证按钮
-2020-07-21 15:24:22.884 [main] INFO [org.testng.annotations.Test#test5OtherAttest:159] [] 上传world文件成功
-2020-07-21 15:24:24.175 [main] INFO [org.testng.annotations.Test#test5OtherAttest:163] [] 存证成功
-2020-07-21 15:24:25.190 [main] INFO [org.testng.annotations.Test#test5OtherAttest:170] [] 余额：可用积分：9,980.00
-2020-07-21 15:24:25.190 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:177] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
-2020-07-21 15:24:25.190 [main] INFO [org.testng.annotations.Test#test5OtherAttest:178] [] 断言失败，开始截图...
-2020-07-21 15:24:25.546 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721152425.jpg
-2020-07-21 15:31:05.194 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:31:05.548 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.611 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.660 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.681 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.697 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.713 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.731 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.746 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.762 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.782 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.803 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.815 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.830 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:31:05.831 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:31:12.169 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：wDTF
-2020-07-21 15:31:13.748 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:31:13.750 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:31:13.750 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:31:13.809 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:31:14.893 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:31:17.123 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:31:17.389 [main] INFO [org.testng.annotations.Test#test1WordAttest:34] [] 余额：可用积分：9,995.00
-2020-07-21 15:31:27.397 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-29 10:30:39.608 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [null]
+2020-07-29 10:30:39.609 [main] INFO [org.testng.annotations.Test#test2PngAttest:105] 断言失败，开始截图...
+2020-07-29 10:30:42.048 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729103039.jpg
+2020-07-29 10:30:52.057 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:121] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 15:31:27.598 [main] INFO [org.testng.annotations.Test#test2PngAttest:70] [] 余额：可用积分：9,995.00
-2020-07-21 15:31:27.599 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
-2020-07-21 15:31:27.599 [main] INFO [org.testng.annotations.Test#test2PngAttest:78] [] 断言失败，开始截图...
-2020-07-21 15:31:27.980 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153127.jpg
-2020-07-21 15:32:35.628 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:32:35.956 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:35.979 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:35.998 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.016 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.034 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.057 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.072 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.095 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.117 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.137 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.152 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.165 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.190 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:32:36.191 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:32:42.545 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：tCaC
-2020-07-21 15:32:44.089 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:32:44.090 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:32:44.090 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:32:44.147 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:32:47.230 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:32:50.471 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:32:50.661 [main] INFO [org.testng.annotations.Test#test1WordAttest:34] [] 余额：可用积分：10,000.00
-2020-07-21 15:32:50.662 [main] ERROR [org.testng.annotations.Test#test1WordAttest:41] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
-2020-07-21 15:32:50.663 [main] INFO [org.testng.annotations.Test#test1WordAttest:42] [] 断言失败，开始截图...
-2020-07-21 15:32:51.027 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153250.jpg
-2020-07-21 15:32:55.203 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：java.lang.NullPointerException
-2020-07-21 15:32:55.219 [main] ERROR [org.testng.annotations.Test#test2PngAttest:72] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+2020-07-29 10:30:52.057 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:126] java.lang.AssertionError: expected [laoshu.png] but found [null]
+2020-07-29 10:30:52.551 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729103052.jpg
+2020-07-29 10:31:02.558 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-2020-07-21 15:32:55.220 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：10,000.00]
-2020-07-21 15:32:55.220 [main] INFO [org.testng.annotations.Test#test2PngAttest:78] [] 断言失败，开始截图...
-2020-07-21 15:32:55.231 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:100] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
-2020-07-21 15:32:55.234 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:107] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-2020-07-21 15:32:55.234 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:112] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：10,000.00]
-2020-07-21 15:32:55.235 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:113] [] 断言失败，开始截图...
-2020-07-21 15:32:55.245 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:135] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
-2020-07-21 15:32:55.248 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:142] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-2020-07-21 15:32:55.248 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:147] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：10,000.00]
-2020-07-21 15:32:55.249 [main] INFO [org.testng.annotations.Test#test4VideoAttest:148] [] 断言失败，开始截图...
-2020-07-21 15:32:55.259 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:170] [] 操控元素失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/button}
-2020-07-21 15:32:55.262 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:177] [] 元素操控失败，原因：org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=76.0.3809.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 76.0.3809.87, webStorageEnabled: true}
-Session ID: cfe8c07f0cfacc7146f7732d77a548aa
-2020-07-21 15:32:55.263 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：10,000.00]
-2020-07-21 15:32:55.263 [main] INFO [org.testng.annotations.Test#test5OtherAttest:183] [] 断言失败，开始截图...
-2020-07-21 15:36:23.153 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:36:23.484 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.508 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.528 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.545 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.560 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.576 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.596 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.611 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.628 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.647 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.659 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.670 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.682 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:36:23.683 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:36:30.011 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：lxPO
-2020-07-21 15:36:31.583 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:36:31.585 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:36:31.585 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:36:31.640 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:36:34.726 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:36:37.969 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:36:38.163 [main] INFO [org.testng.annotations.Test#test1WordAttest:34] [] 余额：可用积分：10,000.00
-2020-07-21 15:36:38.164 [main] ERROR [org.testng.annotations.Test#test1WordAttest:41] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
-2020-07-21 15:36:38.164 [main] INFO [org.testng.annotations.Test#test1WordAttest:42] [] 断言失败，开始截图...
-2020-07-21 15:36:38.511 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153638.jpg
-2020-07-21 15:36:38.584 [main] INFO [org.testng.annotations.Test#test2PngAttest:53] [] 跳转到新增存证
-2020-07-21 15:36:38.644 [main] INFO [org.testng.annotations.Test#test2PngAttest:55] [] 勾选图片存证按钮
-2020-07-21 15:36:41.673 [main] INFO [org.testng.annotations.Test#test2PngAttest:58] [] 上传world文件成功
-2020-07-21 15:36:41.871 [main] INFO [org.testng.annotations.Test#test2PngAttest:62] [] 存证成功
-2020-07-21 15:36:45.024 [main] INFO [org.testng.annotations.Test#test2PngAttest:70] [] 余额：可用积分：9,990.00
-2020-07-21 15:36:45.077 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:88] [] 跳转到新增存证
-2020-07-21 15:36:45.169 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:90] [] 勾选图片存证按钮
-2020-07-21 15:36:48.198 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:93] [] 上传world文件成功
-2020-07-21 15:36:48.387 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:97] [] 存证成功
-2020-07-21 15:36:51.542 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:105] [] 余额：可用积分：9,985.00
-2020-07-21 15:36:51.588 [main] INFO [org.testng.annotations.Test#test4VideoAttest:123] [] 跳转到新增存证
-2020-07-21 15:36:51.662 [main] INFO [org.testng.annotations.Test#test4VideoAttest:125] [] 勾选图片存证按钮
-2020-07-21 15:36:54.691 [main] INFO [org.testng.annotations.Test#test4VideoAttest:128] [] 上传world文件成功
-2020-07-21 15:36:54.890 [main] INFO [org.testng.annotations.Test#test4VideoAttest:132] [] 存证成功
-2020-07-21 15:36:58.062 [main] INFO [org.testng.annotations.Test#test4VideoAttest:140] [] 余额：可用积分：9,980.00
-2020-07-21 15:36:58.104 [main] INFO [org.testng.annotations.Test#test5OtherAttest:158] [] 跳转到新增存证
-2020-07-21 15:36:58.176 [main] INFO [org.testng.annotations.Test#test5OtherAttest:160] [] 勾选图片存证按钮
-2020-07-21 15:37:01.212 [main] INFO [org.testng.annotations.Test#test5OtherAttest:163] [] 上传world文件成功
-2020-07-21 15:37:01.426 [main] INFO [org.testng.annotations.Test#test5OtherAttest:167] [] 存证成功
-2020-07-21 15:37:04.576 [main] INFO [org.testng.annotations.Test#test5OtherAttest:175] [] 余额：可用积分：9,975.00
-2020-07-21 15:37:38.243 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:37:38.582 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.610 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.633 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.651 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.683 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.701 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.716 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.738 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.753 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.772 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.784 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.810 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.822 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:37:38.823 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:37:45.315 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：JgGi
-2020-07-21 15:37:46.837 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:37:46.838 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:37:46.839 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:37:46.891 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:37:49.976 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:37:53.228 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:37:53.288 [main] INFO [org.testng.annotations.Test#test1WordAttest:34] [] 余额：可用积分：9,995.00
-2020-07-21 15:38:03.295 [main] ERROR [org.testng.annotations.Test#test2PngAttest:65] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 15:38:03.553 [main] INFO [org.testng.annotations.Test#test2PngAttest:70] [] 余额：可用积分：9,995.00
-2020-07-21 15:38:03.554 [main] ERROR [org.testng.annotations.Test#test2PngAttest:77] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
-2020-07-21 15:38:03.554 [main] INFO [org.testng.annotations.Test#test2PngAttest:78] [] 断言失败，开始截图...
-2020-07-21 15:38:03.894 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153803.jpg
-2020-07-21 15:38:03.957 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:88] [] 跳转到新增存证
-2020-07-21 15:38:04.056 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:90] [] 勾选图片存证按钮
-2020-07-21 15:38:07.091 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:93] [] 上传world文件成功
-2020-07-21 15:38:07.290 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:97] [] 存证成功
-2020-07-21 15:38:10.440 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:105] [] 余额：可用积分：9,990.00
-2020-07-21 15:38:10.440 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:112] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
-2020-07-21 15:38:10.440 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:113] [] 断言失败，开始截图...
-2020-07-21 15:38:10.767 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153810.jpg
-2020-07-21 15:38:10.804 [main] INFO [org.testng.annotations.Test#test4VideoAttest:123] [] 跳转到新增存证
-2020-07-21 15:38:10.879 [main] INFO [org.testng.annotations.Test#test4VideoAttest:125] [] 勾选图片存证按钮
-2020-07-21 15:38:13.911 [main] INFO [org.testng.annotations.Test#test4VideoAttest:128] [] 上传world文件成功
-2020-07-21 15:38:14.061 [main] INFO [org.testng.annotations.Test#test4VideoAttest:132] [] 存证成功
-2020-07-21 15:38:17.225 [main] INFO [org.testng.annotations.Test#test4VideoAttest:140] [] 余额：可用积分：9,985.00
-2020-07-21 15:38:17.226 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:147] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
-2020-07-21 15:38:17.226 [main] INFO [org.testng.annotations.Test#test4VideoAttest:148] [] 断言失败，开始截图...
-2020-07-21 15:38:17.570 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153817.jpg
-2020-07-21 15:38:17.641 [main] INFO [org.testng.annotations.Test#test5OtherAttest:158] [] 跳转到新增存证
-2020-07-21 15:38:17.730 [main] INFO [org.testng.annotations.Test#test5OtherAttest:160] [] 勾选图片存证按钮
-2020-07-21 15:38:20.766 [main] INFO [org.testng.annotations.Test#test5OtherAttest:163] [] 上传world文件成功
-2020-07-21 15:38:20.959 [main] INFO [org.testng.annotations.Test#test5OtherAttest:167] [] 存证成功
-2020-07-21 15:38:24.117 [main] INFO [org.testng.annotations.Test#test5OtherAttest:175] [] 余额：可用积分：9,980.00
-2020-07-21 15:38:24.117 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,980.00]
-2020-07-21 15:38:24.117 [main] INFO [org.testng.annotations.Test#test5OtherAttest:183] [] 断言失败，开始截图...
-2020-07-21 15:38:24.439 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153824.jpg
-2020-07-21 15:39:46.898 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:39:47.229 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.252 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.270 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.287 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.305 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.324 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.340 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.355 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.379 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.402 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.418 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.429 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.442 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:39:47.443 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:39:53.704 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：suID
-2020-07-21 15:39:55.302 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:39:55.303 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:39:55.304 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:39:55.366 [main] INFO [org.testng.annotations.Test#test1WordAttest:19] [] 跳转到新增存证
-2020-07-21 15:39:56.451 [main] INFO [org.testng.annotations.Test#test1WordAttest:22] [] 上传world文件成功
-2020-07-21 15:39:57.668 [main] INFO [org.testng.annotations.Test#test1WordAttest:26] [] 存证成功
-2020-07-21 15:39:57.763 [main] INFO [org.testng.annotations.Test#test1WordAttest:33] [] 余额：可用积分：10,000.00
-2020-07-21 15:39:57.764 [main] ERROR [org.testng.annotations.Test#test1WordAttest:40] [] java.lang.AssertionError: expected [可用积分：9,995.00] but found [可用积分：10,000.00]
-2020-07-21 15:39:57.764 [main] INFO [org.testng.annotations.Test#test1WordAttest:41] [] 断言失败，开始截图...
-2020-07-21 15:39:58.106 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721153957.jpg
-2020-07-21 15:39:58.186 [main] INFO [org.testng.annotations.Test#test2PngAttest:52] [] 跳转到新增存证
-2020-07-21 15:39:58.249 [main] INFO [org.testng.annotations.Test#test2PngAttest:54] [] 勾选图片存证按钮
-2020-07-21 15:39:59.275 [main] INFO [org.testng.annotations.Test#test2PngAttest:57] [] 上传world文件成功
-2020-07-21 15:40:09.283 [main] ERROR [org.testng.annotations.Test#test2PngAttest:63] [] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-07-29 10:31:12.563 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:155] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'SC-20190904172', ip: '192.168.8.138', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-21 15:40:09.383 [main] INFO [org.testng.annotations.Test#test2PngAttest:68] [] 余额：可用积分：9,995.00
-2020-07-21 15:40:09.383 [main] ERROR [org.testng.annotations.Test#test2PngAttest:75] [] java.lang.AssertionError: expected [可用积分：9,990.00] but found [可用积分：9,995.00]
-2020-07-21 15:40:09.383 [main] INFO [org.testng.annotations.Test#test2PngAttest:76] [] 断言失败，开始截图...
-2020-07-21 15:40:09.702 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154009.jpg
-2020-07-21 15:47:37.881 [main] INFO [com.common.MySqlDbOperator#setConnection:40] [] 数据库登录成功
-2020-07-21 15:47:38.255 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.336 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.361 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.383 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.406 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.429 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.444 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.458 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.485 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.502 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.516 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.528 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.540 [main] INFO [com.common.MySqlDbOperator#setControldata:71] [] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-07-21 15:47:38.541 [main] INFO [com.common.MySqlDbOperator#dbClose:46] [] 数据库关闭连接
-2020-07-21 15:47:44.940 [main] INFO [org.testng.annotations.Test#loginTest1:29] [] 登录验证码：LnEt
-2020-07-21 15:47:46.541 [main] INFO [org.testng.annotations.Test#loginTest1:39] [] 获取的user_number:数据存证
-2020-07-21 15:47:46.542 [main] INFO [org.testng.annotations.Test#loginTest1:50] [] 数据存证用户登录成功
-2020-07-21 15:47:46.543 [main] INFO [org.testng.annotations.Test#loginTest1:51] [] 登录测试用例通过
-2020-07-21 15:47:46.604 [main] INFO [org.testng.annotations.Test#test1WordAttest:20] [] 跳转到新增存证
-2020-07-21 15:47:47.689 [main] INFO [org.testng.annotations.Test#test1WordAttest:23] [] 上传world文件成功
-2020-07-21 15:47:48.913 [main] INFO [org.testng.annotations.Test#test1WordAttest:27] [] 存证成功
-2020-07-21 15:47:50.479 [main] INFO [org.testng.annotations.Test#test1WordAttest:34] [] 余额：可用积分：9,995.00
-2020-07-21 15:47:50.480 [main] ERROR [org.testng.annotations.Test#test1WordAttest:42] [] java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
-2020-07-21 15:47:50.480 [main] INFO [org.testng.annotations.Test#test1WordAttest:43] [] 断言失败，开始截图...
-2020-07-21 15:47:50.809 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154750.jpg
-2020-07-21 15:47:50.873 [main] INFO [org.testng.annotations.Test#test2PngAttest:55] [] 跳转到新增存证
-2020-07-21 15:47:50.938 [main] INFO [org.testng.annotations.Test#test2PngAttest:57] [] 勾选图片存证按钮
-2020-07-21 15:47:51.966 [main] INFO [org.testng.annotations.Test#test2PngAttest:60] [] 上传world文件成功
-2020-07-21 15:47:52.833 [main] INFO [org.testng.annotations.Test#test2PngAttest:64] [] 存证成功
-2020-07-21 15:47:54.561 [main] INFO [org.testng.annotations.Test#test2PngAttest:71] [] 余额：可用积分：9,995.00
-2020-07-21 15:47:54.561 [main] ERROR [org.testng.annotations.Test#test2PngAttest:79] [] java.lang.AssertionError: expected [存证条目（条）：1] but found [存证条目（条）：0]
-2020-07-21 15:47:54.562 [main] INFO [org.testng.annotations.Test#test2PngAttest:80] [] 断言失败，开始截图...
-2020-07-21 15:47:54.899 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154754.jpg
-2020-07-21 15:47:54.960 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:91] [] 跳转到新增存证
-2020-07-21 15:47:55.023 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:93] [] 勾选图片存证按钮
-2020-07-21 15:47:56.047 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:96] [] 上传world文件成功
-2020-07-21 15:47:56.950 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:100] [] 存证成功
-2020-07-21 15:47:57.016 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:107] [] 余额：可用积分：9,990.00
-2020-07-21 15:47:57.016 [main] ERROR [org.testng.annotations.Test#test3YinPinAttest:114] [] java.lang.AssertionError: expected [可用积分：9,985.00] but found [可用积分：9,990.00]
-2020-07-21 15:47:57.017 [main] INFO [org.testng.annotations.Test#test3YinPinAttest:115] [] 断言失败，开始截图...
-2020-07-21 15:47:57.372 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154757.jpg
-2020-07-21 15:47:57.434 [main] INFO [org.testng.annotations.Test#test4VideoAttest:125] [] 跳转到新增存证
-2020-07-21 15:47:57.483 [main] INFO [org.testng.annotations.Test#test4VideoAttest:127] [] 勾选图片存证按钮
-2020-07-21 15:47:58.513 [main] INFO [org.testng.annotations.Test#test4VideoAttest:130] [] 上传world文件成功
-2020-07-21 15:48:01.450 [main] INFO [org.testng.annotations.Test#test4VideoAttest:134] [] 存证成功
-2020-07-21 15:48:01.663 [main] INFO [org.testng.annotations.Test#test4VideoAttest:141] [] 余额：可用积分：9,985.00
-2020-07-21 15:48:01.663 [main] ERROR [org.testng.annotations.Test#test4VideoAttest:148] [] java.lang.AssertionError: expected [可用积分：9,980.00] but found [可用积分：9,985.00]
-2020-07-21 15:48:01.664 [main] INFO [org.testng.annotations.Test#test4VideoAttest:149] [] 断言失败，开始截图...
-2020-07-21 15:48:02.021 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154801.jpg
-2020-07-21 15:48:02.064 [main] INFO [org.testng.annotations.Test#test5OtherAttest:159] [] 跳转到新增存证
-2020-07-21 15:48:02.135 [main] INFO [org.testng.annotations.Test#test5OtherAttest:161] [] 勾选图片存证按钮
-2020-07-21 15:48:03.163 [main] INFO [org.testng.annotations.Test#test5OtherAttest:164] [] 上传world文件成功
-2020-07-21 15:48:03.349 [main] INFO [org.testng.annotations.Test#test5OtherAttest:168] [] 存证成功
-2020-07-21 15:48:03.411 [main] INFO [org.testng.annotations.Test#test5OtherAttest:175] [] 余额：可用积分：9,985.00
-2020-07-21 15:48:03.412 [main] ERROR [org.testng.annotations.Test#test5OtherAttest:182] [] java.lang.AssertionError: expected [可用积分：9,975.00] but found [可用积分：9,985.00]
-2020-07-21 15:48:03.412 [main] INFO [org.testng.annotations.Test#test5OtherAttest:183] [] 断言失败，开始截图...
-2020-07-21 15:48:03.774 [main] INFO [org.testng.annotations.Test#screenShot:23] [] 截图成功：D:\ObjectInformation\BaoQuanWang\UI\screenshotFail\20200721154803.jpg
+2020-07-29 10:31:12.563 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:161] java.lang.AssertionError: expected [共 3 条] but found [null]
+2020-07-29 10:31:12.564 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:162] 断言失败，开始截图...
+2020-07-29 10:31:13.116 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729103112.jpg
+2020-07-29 10:59:19.493 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 10:59:20.211 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.259 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.300 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.345 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.391 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.436 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.481 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.534 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.571 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.635 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.703 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.735 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.759 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 10:59:20.760 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 10:59:34.729 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：doLn
+2020-07-29 10:59:36.896 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 10:59:36.900 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 10:59:36.901 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 10:59:37.010 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 10:59:38.209 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 10:59:39.230 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 10:59:41.556 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,995.00
+2020-07-29 10:59:41.977 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 10:59:42.128 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 10:59:42.232 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 10:59:43.317 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 10:59:43.608 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 10:59:45.792 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,990.00
+2020-07-29 10:59:46.066 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 10:59:46.180 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 10:59:46.253 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 10:59:47.308 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 10:59:47.949 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 10:59:50.560 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,985.00
+2020-07-29 10:59:50.829 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 10:59:50.943 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 10:59:51.028 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 10:59:52.075 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 10:59:52.693 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 10:59:55.019 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,980.00
+2020-07-29 10:59:55.313 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 10:59:55.315 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
+2020-07-29 10:59:55.891 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729105955.jpg
+2020-07-29 10:59:56.001 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 10:59:56.076 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 10:59:57.125 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 10:59:57.385 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 10:59:59.440 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,975.00
+2020-07-29 11:00:01.854 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 11:00:09.963 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:52] count:存证条目（条）：0
+2020-07-29 11:00:16.528 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:82] count:存证条目（条）：5
+2020-07-29 11:00:23.029 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:112] count:存证条目（条）：0
+2020-07-29 11:00:29.523 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:143] count:存证条目（条）：5
+2020-07-29 11:00:29.524 [main] ERROR [org.testng.annotations.Test#test4TimeScopeSearch:150] java.lang.AssertionError: expected [存证条目（条）：0] but found [存证条目（条）：5]
+2020-07-29 11:00:30.056 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail20200729110029.jpg
+2020-07-29 11:00:43.336 [main] ERROR [org.testng.annotations.Test#test5TypeSelect:165] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:00:44.371 [main] INFO [org.testng.annotations.Test#test5TypeSelect:170] count:存证条目（条）：5
+2020-07-29 11:09:55.995 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 11:09:56.603 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.659 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.702 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.739 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.787 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.827 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.866 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.906 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.945 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:56.983 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:57.013 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:57.053 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:57.079 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:09:57.081 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 11:10:10.964 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：mNkX
+2020-07-29 11:10:13.144 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 11:10:13.147 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 11:10:13.148 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 11:10:13.245 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 11:10:14.448 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 11:10:15.493 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 11:10:17.445 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,995.00
+2020-07-29 11:10:17.766 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 11:10:17.884 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 11:10:17.972 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 11:10:19.036 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 11:10:19.630 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 11:10:21.824 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,990.00
+2020-07-29 11:10:22.125 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 11:10:22.240 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 11:10:22.332 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 11:10:23.395 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 11:10:23.998 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 11:10:26.270 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,985.00
+2020-07-29 11:10:26.613 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 11:10:26.738 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 11:10:26.830 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 11:10:27.906 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 11:10:28.449 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 11:10:30.675 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,980.00
+2020-07-29 11:10:30.992 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 11:10:30.994 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
+2020-07-29 11:10:31.559 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729111030.jpg
+2020-07-29 11:10:31.713 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 11:10:31.804 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 11:10:32.891 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 11:10:33.201 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 11:10:35.321 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,975.00
+2020-07-29 11:10:37.677 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 11:10:45.615 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:49] count:存证条目（条）：0
+2020-07-29 11:10:52.329 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:79] count:存证条目（条）：5
+2020-07-29 11:10:58.851 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:109] count:存证条目（条）：0
+2020-07-29 11:11:05.338 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:140] count:存证条目（条）：5
+2020-07-29 11:11:05.339 [main] ERROR [org.testng.annotations.Test#test4TimeScopeSearch:147] java.lang.AssertionError: expected [存证条目（条）：0] but found [存证条目（条）：5]
+2020-07-29 11:11:05.818 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729111105.jpg
+2020-07-29 11:11:19.003 [main] ERROR [org.testng.annotations.Test#test5TypeSelect:162] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:11:20.029 [main] INFO [org.testng.annotations.Test#test5TypeSelect:167] count:存证条目（条）：5
+2020-07-29 11:45:03.474 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 11:45:04.119 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.208 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.265 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.304 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.356 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.395 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.435 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.495 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.539 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.587 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.645 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.711 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.764 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:45:04.767 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 11:45:19.433 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：ntMq
+2020-07-29 11:45:21.622 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 11:45:21.626 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 11:45:21.627 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 11:45:21.819 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 11:45:31.908 [main] ERROR [org.testng.annotations.Test#test0WordAttest:33] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:45:41.917 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:45:41.919 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
+2020-07-29 11:45:41.920 [main] INFO [org.testng.annotations.Test#test0WordAttest:47] 断言失败，开始截图...
+2020-07-29 11:45:44.627 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114541.jpg
+2020-07-29 11:45:55.004 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:63] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:45:55.005 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:68] java.lang.AssertionError: expected [world.docx] but found [null]
+2020-07-29 11:45:55.471 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114555.jpg
+2020-07-29 11:45:55.562 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 11:45:55.806 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 11:45:56.911 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 11:45:57.358 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 11:45:59.338 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,995.00
+2020-07-29 11:45:59.338 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
+2020-07-29 11:45:59.338 [main] INFO [org.testng.annotations.Test#test2PngAttest:105] 断言失败，开始截图...
+2020-07-29 11:45:59.764 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114559.jpg
+2020-07-29 11:46:00.104 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 11:46:00.231 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 11:46:00.332 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 11:46:01.395 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 11:46:01.641 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=80.0.3987.162)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
+Session ID: c032bb4ce6d88d91b77a786a098b89ac
+2020-07-29 11:46:10.784 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 11:46:11.418 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.520 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.582 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.614 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.656 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.720 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.755 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.823 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.875 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.919 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.945 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:11.982 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:12.005 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 11:46:12.006 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 11:46:25.955 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：fhVH
+2020-07-29 11:46:28.230 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 11:46:28.233 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 11:46:28.233 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 11:46:28.337 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 11:46:29.538 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 11:46:30.509 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 11:46:40.525 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:46:40.526 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
+2020-07-29 11:46:40.527 [main] INFO [org.testng.annotations.Test#test0WordAttest:47] 断言失败，开始截图...
+2020-07-29 11:46:41.010 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114640.jpg
+2020-07-29 11:46:41.524 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 11:46:41.636 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 11:46:41.741 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 11:46:42.822 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 11:46:43.105 [main] ERROR [org.testng.annotations.Test#test2PngAttest:91] 操控元素失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=80.0.3987.162)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
+Session ID: aebe2ee1909a7c80a47330af27d77524
+2020-07-29 11:46:53.109 [main] ERROR [org.testng.annotations.Test#test2PngAttest:98] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:46:53.110 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [null]
+2020-07-29 11:46:53.110 [main] INFO [org.testng.annotations.Test#test2PngAttest:105] 断言失败，开始截图...
+2020-07-29 11:46:53.607 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114653.jpg
+2020-07-29 11:47:03.611 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:121] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 11:47:03.612 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:126] java.lang.AssertionError: expected [laoshu.png] but found [world.docx]
+2020-07-29 11:47:04.058 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729114703.jpg
+2020-07-29 11:47:14.064 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 14:10:38.844 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 14:10:39.529 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.586 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.629 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.663 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.699 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.741 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.781 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.820 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.863 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.897 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.933 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.972 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.998 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:10:39.999 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 14:10:54.843 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：GLqd
+2020-07-29 14:10:57.309 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 14:10:57.321 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 14:10:57.322 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 14:10:57.437 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 14:10:58.675 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 14:10:59.725 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 14:11:01.845 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,995.00
+2020-07-29 14:11:02.221 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 14:11:02.361 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 14:11:02.449 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 14:11:03.517 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 14:11:03.975 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 14:11:06.106 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,990.00
+2020-07-29 14:11:06.425 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 14:11:06.558 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 14:11:06.642 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 14:11:07.703 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 14:11:08.267 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 14:11:11.059 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,985.00
+2020-07-29 14:11:11.364 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 14:11:11.485 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 14:11:11.564 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 14:11:12.628 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 14:11:13.209 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 14:11:15.362 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,980.00
+2020-07-29 14:11:15.647 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 14:11:15.648 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
+2020-07-29 14:11:16.235 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729141115.jpg
+2020-07-29 14:11:16.344 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 14:11:16.424 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 14:11:17.486 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 14:11:17.787 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 14:11:19.843 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,975.00
+2020-07-29 14:11:22.221 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 14:11:30.257 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:49] count:存证条目（条）：0
+2020-07-29 14:11:36.878 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:79] count:存证条目（条）：5
+2020-07-29 14:11:43.458 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:109] count:存证条目（条）：0
+2020-07-29 14:11:50.073 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:140] count:存证条目（条）：5
+2020-07-29 14:11:50.352 [main] INFO [org.testng.annotations.Test#test6ViewDetails:180] C0F3EC40AB8F425BB43E28F468BE12C7
+2020-07-29 14:12:00.547 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:189] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 14:17:39.619 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 14:17:40.234 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.292 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.330 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.358 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.397 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.429 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.462 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.495 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.540 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.567 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.610 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.641 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.672 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:17:40.674 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 14:18:04.860 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 14:18:05.616 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.655 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.706 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.736 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.778 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.820 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.876 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.959 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:05.989 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:06.031 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:06.062 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:06.088 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:06.117 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 14:18:06.119 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 14:18:20.075 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：NXNj
+2020-07-29 14:18:22.149 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 14:18:22.151 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 14:18:22.152 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 14:18:22.246 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 14:18:23.417 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 14:18:24.501 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 14:18:26.543 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,995.00
+2020-07-29 14:18:26.821 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 14:18:26.928 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 14:18:27.009 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 14:18:28.062 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 14:18:28.697 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 14:18:30.881 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,990.00
+2020-07-29 14:18:31.138 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 14:18:31.238 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 14:18:31.333 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 14:18:32.384 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 14:18:33.077 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 14:18:35.402 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,985.00
+2020-07-29 14:18:35.714 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 14:18:35.833 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 14:18:35.903 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 14:18:36.953 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 14:18:37.513 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 14:18:39.925 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,980.00
+2020-07-29 14:18:40.247 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 14:18:40.428 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 14:18:40.513 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 14:18:41.576 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 14:18:42.054 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 14:18:44.117 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,975.00
+2020-07-29 14:18:46.463 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 14:18:54.398 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:49] count:存证条目（条）：0
+2020-07-29 14:19:00.915 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:79] count:存证条目（条）：5
+2020-07-29 14:19:07.397 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:109] count:存证条目（条）：0
+2020-07-29 14:19:13.864 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:140] count:存证条目（条）：5
+2020-07-29 14:19:14.150 [main] INFO [org.testng.annotations.Test#test6ViewDetails:180] 3434DA12C39D4EF4B7D013FE12709856
+2020-07-29 14:19:27.330 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:190] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 14:51:05.441 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：VhxL
+2020-07-29 14:51:07.636 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 14:51:07.639 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 14:51:07.639 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 14:51:15.538 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:49] count:存证条目（条）：0
+2020-07-29 14:51:22.094 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:79] count:存证条目（条）：5
+2020-07-29 14:51:28.609 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:109] count:存证条目（条）：0
+2020-07-29 14:51:35.112 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:140] count:存证条目（条）：5
+2020-07-29 14:51:35.400 [main] INFO [org.testng.annotations.Test#test6ViewDetails:180] 3434DA12C39D4EF4B7D013FE12709856
+2020-07-29 14:51:48.572 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:192] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 14:55:07.579 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：NgrU
+2020-07-29 14:55:09.802 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 14:55:09.805 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 14:55:09.805 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 14:55:17.653 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:49] count:存证条目（条）：0
+2020-07-29 14:55:24.178 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:79] count:存证条目（条）：5
+2020-07-29 14:55:30.703 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:109] count:存证条目（条）：0
+2020-07-29 14:55:37.202 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:140] count:存证条目（条）：5
+2020-07-29 14:55:37.446 [main] INFO [org.testng.annotations.Test#test6ViewDetails:180] 3434DA12C39D4EF4B7D013FE12709856
+2020-07-29 14:55:50.649 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:194] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-07-29 15:01:22.047 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：xzEX
+2020-07-29 15:01:24.244 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 15:01:24.248 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 15:01:24.248 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 15:01:32.246 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:52] count:存证条目（条）：0
+2020-07-29 15:02:19.054 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:82] count:存证条目（条）：5
+2020-07-29 15:02:25.567 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:112] count:存证条目（条）：0
+2020-07-29 15:02:32.079 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:143] count:存证条目（条）：5
+2020-07-29 15:02:32.418 [main] INFO [org.testng.annotations.Test#test6ViewDetails:184] 3434DA12C39D4EF4B7D013FE12709856
+2020-07-29 15:02:39.877 [main] INFO [org.testng.annotations.Test#test6ViewDetails:190] 下载证据
+2020-07-29 15:02:39.921 [main] INFO [org.testng.annotations.Test#test6ViewDetails:192] 3434DA12C39D4EF4B7D013FE12709856
+2020-07-29 16:24:45.848 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：LsaN
+2020-07-29 16:24:48.133 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 16:24:48.138 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 16:24:48.138 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 16:24:48.230 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 16:24:49.417 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 16:24:50.429 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 16:24:52.567 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,955.00
+2020-07-29 16:24:52.568 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [共 9 条]
+2020-07-29 16:24:52.611 [main] INFO [org.testng.annotations.Test#test0WordAttest:47] 断言失败，开始截图...
+2020-07-29 16:24:53.113 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729162452.jpg
+2020-07-29 16:24:53.421 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 16:24:53.536 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 16:24:53.622 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 16:24:54.685 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 16:24:54.940 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 16:24:57.176 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,950.00
+2020-07-29 16:24:57.176 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [共 10 条]
+2020-07-29 16:24:57.177 [main] INFO [org.testng.annotations.Test#test2PngAttest:105] 断言失败，开始截图...
+2020-07-29 16:24:57.611 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729162457.jpg
+2020-07-29 16:24:57.891 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 16:24:58.000 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 16:24:58.079 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 16:24:59.131 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 16:24:59.428 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 16:25:01.959 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,945.00
+2020-07-29 16:25:01.959 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:161] java.lang.AssertionError: expected [共 3 条] but found [共 11 条]
+2020-07-29 16:25:01.960 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:162] 断言失败，开始截图...
+2020-07-29 16:25:02.399 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729162501.jpg
+2020-07-29 16:25:02.735 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 16:25:02.902 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 16:25:03.007 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 16:25:04.071 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 16:25:04.332 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 16:25:06.611 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,940.00
+2020-07-29 16:25:06.612 [main] ERROR [org.testng.annotations.Test#test6VideoAttest:218] java.lang.AssertionError: expected [共 4 条] but found [共 12 条]
+2020-07-29 16:25:06.612 [main] INFO [org.testng.annotations.Test#test6VideoAttest:219] 断言失败，开始截图...
+2020-07-29 16:25:07.057 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729162506.jpg
+2020-07-29 16:25:07.309 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 16:25:07.426 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 16:25:07.504 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 16:25:08.554 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 16:25:08.824 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 16:25:10.898 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,935.00
+2020-07-29 16:25:10.898 [main] ERROR [org.testng.annotations.Test#test8OtherAttest:276] java.lang.AssertionError: expected [共 5 条] but found [共 13 条]
+2020-07-29 16:25:10.899 [main] INFO [org.testng.annotations.Test#test8OtherAttest:277] 断言失败，开始截图...
+2020-07-29 16:25:11.316 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200729162510.jpg
+2020-07-29 16:25:13.630 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 16:25:49.445 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 16:25:50.712 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.769 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.819 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.853 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.888 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.924 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:50.977 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.023 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.075 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.111 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.142 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.180 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.514 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:25:51.515 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 16:26:02.791 [main] INFO [com.common.MySqlDbOperator#setConnection:40] 数据库登录成功
+2020-07-29 16:26:03.507 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.554 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.590 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.734 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.795 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.831 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.864 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.896 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.924 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.970 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:03.998 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:04.025 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:04.051 [main] INFO [com.common.MySqlDbOperator#setControldata:71] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-07-29 16:26:04.053 [main] INFO [com.common.MySqlDbOperator#dbClose:46] 数据库关闭连接
+2020-07-29 16:26:18.106 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：cPYl
+2020-07-29 16:26:20.270 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-07-29 16:26:20.272 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-07-29 16:26:20.273 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-07-29 16:26:20.369 [main] INFO [org.testng.annotations.Test#test0WordAttest:23] 跳转到新增存证
+2020-07-29 16:26:21.537 [main] INFO [org.testng.annotations.Test#test0WordAttest:27] 上传world文件成功
+2020-07-29 16:26:22.617 [main] INFO [org.testng.annotations.Test#test0WordAttest:31] 存证成功
+2020-07-29 16:26:24.613 [main] INFO [org.testng.annotations.Test#test0WordAttest:38] 余额：可用积分：9,995.00
+2020-07-29 16:26:24.947 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:61] 获取文件名：world.docx
+2020-07-29 16:26:25.064 [main] INFO [org.testng.annotations.Test#test2PngAttest:79] 跳转到新增存证
+2020-07-29 16:26:25.150 [main] INFO [org.testng.annotations.Test#test2PngAttest:81] 勾选图片存证按钮
+2020-07-29 16:26:26.212 [main] INFO [org.testng.annotations.Test#test2PngAttest:85] 上传world文件成功
+2020-07-29 16:26:26.777 [main] INFO [org.testng.annotations.Test#test2PngAttest:89] 存证成功
+2020-07-29 16:26:28.784 [main] INFO [org.testng.annotations.Test#test2PngAttest:96] 余额：可用积分：9,990.00
+2020-07-29 16:26:29.072 [main] INFO [org.testng.annotations.Test#test3SearchPngName:119] 获取文件名：laoshu.png
+2020-07-29 16:26:29.213 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:136] 跳转到新增存证
+2020-07-29 16:26:29.326 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:138] 勾选图片存证按钮
+2020-07-29 16:26:30.397 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:142] 上传world文件成功
+2020-07-29 16:26:30.970 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:146] 存证成功
+2020-07-29 16:26:33.859 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:153] 余额：可用积分：9,985.00
+2020-07-29 16:26:34.172 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:176] 获取文件名：yinpin.mp3
+2020-07-29 16:26:34.277 [main] INFO [org.testng.annotations.Test#test6VideoAttest:193] 跳转到新增存证
+2020-07-29 16:26:34.357 [main] INFO [org.testng.annotations.Test#test6VideoAttest:195] 勾选图片存证按钮
+2020-07-29 16:26:35.414 [main] INFO [org.testng.annotations.Test#test6VideoAttest:199] 上传world文件成功
+2020-07-29 16:26:36.021 [main] INFO [org.testng.annotations.Test#test6VideoAttest:203] 存证成功
+2020-07-29 16:26:38.662 [main] INFO [org.testng.annotations.Test#test6VideoAttest:210] 余额：可用积分：9,980.00
+2020-07-29 16:26:38.908 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:233] 获取文件名：P4.mp4
+2020-07-29 16:26:39.029 [main] INFO [org.testng.annotations.Test#test8OtherAttest:251] 跳转到新增存证
+2020-07-29 16:26:39.137 [main] INFO [org.testng.annotations.Test#test8OtherAttest:253] 勾选图片存证按钮
+2020-07-29 16:26:40.216 [main] INFO [org.testng.annotations.Test#test8OtherAttest:257] 上传world文件成功
+2020-07-29 16:26:40.829 [main] INFO [org.testng.annotations.Test#test8OtherAttest:261] 存证成功
+2020-07-29 16:26:43.250 [main] INFO [org.testng.annotations.Test#test8OtherAttest:268] 余额：可用积分：9,975.00
+2020-07-29 16:26:45.604 [main] INFO [org.testng.annotations.Test#test9SearchPngName:292] 获取文件名：nacicatzc.zip
+2020-07-29 16:26:53.544 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:52] count:存证条目（条）：0
+2020-07-29 16:27:00.090 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:82] count:存证条目（条）：5
+2020-07-29 16:27:06.625 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:112] count:存证条目（条）：0
+2020-07-29 16:27:13.136 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:143] count:存证条目（条）：5
+2020-07-29 16:27:13.432 [main] INFO [org.testng.annotations.Test#test6ViewDetails:184] 7A162513CBA943A9AFDDEDD95C855681
+2020-07-29 16:27:20.734 [main] INFO [org.testng.annotations.Test#test6ViewDetails:190] 下载证据
+2020-07-29 16:27:20.767 [main] INFO [org.testng.annotations.Test#test6ViewDetails:192] 7A162513CBA943A9AFDDEDD95C855681

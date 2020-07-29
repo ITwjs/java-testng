@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testng.testcase.testOneDateAttest"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.326">
+  <properties />
+  
+  
+      <testcase name="test6VideoAttest" time="4.490" />
+      <testcase name="test7SearchVideoName" time="0.245" />
+      <testcase name="test8OtherAttest" time="4.342" />
+      <testcase name="test1SearchWorldName" time="0.333" />
+      <testcase name="test3SearchPngName" time="0.289" />
+      <testcase name="test5YinPinSearchName" time="0.313" />
+      <testcase name="test2PngAttest" time="3.837" />
+      <testcase name="test9SearchPngName" time="2.354" />
+      <testcase name="test0WordAttest" time="4.337" />
+      <testcase name="test4YinPinAttest" time="4.786" />
+  
+</testsuite>

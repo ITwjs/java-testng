@@ -14,7 +14,6 @@ public class SeleniumWebDriver {
         driver.manage().window().maximize();
         Thread.sleep(3000);
         driver.manage().timeouts().implicitlyWait(SENCENDS,TimeUnit.SECONDS);
-
     }
 
     private static WebDriver CreateDriver(){

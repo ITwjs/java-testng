@@ -7,18 +7,15 @@
   </listeners>
   <test thread-count="5" name="packeage(failed)">
     <classes>
-      <class name="com.testng.testcase.testDateAttest">
+      <class name="com.testng.testcase.testTwoDateAttest">
         <methods>
-          <include name="test3YinPinAttest"/>
-          <include name="test4VideoAttest"/>
+          <include name="test4TimeScopeSearch"/>
           <include name="startDriver"/>
-          <include name="test1WordAttest"/>
           <include name="endDriver"/>
-          <include name="test5OtherAttest"/>
           <include name="ClearData"/>
-          <include name="test2PngAttest"/>
+          <include name="test5TypeSelect"/>
         </methods>
-      </class> <!-- com.testng.testcase.testDateAttest -->
+      </class> <!-- com.testng.testcase.testTwoDateAttest -->
     </classes>
   </test> <!-- packeage(failed) -->
 </suite> <!-- Failed suite [MSP-WebUI-AutoTest] -->

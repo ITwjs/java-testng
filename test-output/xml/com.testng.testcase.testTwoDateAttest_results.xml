@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testng.testcase.testTwoDateAttest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.158">
+  <properties />
+  
+  
+      <testcase name="test1TimeScopeSearch" time="7.939" />
+      <testcase name="test6ViewDetails" time="7.630" />
+      <testcase name="test2TimeScopeSearch" time="6.545" />
+      <testcase name="test3TimeScopeSearch" time="6.534" />
+      <testcase name="test4TimeScopeSearch" time="6.510" />
+  
+</testsuite>

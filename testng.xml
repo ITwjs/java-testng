@@ -8,7 +8,8 @@
     <test name="packeage"  verbose="1">
         <classes>
             <class name="com.testng.testcase.testLogin" />
-            <class name="com.testng.testcase.testDateAttest" />
+            <class name="com.testng.testcase.testOneDateAttest" />
+            <class name="com.testng.testcase.testTwoDateAttest" />
         </classes>
     </test>
 </suite>
