@@ -26,3 +26,15 @@ Driver info: driver.version: RemoteWebDriver
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
+2020-08-07 10:49:40.454 [main] ERROR [org.testng.annotations.Test#loginTest1:41] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-08-07 10:51:58.117 [main] ERROR [com.testng.testcase.testTwoDataAttest#test1TypeSelect:42] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-08-07 11:11:55.655 [main] ERROR [com.testng.testcase.testTwoDataAttest#test2TypeSelect:73] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver

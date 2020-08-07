@@ -2,70 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb1a0c1-824e-4f25-a0ce-5eff588c25e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debugtestng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world11.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world3.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world4.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world5.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world6.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world7.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world8.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world9.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoOnlineForensics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.2020-07-28-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.2020-07-28-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/SeleniumWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/SeleniumWebDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/P4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/P4.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/nacicatzc.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/nacicatzc.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/yinpin.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/yinpin.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneDateAttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOnlineForensics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneOnlineForensics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeDateAttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/SeleniumWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/SeleniumWebDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneDateAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneDateAttest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOnlineForensics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDateAttest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDataAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDataAttest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDateAttest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDateAttest_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,20 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml">
-    <configuration name="MySqlDbOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.MySqlDbOperator" />
-      <module name="UI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml">
     <configuration name="ReadDownLoadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.common.ReadDownLoadFiles" />
       <module name="UI" />
@@ -208,20 +146,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/debugtestng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MySqlDbOperator" />
       <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
       <item itemvalue="Application.SeleniumWebDriver" />
       <item itemvalue="Application.ReadDownLoadFiles" />
       <item itemvalue="Application.testOneProcessEvidence" />
+      <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
         <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
         <item itemvalue="Application.testOneProcessEvidence" />
         <item itemvalue="Application.ReadDownLoadFiles" />
         <item itemvalue="Application.SeleniumWebDriver" />
-        <item itemvalue="Application.MySqlDbOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596011874054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题">
+      <created>1596767675530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596767675530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -296,7 +251,8 @@
     <MESSAGE value="修改截图方法" />
     <MESSAGE value="新增方法" />
     <MESSAGE value="修改 maven仓库配置+修改窗口句柄切换问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 maven仓库配置+修改窗口句柄切换问题" />
+    <MESSAGE value="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

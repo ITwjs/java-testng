@@ -46,7 +46,7 @@ public  class UiBase {
         return caps;
     }
 
-    @BeforeSuite
+//    @BeforeSuite
     public void ClearData() throws SQLException {
         MySqlDbOperator dba =new MySqlDbOperator();
         dba.setConnection();

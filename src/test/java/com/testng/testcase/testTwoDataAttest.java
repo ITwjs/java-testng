@@ -27,8 +27,8 @@ public class testTwoDataAttest extends UiBase {
         try {
             driver.navigate().refresh();
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
-            Thread.sleep(1000);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[2]/span")).click();
+            Thread.sleep(3000);
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[2]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div/span[1]")).getText();
             log.info("列表记录个数：:"+count);
@@ -59,7 +59,7 @@ public class testTwoDataAttest extends UiBase {
         try {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
             Thread.sleep(1000);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[3]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[3]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div/span[1]")).getText();
             log.info("列表记录个数：:"+count);
@@ -90,7 +90,7 @@ public class testTwoDataAttest extends UiBase {
         try {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
             Thread.sleep(1000);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[4]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[4]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div/span[1]")).getText();
             log.info("列表记录个数：:"+count);
@@ -122,7 +122,7 @@ public class testTwoDataAttest extends UiBase {
         try {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
             Thread.sleep(1000);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[5]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[5]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div/span[1]")).getText();
             log.info("列表记录个数：:"+count);
@@ -153,7 +153,7 @@ public class testTwoDataAttest extends UiBase {
         try {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
             Thread.sleep(1000);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[6]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[6]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[1]/div/span[1]")).getText();
             log.info("列表记录个数：:"+count);
@@ -165,7 +165,7 @@ public class testTwoDataAttest extends UiBase {
             log.info("文档存证保全号：" + information3);
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div/span/span/i")).click();
             Thread.sleep(500);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[1]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[1]/span")).click();
         }catch (Exception erro){
             log.error("元素定位失败：" + erro);
         }

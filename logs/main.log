@@ -145,3 +145,106 @@ Driver info: driver.version: RemoteWebDriver
 2020-08-07 09:36:59.321 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:152] 列表记录数：共 3 条
 2020-08-07 09:36:59.353 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:154] 过程取证名称为：testprocess3
 2020-08-07 09:36:59.455 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:163] 断言失败，开始截图...
+2020-08-07 10:40:35.697 [main] INFO [com.common.MySqlDbOperator#setConnection:37] 数据库登录成功
+2020-08-07 10:40:37.314 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.448 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.510 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.570 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.647 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.702 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.795 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.846 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.926 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:37.980 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:38.049 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:38.114 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:38.157 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-07 10:40:57.299 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：LsYr
+2020-08-07 10:40:59.864 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-08-07 10:40:59.869 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-08-07 10:40:59.870 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-08-07 10:41:55.095 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：JKPs
+2020-08-07 10:41:58.135 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-08-07 10:41:58.142 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-08-07 10:41:58.143 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-08-07 10:41:58.314 [main] INFO [org.testng.annotations.Test#test0WordAttest:24] 跳转到新增存证
+2020-08-07 10:42:01.678 [main] INFO [org.testng.annotations.Test#test0WordAttest:28] 上传world文件成功
+2020-08-07 10:42:02.315 [main] INFO [org.testng.annotations.Test#test0WordAttest:32] 存证成功
+2020-08-07 10:42:04.691 [main] INFO [org.testng.annotations.Test#test0WordAttest:39] 余额：可用积分：9,995.00
+2020-08-07 10:42:05.126 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:62] 获取文件名：world.docx
+2020-08-07 10:42:05.370 [main] INFO [org.testng.annotations.Test#test2PngAttest:80] 跳转到新增存证
+2020-08-07 10:42:05.509 [main] INFO [org.testng.annotations.Test#test2PngAttest:82] 勾选图片存证按钮
+2020-08-07 10:42:08.631 [main] INFO [org.testng.annotations.Test#test2PngAttest:86] 上传图片文件成功
+2020-08-07 10:42:09.014 [main] INFO [org.testng.annotations.Test#test2PngAttest:90] 存证成功
+2020-08-07 10:42:16.454 [main] INFO [org.testng.annotations.Test#test2PngAttest:97] 余额：可用积分：9,990.00
+2020-08-07 10:42:16.810 [main] INFO [org.testng.annotations.Test#test3SearchPngName:120] 获取文件名：laoshu.png
+2020-08-07 10:42:16.996 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:137] 跳转到新增存证
+2020-08-07 10:42:17.098 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:139] 勾选图片存证按钮
+2020-08-07 10:42:20.178 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:143] 上传MP3文件成功
+2020-08-07 10:42:20.563 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:147] 存证成功
+2020-08-07 10:42:22.788 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:154] 余额：可用积分：9,985.00
+2020-08-07 10:42:23.096 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:177] 获取文件名：yinpin.mp3
+2020-08-07 10:42:23.250 [main] INFO [org.testng.annotations.Test#test6VideoAttest:194] 跳转到新增存证
+2020-08-07 10:42:23.357 [main] INFO [org.testng.annotations.Test#test6VideoAttest:196] 勾选图片存证按钮
+2020-08-07 10:42:26.427 [main] INFO [org.testng.annotations.Test#test6VideoAttest:200] 上传mp4文件成功
+2020-08-07 10:42:26.837 [main] INFO [org.testng.annotations.Test#test6VideoAttest:204] 存证成功
+2020-08-07 10:42:28.815 [main] INFO [org.testng.annotations.Test#test6VideoAttest:211] 余额：可用积分：9,980.00
+2020-08-07 10:42:29.166 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:234] 获取文件名：P4.mp4
+2020-08-07 10:42:29.331 [main] INFO [org.testng.annotations.Test#test8OtherAttest:252] 跳转到新增存证
+2020-08-07 10:42:29.463 [main] INFO [org.testng.annotations.Test#test8OtherAttest:254] 勾选图片存证按钮
+2020-08-07 10:42:32.569 [main] INFO [org.testng.annotations.Test#test8OtherAttest:258] 上传压缩包文件成功
+2020-08-07 10:42:32.933 [main] INFO [org.testng.annotations.Test#test8OtherAttest:262] 存证成功
+2020-08-07 10:42:34.907 [main] INFO [org.testng.annotations.Test#test8OtherAttest:269] 余额：可用积分：9,975.00
+2020-08-07 10:42:37.327 [main] INFO [org.testng.annotations.Test#test9SearchPngName:293] 获取文件名：nacicatzc.zip
+2020-08-07 10:49:29.658 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：jEyZ
+2020-08-07 10:49:40.454 [main] ERROR [org.testng.annotations.Test#loginTest1:41] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-08-07 10:49:41.116 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200807104940.jpg
+2020-08-07 10:50:39.939 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：TpNI
+2020-08-07 10:50:42.515 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-08-07 10:50:42.520 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-08-07 10:50:42.522 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-08-07 10:51:58.117 [main] ERROR [com.testng.testcase.testTwoDataAttest#test1TypeSelect:42] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-08-07 10:51:58.158 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:49] 断言失败，开始截图...
+2020-08-07 11:08:44.737 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：rIKT
+2020-08-07 11:08:47.045 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-08-07 11:08:47.047 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-08-07 11:08:47.048 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-08-07 11:10:04.308 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:34] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:10:04.347 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:36] 文档筛选存证名称为：world.docx
+2020-08-07 11:10:04.389 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:38] 存证文件类型为：文档
+2020-08-07 11:10:04.427 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:40] 文档存证保全号：BD71A71B5FE343D99E94B34EFBB5C71D
+2020-08-07 11:11:55.655 [main] ERROR [com.testng.testcase.testTwoDataAttest#test2TypeSelect:73] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+2020-08-07 11:11:55.696 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:80] 断言失败，开始截图...
+2020-08-07 11:12:23.444 [main] INFO [org.testng.annotations.Test#loginTest1:29] 登录验证码：RrnP
+2020-08-07 11:12:25.642 [main] INFO [org.testng.annotations.Test#loginTest1:39] 获取的user_number:数据存证
+2020-08-07 11:12:25.647 [main] INFO [org.testng.annotations.Test#loginTest1:50] 数据存证用户登录成功
+2020-08-07 11:12:25.648 [main] INFO [org.testng.annotations.Test#loginTest1:51] 登录测试用例通过
+2020-08-07 11:13:41.547 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:34] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:13:41.584 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:36] 文档筛选存证名称为：world.docx
+2020-08-07 11:13:41.622 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:38] 存证文件类型为：文档
+2020-08-07 11:13:41.662 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:40] 文档存证保全号：BD71A71B5FE343D99E94B34EFBB5C71D
+2020-08-07 11:14:07.181 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:65] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:14:07.210 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:67] 文档筛选存证名称为：laoshu.png
+2020-08-07 11:14:07.237 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:69] 存证文件类型为：图片
+2020-08-07 11:14:07.264 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:71] 文档存证保全号：42E43C51158D466595E1D469409DAF89
+2020-08-07 11:14:09.438 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:96] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:14:09.464 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:98] 文档筛选存证名称为：yinpin.mp3
+2020-08-07 11:14:09.490 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:100] 存证文件类型为：音频
+2020-08-07 11:14:09.517 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:102] 文档存证保全号：E9F6B4A64BB04707A265CAC69F9DE317
+2020-08-07 11:14:11.681 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:128] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:14:11.708 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:130] 文档筛选存证名称为：P4.mp4
+2020-08-07 11:14:11.735 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:132] 存证文件类型为：视频
+2020-08-07 11:14:11.761 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:134] 文档存证保全号：684C37F2F98A424CA70BFB388E85CB81
+2020-08-07 11:14:13.924 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:159] 列表记录个数：:存证条目（条）：1
+2020-08-07 11:14:13.951 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:161] 文档筛选存证名称为：nacicatzc.zip
+2020-08-07 11:14:13.980 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:163] 存证文件类型为：其他
+2020-08-07 11:14:14.009 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:165] 文档存证保全号：E88A4CF4997C4334AC63A7CB4B32EB1B
