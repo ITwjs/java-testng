@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testng.testcase.testOneProcessEvidence"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="179.373">
+  <properties />
+  
+  
+      <testcase name="test4ProcessEvidenceDetails" time="109.544" />
+      <testcase name="test3CancelQueueProcessEvidence" time="14.619" />
+      <testcase name="test2AddProcessEvidence" time="25.001" />
+      <testcase name="test5DownloadProcessEnvidence" time="13.930" />
+      <testcase name="test1CancelProcessEvidence" time="16.279" />
+  
+</testsuite>

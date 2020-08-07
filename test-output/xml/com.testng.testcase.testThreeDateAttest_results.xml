@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testng.testcase.testThreeDateAttest"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="41.611">
+  <properties />
+  
+  
+      <testcase name="test5ViewDetails" time="9.914" />
+      <testcase name="test2TimeScopeSearch" time="6.512" />
+      <testcase name="test1TimeScopeSearch" time="5.946" />
+      <testcase name="test6DeleteData" time="6.234" />
+      <testcase name="test3TimeScopeSearch" time="6.503" />
+      <testcase name="test4TimeScopeSearch" time="6.502" />
+  
+</testsuite>

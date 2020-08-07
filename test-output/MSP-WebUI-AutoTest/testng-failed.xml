@@ -7,15 +7,48 @@
   </listeners>
   <test thread-count="5" name="packeage(failed)">
     <classes>
-      <class name="com.testng.testcase.testTwoDateAttest">
+      <class name="com.testng.testcase.testThreeDateAttest">
         <methods>
+          <include name="test7DeleteData"/>
           <include name="test4TimeScopeSearch"/>
+          <include name="test6ViewDetails"/>
+          <include name="test2TimeScopeSearch"/>
           <include name="startDriver"/>
           <include name="endDriver"/>
           <include name="ClearData"/>
-          <include name="test5TypeSelect"/>
         </methods>
-      </class> <!-- com.testng.testcase.testTwoDateAttest -->
+      </class> <!-- com.testng.testcase.testThreeDateAttest -->
+      <class name="com.testng.testcase.testOneProcessEvidence">
+        <methods>
+          <include name="test1CancelProcessEvidence"/>
+          <include name="test2AddProcessEvidence"/>
+          <include name="test3CancelQueueProcessEvidence"/>
+          <include name="startDriver"/>
+          <include name="endDriver"/>
+          <include name="ClearData"/>
+        </methods>
+      </class> <!-- com.testng.testcase.testOneProcessEvidence -->
+      <class name="com.testng.testcase.testOneDateAttest">
+        <methods>
+          <include name="test2PngAttest"/>
+          <include name="test6VideoAttest"/>
+          <include name="test8OtherAttest"/>
+          <include name="test4YinPinAttest"/>
+          <include name="startDriver"/>
+          <include name="endDriver"/>
+          <include name="ClearData"/>
+          <include name="test3SearchPngName"/>
+        </methods>
+      </class> <!-- com.testng.testcase.testOneDateAttest -->
+      <class name="com.testng.testcase.testFourDateAttest">
+        <methods>
+          <include name="test1BatchAttest"/>
+          <include name="startDriver"/>
+          <include name="endDriver"/>
+          <include name="ClearData"/>
+          <include name="test6PageData"/>
+        </methods>
+      </class> <!-- com.testng.testcase.testFourDateAttest -->
     </classes>
   </test> <!-- packeage(failed) -->
 </suite> <!-- Failed suite [MSP-WebUI-AutoTest] -->

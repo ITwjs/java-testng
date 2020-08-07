@@ -14,12 +14,9 @@ public class MySqlDbOperator {
     //账户密码
     static final String USER_NAME = "root";
     static final String USER_PASSWD = "shuqinkeji";
-    private String SQL;
-    private String resultDate;
-    private String fieldName;
     private Connection conn;
     private Statement smtm;
-    private PreparedStatement persmtm;
+    private String str;
     private static Logger log=Logger.getLogger(MySqlDbOperator.class);
 
     static {
@@ -43,23 +40,23 @@ public class MySqlDbOperator {
 
     public void dbClose() throws SQLException {
         conn.close();
-        log.info("数据库关闭连接");
     }
 
 
 
 
-    private void setSelectOnerDta(String sql, String fieldName) throws SQLException {
+    public String getSelectOnerDta(String sql, String fieldName) throws SQLException {
         this.smtm = conn.createStatement();
         try {
             ResultSet data = smtm.executeQuery(sql);
             while (data.next()) {
-                String str = data.getString(fieldName);
+                this.str = data.getString(fieldName);
                 log.info("查询结果：" + str);
             }
         }catch (Exception erro){
             log.error("查询失败："+erro);
         }
+        return str;
     }
 
 
@@ -79,7 +76,8 @@ public class MySqlDbOperator {
     public static void main(String[] args) throws SQLException {
         MySqlDbOperator dba =new MySqlDbOperator();
         dba.setConnection();
-        dba.setControldata("UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');");
+        String s= dba.getSelectOnerDta("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","attestation_id");
+        System.out.println(s);
         dba.dbClose();
     }
 }

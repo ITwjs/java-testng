@@ -1,17 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testng.testcase.testTwoDateAttest"
-           tests="5"
-           failures="0"
+<testsuite name="com.testng.testcase.testThreeDateAttest"
+           tests="6"
+           failures="4"
            errors="0"
            skipped="0"
-           time="35.158">
+           time="48.531">
   <properties />
+      <testcase name="test4TimeScopeSearch" time="7.034">
+            <failure type="java.lang.AssertionError"
+                  message="expected [存证条目（条）：5] but found [存证条目（条）：4]"
+              >
+<![CDATA[java.lang.AssertionError: expected [存证条目（条）：5] but found [存证条目（条）：4]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.testng.testcase.testThreeDateAttest.test4TimeScopeSearch(testTwoDateAttest.java:158)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="test2TimeScopeSearch" time="7.009">
+            <failure type="java.lang.AssertionError"
+                  message="expected [存证条目（条）：5] but found [存证条目（条）：4]"
+              >
+<![CDATA[java.lang.AssertionError: expected [存证条目（条）：5] but found [存证条目（条）：4]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.testng.testcase.testThreeDateAttest.test2TimeScopeSearch(testTwoDateAttest.java:99)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="test7DeleteData" time="7.223">
+            <failure type="java.lang.AssertionError"
+                  message="expected [共 5 条] but found [共 3 条]"
+              >
+<![CDATA[java.lang.AssertionError: expected [共 5 条] but found [共 3 条]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:137)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.testng.testcase.testThreeDateAttest.test7DeleteData(testTwoDateAttest.java:268)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+      <testcase name="test6ViewDetails" time="12.745">
+            <failure type="java.lang.AssertionError"
+                  message="expected [王家森] but found [null]"
+              >
+<![CDATA[java.lang.AssertionError: expected [王家森] but found [null]
+  org.testng.Assert.fail(Assert.java:96)
+  org.testng.Assert.failNotEquals(Assert.java:776)
+  org.testng.Assert.assertEqualsImpl(Assert.java:132)
+  org.testng.Assert.assertEquals(Assert.java:118)
+  org.testng.Assert.assertEquals(Assert.java:453)
+  org.testng.Assert.assertEquals(Assert.java:463)
+  com.testng.testcase.testThreeDateAttest.test6ViewDetails(testTwoDateAttest.java:228)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
   
   
-      <testcase name="test1TimeScopeSearch" time="7.939" />
-      <testcase name="test6ViewDetails" time="7.630" />
-      <testcase name="test2TimeScopeSearch" time="6.545" />
-      <testcase name="test3TimeScopeSearch" time="6.534" />
-      <testcase name="test4TimeScopeSearch" time="6.510" />
+      <testcase name="test3TimeScopeSearch" time="6.555" />
+      <testcase name="test1TimeScopeSearch" time="7.965" />
   
 </testsuite>

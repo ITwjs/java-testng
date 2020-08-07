@@ -8,24 +8,42 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.*;
 import java.sql.SQLException;
 import java.text.ParseException;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 public  class UiBase {
-    protected static WebDriver driver;
+    protected static WebDriver driver ;
     private String code;
     private XSSFCell cell0;
+    private DesiredCapabilities caps;
 
-    private static WebDriver CreateDriver(){
+
+    private  WebDriver CreateDriver(){
         WebDriver createDriver = null;
         System.setProperty("webdriver.chrome.driver",ChooseDriverEXE.Chrome_Driver_File);
-        createDriver = new ChromeDriver();
+        DesiredCapabilities caps = getDownloadsPath();
+        createDriver = new ChromeDriver(caps);
         return createDriver;
+    }
+
+    public DesiredCapabilities getDownloadsPath() {
+        File downloadfilepath = new File("src\\test\\java\\com\\downloadfiles");
+        String downloadsPath = downloadfilepath.getAbsolutePath().toString();
+        HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+        chromePrefs.put("download.default_directory", downloadsPath);
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("prefs", chromePrefs);
+        this.caps = new DesiredCapabilities();
+        caps.setCapability(ChromeOptions.CAPABILITY, options);
+        return caps;
     }
 
     @BeforeSuite

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testng.testcase.testFourDateAttest"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.954">
+  <properties />
+  
+  
+      <testcase name="test4DeleteDatas" time="3.251" />
+      <testcase name="test1BatchAttest" time="11.101" />
+      <testcase name="test6PageData" time="1.833" />
+      <testcase name="test3InformationVerification" time="0.726" />
+      <testcase name="test5UpdateDataAttest" time="6.043" />
+  
+</testsuite>

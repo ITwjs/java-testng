@@ -1,119 +1,28 @@
-2020-07-29 10:30:08.581 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:31:37.839 [main] ERROR [com.testng.testcase.testTwoDataAttest#test1TypeSelect:42] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:30:08.600 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-07-29 10:30:19.155 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:63] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:31:49.599 [main] ERROR [com.testng.testcase.testTwoDataAttest#test2TypeSelect:73] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:30:19.156 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:68] java.lang.AssertionError: expected [world.docx] but found [null]
-2020-07-29 10:30:29.604 [main] ERROR [org.testng.annotations.Test#test2PngAttest:91] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:32:01.143 [main] ERROR [com.testng.testcase.testTwoDataAttest#test3TypeSelect:104] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:30:39.608 [main] ERROR [org.testng.annotations.Test#test2PngAttest:98] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
+2020-08-07 09:32:12.824 [main] ERROR [com.testng.testcase.testTwoDataAttest#test4TypeSelect:136] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:30:39.608 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [null]
-2020-07-29 10:30:52.057 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:121] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:32:24.422 [main] ERROR [com.testng.testcase.testTwoDataAttest#test5TypeSelect:170] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:30:52.057 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:126] java.lang.AssertionError: expected [laoshu.png] but found [null]
-2020-07-29 10:31:02.558 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:36:41.685 [main] ERROR [com.testng.testcase.testOneProcessEvidence#test1TimeSearchData:55] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:31:12.563 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:155] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-07 09:36:56.122 [main] ERROR [com.testng.testcase.testOneProcessEvidence#test3TimeSearchData:107] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-07-29 10:31:12.563 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:161] java.lang.AssertionError: expected [共 3 条] but found [null]
-2020-07-29 10:59:55.315 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
-2020-07-29 11:00:29.524 [main] ERROR [org.testng.annotations.Test#test4TimeScopeSearch:150] java.lang.AssertionError: expected [存证条目（条）：0] but found [存证条目（条）：5]
-2020-07-29 11:00:43.336 [main] ERROR [org.testng.annotations.Test#test5TypeSelect:165] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:10:30.994 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
-2020-07-29 11:11:05.339 [main] ERROR [org.testng.annotations.Test#test4TimeScopeSearch:147] java.lang.AssertionError: expected [存证条目（条）：0] but found [存证条目（条）：5]
-2020-07-29 11:11:19.003 [main] ERROR [org.testng.annotations.Test#test5TypeSelect:162] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:45:31.908 [main] ERROR [org.testng.annotations.Test#test0WordAttest:33] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:45:41.917 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:45:41.919 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-07-29 11:45:55.004 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:63] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:45:55.005 [main] ERROR [org.testng.annotations.Test#test1SearchWorldName:68] java.lang.AssertionError: expected [world.docx] but found [null]
-2020-07-29 11:45:59.338 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-07-29 11:46:01.641 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: c032bb4ce6d88d91b77a786a098b89ac
-2020-07-29 11:46:40.525 [main] ERROR [org.testng.annotations.Test#test0WordAttest:40] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:46:40.526 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-07-29 11:46:43.105 [main] ERROR [org.testng.annotations.Test#test2PngAttest:91] 操控元素失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: aebe2ee1909a7c80a47330af27d77524
-2020-07-29 11:46:53.109 [main] ERROR [org.testng.annotations.Test#test2PngAttest:98] 元素操控失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:46:53.110 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [null]
-2020-07-29 11:47:03.611 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:121] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 11:47:03.612 [main] ERROR [org.testng.annotations.Test#test3SearchPngName:126] java.lang.AssertionError: expected [laoshu.png] but found [world.docx]
-2020-07-29 11:47:14.064 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:148] 操控元素失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 14:11:15.648 [main] ERROR [org.testng.annotations.Test#test7SearchVideoName:240] java.lang.AssertionError: expected [P4,mp4] but found [P4.mp4]
-2020-07-29 14:12:00.547 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:189] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 14:19:27.330 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:190] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 14:51:48.572 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:192] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 14:55:50.649 [main] ERROR [org.testng.annotations.Test#test6ViewDetails:194] org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-07-29 16:24:52.568 [main] ERROR [org.testng.annotations.Test#test0WordAttest:46] java.lang.AssertionError: expected [共 1 条] but found [共 9 条]
-2020-07-29 16:24:57.176 [main] ERROR [org.testng.annotations.Test#test2PngAttest:104] java.lang.AssertionError: expected [共 2 条] but found [共 10 条]
-2020-07-29 16:25:01.959 [main] ERROR [org.testng.annotations.Test#test4YinPinAttest:161] java.lang.AssertionError: expected [共 3 条] but found [共 11 条]
-2020-07-29 16:25:06.612 [main] ERROR [org.testng.annotations.Test#test6VideoAttest:218] java.lang.AssertionError: expected [共 4 条] but found [共 12 条]
-2020-07-29 16:25:10.898 [main] ERROR [org.testng.annotations.Test#test8OtherAttest:276] java.lang.AssertionError: expected [共 5 条] but found [共 13 条]

@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MSP-WebUI-AutoTest">
+<suite name="ZhiShiChanQuanPingTai">
     <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter" />
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
     </listeners>
-    <test name="packeage"  verbose="1">
+    <test name="BusinessEnvironment "  verbose="1">
         <classes>
             <class name="com.testng.testcase.testLogin" />
             <class name="com.testng.testcase.testOneDateAttest" />
-            <class name="com.testng.testcase.testTwoDateAttest" />
+            <class name="com.testng.testcase.testTwoDataAttest" />
+            <class name="com.testng.testcase.testThreeDateAttest">
+<!--                <methods>-->
+<!--                    <include name = "test5TypeSelect" />-->
+<!--                </methods>-->
+            </class>
+<!--                <methods>-->
+<!--                    <include name = "test7DeleteData" />-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.testng.testcase.testFourDateAttest" />
+            <class name = "com.testng.testcase.testOneProcessEvidence" />
+<!--                <methods>-->
+<!--                    <include name = "test4ProcessEvidenceDetails" />-->
+<!--                    <include name = "test5DownloadProcessEnvidence" />-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name = "com.testng.testcase.testTwoProcessEvidence" />
         </classes>
     </test>
 </suite>

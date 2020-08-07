@@ -15,6 +15,7 @@ public class testOneDateAttest extends UiBase {
     private String balance;
     private String fileName;
     private String filePath;
+    private String str = "1";
     private static Logger log=Logger.getLogger(Test.class);
     @Test
     public void test0WordAttest(){
@@ -23,7 +24,7 @@ public class testOneDateAttest extends UiBase {
             log.info("跳转到新增存证");
             setFilePath("world.docx");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div/div/input")).sendKeys(filePath);
-            Thread.sleep(1000);
+            Thread.sleep(3000);
             log.info("上传world文件成功");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("test");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/button")).click();
@@ -81,8 +82,8 @@ public class testOneDateAttest extends UiBase {
             log.info("勾选图片存证按钮");
             setFilePath("laoshu.png");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div/div/input")).sendKeys(filePath);
-            Thread.sleep(1000);
-            log.info("上传world文件成功");
+            Thread.sleep(3000);
+            log.info("上传图片文件成功");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("test");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/button")).click();
             driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/button[2]")).click();
@@ -138,8 +139,8 @@ public class testOneDateAttest extends UiBase {
             log.info("勾选图片存证按钮");
             setFilePath("yinpin.mp3");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div/div/input")).sendKeys(filePath);
-            Thread.sleep(1000);
-            log.info("上传world文件成功");
+            Thread.sleep(3000);
+            log.info("上传MP3文件成功");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("test");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/button")).click();
             driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/button[2]")).click();
@@ -195,8 +196,8 @@ public class testOneDateAttest extends UiBase {
             log.info("勾选图片存证按钮");
             setFilePath("P4.mp4");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div/div/input")).sendKeys(filePath);
-            Thread.sleep(1000);
-            log.info("上传world文件成功");
+            Thread.sleep(3000);
+            log.info("上传mp4文件成功");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("test");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/button")).click();
             driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/button[2]")).click();
@@ -253,8 +254,8 @@ public class testOneDateAttest extends UiBase {
             log.info("勾选图片存证按钮");
             setFilePath("nacicatzc.zip");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div/div/input")).sendKeys(filePath);
-            Thread.sleep(1000);
-            log.info("上传world文件成功");
+            Thread.sleep(3000);
+            log.info("上传压缩包文件成功");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/input")).sendKeys("test");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[3]/button")).click();
             driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/button[2]")).click();
@@ -310,5 +311,6 @@ public class testOneDateAttest extends UiBase {
     }
 
     public static void main(String[] args) {
+
     }
 }

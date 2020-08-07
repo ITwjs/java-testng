@@ -2,105 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb1a0c1-824e-4f25-a0ce-5eff588c25e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/UI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ant_ant_1_6_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_ethz_ganymed_ganymed_ssh2_build210.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_lept4j_lept4j_1_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_tess4j_tess4j_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_jbig2_imageio_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_debugger_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_tools_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_FINAL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_FINAL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ghost4j_ghost4j_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_2_15_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_jdk15_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_reportng_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_dep_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOnlineForensics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDateAttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debugtestng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world10.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world11.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world3.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world4.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world5.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world6.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world7.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world8.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/data/world9.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoOnlineForensics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.2020-07-20-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.2020-07-28-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errors.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.2020-07-20-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.2020-07-28-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/common/SeleniumWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/SeleniumWebDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneDateAttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/UI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/UI.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/P4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/P4.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/nacicatzc.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/nacicatzc.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/data/yinpin.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/data/yinpin.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneDateAttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOnlineForensics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneOnlineForensics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeDateAttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/SeleniumWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/SeleniumWebDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testDateAttest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneDateAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneDateAttest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOnlineForensics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDateAttest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/packeage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MSP-WebUI-AutoTest/testng-failed.xml" afterDir="false" />
@@ -110,9 +50,9 @@
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testDateAttest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testWordAttest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDateAttest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MSP-WebUI-AutoTest/methods-not-run.html" afterDir="false" />
@@ -122,9 +62,9 @@
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testDateAttest_results.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testWordAttest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDateAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
@@ -161,26 +101,28 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/data" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\resources" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\data" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\java\com\data" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\java" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\driver\webdriver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\data" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\resources" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,8 +138,8 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml">
-    <configuration name="UiBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.UiBase" />
+    <configuration name="MySqlDbOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.MySqlDbOperator" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -209,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="screenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.screenShot" />
+    <configuration name="ReadDownLoadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.ReadDownLoadFiles" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -222,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testOneDateAttest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testng.testcase.testOneDateAttest" />
+    <configuration name="SeleniumWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.SeleniumWebDriver" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testng.testcase.*" />
+          <option name="PATTERN" value="com.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testTwoDateAttest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testng.testcase.testTwoDateAttest" />
+    <configuration name="testOneProcessEvidence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testng.testcase.testOneProcessEvidence" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -267,19 +209,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.testTwoDateAttest" />
-      <item itemvalue="Application.UiBase" />
-      <item itemvalue="Application.testOneDateAttest" />
-      <item itemvalue="Application.screenShot" />
+      <item itemvalue="Application.MySqlDbOperator" />
       <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
+      <item itemvalue="Application.SeleniumWebDriver" />
+      <item itemvalue="Application.ReadDownLoadFiles" />
+      <item itemvalue="Application.testOneProcessEvidence" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
-        <item itemvalue="Application.screenShot" />
-        <item itemvalue="Application.testOneDateAttest" />
-        <item itemvalue="Application.UiBase" />
-        <item itemvalue="Application.testTwoDateAttest" />
+        <item itemvalue="Application.testOneProcessEvidence" />
+        <item itemvalue="Application.ReadDownLoadFiles" />
+        <item itemvalue="Application.SeleniumWebDriver" />
+        <item itemvalue="Application.MySqlDbOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595318988365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改 maven仓库配置+修改窗口句柄切换问题">
+      <created>1596011874054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596011874054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -346,6 +295,18 @@
     <MESSAGE value="增加截图方法" />
     <MESSAGE value="修改截图方法" />
     <MESSAGE value="新增方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增方法" />
+    <MESSAGE value="修改 maven仓库配置+修改窗口句柄切换问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 maven仓库配置+修改窗口句柄切换问题" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
