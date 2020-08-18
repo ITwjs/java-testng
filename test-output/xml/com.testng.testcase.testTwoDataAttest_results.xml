@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="108.994">
+           time="14.164">
   <properties />
   
   
-      <testcase name="test2TypeSelect" time="25.601" />
-      <testcase name="test1TypeSelect" time="76.008" />
-      <testcase name="test3TypeSelect" time="2.253" />
-      <testcase name="test5TypeSelect" time="2.888" />
-      <testcase name="test4TypeSelect" time="2.244" />
+      <testcase name="test3TypeSelect" time="2.207" />
+      <testcase name="test2TypeSelect" time="2.205" />
+      <testcase name="test5TypeSelect" time="2.823" />
+      <testcase name="test4TypeSelect" time="2.201" />
+      <testcase name="test1TypeSelect" time="4.728" />
   
 </testsuite>

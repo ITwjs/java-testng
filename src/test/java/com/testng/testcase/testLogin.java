@@ -3,17 +3,11 @@ package com.testng.testcase;
 import com.common.ConnectionLinux;
 import com.common.UiBase;
 import com.common.screenShot;
-import com.jcraft.jsch.JSchException;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.apache.log4j.Logger;
 
-import java.io.File;
-import java.io.IOException;
 
 
 public class testLogin extends UiBase {

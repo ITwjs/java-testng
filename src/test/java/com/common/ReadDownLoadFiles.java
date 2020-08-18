@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
+
 
 
 public class ReadDownLoadFiles {
@@ -13,7 +13,7 @@ public class ReadDownLoadFiles {
     private static Logger log = Logger.getLogger(ReadDownLoadFiles.class);
 
 
-    public static ArrayList<String> getDownLoadFilesName(){
+    public  ArrayList<String> getDownLoadFilesName(){
         ArrayList<String> filesname = new ArrayList<String>();
         File downloadfilepath = new File("src\\test\\java\\com\\downloadfiles");
         String downloadsPath = downloadfilepath.getAbsolutePath().toString();
@@ -32,14 +32,14 @@ public class ReadDownLoadFiles {
     }
 
 
-    public static ArrayList<String> getDownLoadFilesPath(){
+    public  ArrayList<String> getDownLoadFilesPath(){
         ArrayList<String> filespath = new ArrayList<String>();
         File downloadfilepath = new File("src\\test\\java\\com\\downloadfiles");
         String downloadsPath = downloadfilepath.getAbsolutePath().toString();
         File file = new File(downloadsPath);
         File[] tempLists = file.listFiles();
         for(int i = 0 ; i < tempLists.length; i ++){
-            log.info("文件名：" + tempLists[i].getName());
+            log.info("文件名：" + tempLists[i]);
             if (tempLists[i].isFile()){
                 filespath.add(tempLists[i].toString());
             }
@@ -64,13 +64,18 @@ public class ReadDownLoadFiles {
             return;
         }
         for (int i = 0; i < files.length; i++) {
+            log.info("开始删除文件："+ files[i]);
             files[i].delete();
             count++;
         }
     }
 
+
     public static void main(String[] args) {
-        ReadDownLoadFiles r = new ReadDownLoadFiles();
-        r.refreshFileList();
+        ReadDownLoadFiles readfile = new ReadDownLoadFiles();
+        ArrayList<String> fileslist = readfile.getDownLoadFilesPath();
+        System.out.println(fileslist);
+        System.out.println(fileslist.size());
     }
+
 }

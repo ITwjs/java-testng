@@ -49,18 +49,19 @@ public class testTwoProcessEvidence extends UiBase {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/input[2]")).sendKeys(time);
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[4]/div/button")).click();
             Thread.sleep(500);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
-            log.info("列表记录数："+ count);
+            this.information = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
+            log.info("列表记录数："+ information);
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information,"暂无数据");
+            log.info("断言成功");
         }catch (AssertionError error){
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information,"暂无数据");
     }
 
 
@@ -81,12 +82,13 @@ public class testTwoProcessEvidence extends UiBase {
             log.error("元素定位失败："+ erro);
         }
         try{
-           Assert.assertEquals(count,"共 3 条");
+           Assert.assertEquals(count,"共 1 条");
+           log.info("断言成功");
         }catch (AssertionError error){
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        Assert.assertEquals(count,"共 3 条");
+        Assert.assertEquals(count,"共 1 条");
     }
 
 
@@ -101,20 +103,20 @@ public class testTwoProcessEvidence extends UiBase {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/input[2]")).sendKeys(time);
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[4]/div/button")).click();
             Thread.sleep(500);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
-            log.info("列表记录数："+ count);
+            this.information = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
+            log.info("列表记录数："+ information);
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information,"暂无数据");
+            log.info("断言成功");
         }catch (AssertionError error){
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information,"暂无数据");
     }
-
 
     @Test
     public void test4TimeSearchData(){
@@ -134,12 +136,13 @@ public class testTwoProcessEvidence extends UiBase {
             log.error("元素定位失败："+ erro);
         }
         try{
-            Assert.assertEquals(count,"共 3 条");
+            Assert.assertEquals(count,"共 1 条");
+            log.info("断言成功");
         }catch (AssertionError error){
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        Assert.assertEquals(count,"共 3 条");
+        Assert.assertEquals(count,"共 1 条");
     }
 
     @Test
@@ -148,6 +151,7 @@ public class testTwoProcessEvidence extends UiBase {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/i[2]")).click();
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[4]/input")).sendKeys("testprocess2");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[4]/div/button")).click();
+            Thread.sleep(500);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
             log.info("列表记录数："+ count);
             this.information = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[1]/div[3]/table/tbody/tr/td[1]/div")).getText();
@@ -159,6 +163,7 @@ public class testTwoProcessEvidence extends UiBase {
         try {
             Assert.assertEquals(count,"共 1 条");
             Assert.assertEquals(information,"testprocess2");
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图...");
         }

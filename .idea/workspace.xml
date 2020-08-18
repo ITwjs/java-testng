@@ -2,21 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb1a0c1-824e-4f25-a0ce-5eff588c25e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneWebEvidence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debugtestng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/debugtestng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errors.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoDataAttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/downloadfiles/yppgm24m2zda449vs97b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/ReadDownLoadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/ReadDownLoadFiles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDataAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoDataAttest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testFourDateAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testFourDateAttest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneProcessEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneProcessEvidence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoProcessEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoProcessEvidence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneProcessEvidence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDataAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDataAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoProcessEvidence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourDateAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneProcessEvidence_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeDateAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoProcessEvidence_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/velocity.log" beforeDir="false" afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,28 +92,29 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/downloadfiles" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\data" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\java\com\data" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\java" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
-      <recent name="D:\ObjectInformation\BaoQuanWang\UI\driver\webdriver" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\downloadfiles" />
       <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\data" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\resources" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
       <recent name="D:\ObjectInformation\BaoQuanWang\UI\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\downloadfiles" />
+      <recent name="E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\data" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\java\com\data" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\main\java" />
+      <recent name="D:\ObjectInformation\BaoQuanWang\UI\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.SeleniumWebDriver" />
+    <configuration name="screenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.screenShot" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testOneProcessEvidence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testng.testcase.testOneProcessEvidence" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.test" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testng.testcase.*" />
+          <option name="PATTERN" value="com.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
-      <item itemvalue="Application.SeleniumWebDriver" />
       <item itemvalue="Application.ReadDownLoadFiles" />
-      <item itemvalue="Application.testOneProcessEvidence" />
+      <item itemvalue="Application.screenShot" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
       <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
         <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
-        <item itemvalue="Application.testOneProcessEvidence" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.ReadDownLoadFiles" />
-        <item itemvalue="Application.SeleniumWebDriver" />
+        <item itemvalue="Application.screenShot" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596767675530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="表单数据用例">
+      <created>1596789190341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596789190341</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -252,15 +300,51 @@
     <MESSAGE value="新增方法" />
     <MESSAGE value="修改 maven仓库配置+修改窗口句柄切换问题" />
     <MESSAGE value="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题" />
+    <MESSAGE value="表单数据用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="表单数据用例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="70" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/common/screenShot.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

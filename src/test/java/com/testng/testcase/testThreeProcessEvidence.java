@@ -4,6 +4,8 @@ import com.common.UiBase;
 import com.common.screenShot;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -33,21 +35,22 @@ public class testThreeProcessEvidence extends UiBase {
             driver.findElement(By.xpath("//*[@id=\"tab-1\"]/span")).click();
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/input")).click();
             Thread.sleep(200);
-            driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[2]/span")).click();
+            driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[2]/span")).click();
             Thread.sleep(1000);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
+            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(count,"暂无数据");
+            log.info("列表取证记录为：" + count);
             log.info("等待取证筛选结果，断言成功。");
         }catch (AssertionError erro){
             log.error("断言失败，原因："+erro);
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(count,"暂无数据");
     }
 
     @Test
@@ -57,19 +60,20 @@ public class testThreeProcessEvidence extends UiBase {
             Thread.sleep(200);
             driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[3]/span")).click();
             Thread.sleep(1000);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
+            this.information1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information1,"暂无数据");
+            log.info("列表取证记录：" + information1);
             log.info("取证中筛选结果，断言成功。");
         }catch (AssertionError erro){
             log.error("断言失败，原因："+erro);
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information1,"暂无数据");
     }
 
     @Test
@@ -79,19 +83,20 @@ public class testThreeProcessEvidence extends UiBase {
             Thread.sleep(200);
             driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[4]/span")).click();
             Thread.sleep(1000);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
+            this.information2 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information2,"暂无数据");
+            log.info("列表取证记录为：" + information2);
             log.info("排队中取证筛选结果，断言成功。");
         }catch (AssertionError erro){
             log.error("断言失败，原因："+erro);
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information2,"暂无数据");
     }
 
 
@@ -102,19 +107,20 @@ public class testThreeProcessEvidence extends UiBase {
             Thread.sleep(200);
             driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[5]/span")).click();
             Thread.sleep(1000);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
+            this.information3 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information3,"暂无数据");
+            log.info("列表取证记录为：" + information2);
             log.info("上传中筛选结果，断言成功。");
         }catch (AssertionError erro){
             log.error("断言失败，原因："+erro);
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information3,"暂无数据");
     }
 
 
@@ -129,7 +135,6 @@ public class testThreeProcessEvidence extends UiBase {
             this.information1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[1]/div")).getText();
             this.information2 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[7]/div/div/span")).getText();
             this.information3 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[6]/div/div/span")).getText();
-
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
@@ -157,27 +162,33 @@ public class testThreeProcessEvidence extends UiBase {
             Thread.sleep(200);
             driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[7]/span")).click();
             Thread.sleep(1000);
-            this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();
+            this.information1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span")).getText();
         }catch (Exception erro){
             log.error("元素定位失败："+ erro);
         }
         try{
-            assert count == null;
+            Assert.assertEquals(information1,"暂无数据");
+            log.info("取证结果记录为：" + information1);
             log.info("取证失败筛选结果，断言成功。");
         }catch (AssertionError erro){
             log.error("断言失败，原因："+erro);
             log.info("断言失败，开始截图...");
             screen.screenShot();
         }
-        assert count == null;
+        Assert.assertEquals(information1,"暂无数据");
     }
 
+
+    public static void scrollTo(WebElement element) {
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("arguments[0].scrollIntoView(false);", element);
+    }
 
     @Test
     public void test7SelectSearch(){
         try{
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div/input")).click();
-            Thread.sleep(200);
+            Thread.sleep(1000);
             driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[1]/ul/li[8]/span")).click();
             Thread.sleep(1000);
             this.count = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/span[1]")).getText();

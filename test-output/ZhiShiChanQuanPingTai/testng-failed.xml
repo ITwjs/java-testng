@@ -7,29 +7,25 @@
   </listeners>
   <test thread-count="5" name="BusinessEnvironment (failed)">
     <classes>
-      <class name="com.testng.testcase.testTwoProcessEvidence">
+      <class name="com.testng.testcase.testFourProcessEvidence">
         <methods>
-          <include name="test5NameSearchData"/>
+          <include name="test1SelectSearch"/>
           <include name="startDriver"/>
-          <include name="test2TimeSearchData"/>
-          <include name="endDriver"/>
-          <include name="test4TimeSearchData"/>
-          <include name="ClearData"/>
-          <include name="test3TimeSearchData"/>
-        </methods>
-      </class> <!-- com.testng.testcase.testTwoProcessEvidence -->
-      <class name="com.testng.testcase.testTwoDataAttest">
-        <methods>
-          <include name="test5TypeSelect"/>
-          <include name="test2TypeSelect"/>
-          <include name="test4TypeSelect"/>
-          <include name="startDriver"/>
-          <include name="test3TypeSelect"/>
           <include name="endDriver"/>
           <include name="ClearData"/>
-          <include name="test1TypeSelect"/>
+          <include name="ClearDownLoadFiles"/>
+          <include name="test2SelectSearch"/>
         </methods>
-      </class> <!-- com.testng.testcase.testTwoDataAttest -->
+      </class> <!-- com.testng.testcase.testFourProcessEvidence -->
+      <class name="com.testng.testcase.testThreeProcessEvidence">
+        <methods>
+          <include name="startDriver"/>
+          <include name="endDriver"/>
+          <include name="test7SelectSearch"/>
+          <include name="ClearData"/>
+          <include name="ClearDownLoadFiles"/>
+        </methods>
+      </class> <!-- com.testng.testcase.testThreeProcessEvidence -->
     </classes>
   </test> <!-- BusinessEnvironment (failed) -->
 </suite> <!-- Failed suite [ZhiShiChanQuanPingTai] -->

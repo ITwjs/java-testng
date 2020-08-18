@@ -8,7 +8,8 @@
     <test name="BusinessEnvironment "  verbose="1">
         <classes>
             <class name="com.testng.testcase.testLogin" />
-            <class name="com.testng.testcase.testTwoDataAttest" />
+            <class name="com.testng.testcase.testThreeProcessEvidence" />
+<!--            <class name="com.testng.testcase.testFourProcessEvidence" />-->
         </classes>
     </test>
 </suite>

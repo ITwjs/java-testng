@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="31.595">
+           time="31.406">
   <properties />
   
   
-      <testcase name="test6VideoAttest" time="5.457" />
-      <testcase name="test5YinPinSearchName" time="0.296" />
-      <testcase name="test3SearchPngName" time="0.284" />
-      <testcase name="test7SearchVideoName" time="0.286" />
-      <testcase name="test4YinPinAttest" time="5.553" />
-      <testcase name="test8OtherAttest" time="5.457" />
-      <testcase name="test2PngAttest" time="5.614" />
-      <testcase name="test0WordAttest" time="5.971" />
-      <testcase name="test1SearchWorldName" time="0.306" />
-      <testcase name="test9SearchPngName" time="2.371" />
+      <testcase name="test8OtherAttest" time="5.472" />
+      <testcase name="test7SearchVideoName" time="0.292" />
+      <testcase name="test0WordAttest" time="5.891" />
+      <testcase name="test5YinPinSearchName" time="0.245" />
+      <testcase name="test9SearchPngName" time="2.298" />
+      <testcase name="test6VideoAttest" time="5.500" />
+      <testcase name="test1SearchWorldName" time="0.280" />
+      <testcase name="test4YinPinAttest" time="5.477" />
+      <testcase name="test2PngAttest" time="5.698" />
+      <testcase name="test3SearchPngName" time="0.253" />
   
 </testsuite>

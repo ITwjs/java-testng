@@ -92,7 +92,10 @@ public class testOneProcessEvidence extends UiBase {
         }
         try {
             Assert.assertEquals(information,"取证取消");
+            log.info("取证状态为：" + information);
             Assert.assertEquals(blance,"可用积分：9,920.00");
+            log.info("剩余余额：" + blance);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图");
             screen.screenShot();
@@ -137,7 +140,10 @@ public class testOneProcessEvidence extends UiBase {
         }
         try {
             Assert.assertEquals(information,"上传中");
+            log.info("取证状态为：" + information);
             Assert.assertEquals(blance,"可用积分：9,770.00");
+            log.info("剩余余额为：" + blance);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图");
             screen.screenShot();
@@ -180,7 +186,10 @@ public class testOneProcessEvidence extends UiBase {
         }
         try{
             Assert.assertEquals(information,"取证取消");
+            log.info("排队取消，取证状态为：" + information);
             Assert.assertEquals(blance,"可用积分：9,770.00");
+            log.info("剩余余额为：" + blance);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图");
             screen.screenShot();

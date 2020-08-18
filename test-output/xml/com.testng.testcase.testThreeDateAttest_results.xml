@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="41.611">
+           time="41.168">
   <properties />
   
   
-      <testcase name="test5ViewDetails" time="9.914" />
-      <testcase name="test2TimeScopeSearch" time="6.512" />
-      <testcase name="test1TimeScopeSearch" time="5.946" />
-      <testcase name="test6DeleteData" time="6.234" />
-      <testcase name="test3TimeScopeSearch" time="6.503" />
-      <testcase name="test4TimeScopeSearch" time="6.502" />
+      <testcase name="test1TimeScopeSearch" time="5.861" />
+      <testcase name="test4TimeScopeSearch" time="6.455" />
+      <testcase name="test3TimeScopeSearch" time="6.459" />
+      <testcase name="test5ViewDetails" time="9.783" />
+      <testcase name="test2TimeScopeSearch" time="6.526" />
+      <testcase name="test6DeleteData" time="6.084" />
   
 </testsuite>

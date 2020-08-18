@@ -10,23 +10,12 @@
             <class name="com.testng.testcase.testLogin" />
             <class name="com.testng.testcase.testOneDateAttest" />
             <class name="com.testng.testcase.testTwoDataAttest" />
-            <class name="com.testng.testcase.testThreeDateAttest">
-<!--                <methods>-->
-<!--                    <include name = "test5TypeSelect" />-->
-<!--                </methods>-->
-            </class>
-<!--                <methods>-->
-<!--                    <include name = "test7DeleteData" />-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="com.testng.testcase.testThreeDateAttest" />
             <class name="com.testng.testcase.testFourDateAttest" />
             <class name = "com.testng.testcase.testOneProcessEvidence" />
-<!--                <methods>-->
-<!--                    <include name = "test4ProcessEvidenceDetails" />-->
-<!--                    <include name = "test5DownloadProcessEnvidence" />-->
-<!--                </methods>-->
-<!--            </class>-->
             <class name = "com.testng.testcase.testTwoProcessEvidence" />
+            <class name = "com.testng.testcase.testThreeProcessEvidence" />
+            <class name = "com.testng.testcase.testFourProcessEvidence" />
         </classes>
     </test>
 </suite>

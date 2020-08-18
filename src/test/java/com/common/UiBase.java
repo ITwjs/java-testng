@@ -6,6 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.xmlgraphics.xmp.schemas.pdf.PDFAOldXMPSchema;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -54,8 +55,14 @@ public  class UiBase {
             dba.setControldata(readExcel(i));
         }
         dba.dbClose();
-
     }
+//    @AfterSuite
+    public void ClearDownLoadFiles(){
+        ReadDownLoadFiles download = new ReadDownLoadFiles();
+        download.refreshFileList();
+    }
+
+
     @BeforeSuite
     public void startDriver() throws InterruptedException, IOException, JSchException {
         ConnectionLinux connectionLinux = new ConnectionLinux();
@@ -67,6 +74,7 @@ public  class UiBase {
         driver.manage().window().maximize();
         this.code = connectionLinux.getCode();
     }
+
     public String getCode(){
         return code;
     }

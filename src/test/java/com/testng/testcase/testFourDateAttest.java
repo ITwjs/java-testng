@@ -2,11 +2,12 @@ package com.testng.testcase;
 
 import com.common.UiBase;
 import com.common.screenShot;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+
 
 import java.io.File;
 import java.util.List;
@@ -65,6 +66,8 @@ public class testFourDateAttest extends UiBase {
         }
         try{
             Assert.assertEquals(count,"共 14 条");
+            log.info("断言成功");
+            log.info("存证记录数："+ count);
         }catch (AssertionError erro){
             log.error("断言失败："+ erro+"---开始截图---");
             screen.screenShot();
@@ -146,7 +149,10 @@ public class testFourDateAttest extends UiBase {
         }
         try{
             Assert.assertEquals(message1,"请输入标签名选择或新增");
+            log.info("不输入标签，提交存证提示：" + message1);
             Assert.assertEquals(message2,"请上传需存证的证件");
+            log.info("不上传文件，提交存证提示：" + message2);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图...");
         }
@@ -179,6 +185,8 @@ public class testFourDateAttest extends UiBase {
         }
         try{
             Assert.assertEquals(fileName,"worldtest.docx");
+            log.info("上传文件名称成功修改为：" + fileName);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图...");
             screen.screenShot();
@@ -203,7 +211,10 @@ public class testFourDateAttest extends UiBase {
         }
         try{
             Assert.assertEquals(count2s,10);
+            log.info("列表第一页存证条数为：" + count2s);
             Assert.assertEquals(count1s,5);
+            log.info("列表第二页存证条数为： " + count1s);
+            log.info("断言成功");
         }catch (AssertionError erro){
             log.info("断言失败，开始截图...");
             screen.screenShot();

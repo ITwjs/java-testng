@@ -29,7 +29,11 @@ public class screenShot extends UiBase {
     }
 
     public static void main(String[] args) {
-        File filepath = new File("screenshotFail\\");
-        System.out.println(filepath.getAbsolutePath()+"\\");
+//        String filepath = (new File("src\\test\\java\\com\\downloadfiles\\")).getAbsoluteFile()+"\\";
+//        System.out.println(filepath);
+//        (new File(filepath)).delete();
+        String file = "E:\\ObjectInformation\\ZhiChanPingTai\\UI\\src\\test\\java\\com\\downloadfiles\\1uqsshlhrnkd87x80oqo.zip";
+       File files = new File (file);
+       files.delete();
     }
 }
