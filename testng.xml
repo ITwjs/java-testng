@@ -16,6 +16,7 @@
             <class name = "com.testng.testcase.testTwoProcessEvidence" />
             <class name = "com.testng.testcase.testThreeProcessEvidence" />
             <class name = "com.testng.testcase.testFourProcessEvidence" />
+            <class name="com.testng.testcase.testOneWebEvidence" />
         </classes>
     </test>
 </suite>

@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="32" total="78" passed="43">
+<testng-results skipped="0" failed="3" ignored="36" total="88" passed="49">
   <reporter-output>
   </reporter-output>
-  <suite name="ZhiShiChanQuanPingTai" duration-ms="337856" started-at="2020-08-18T03:26:22Z" finished-at="2020-08-18T03:32:00Z">
+  <suite name="ZhiShiChanQuanPingTai" duration-ms="387880" started-at="2020-08-18T10:02:34Z" finished-at="2020-08-18T10:09:02Z">
     <groups>
     </groups>
-    <test name="BusinessEnvironment " duration-ms="337856" started-at="2020-08-18T03:26:22Z" finished-at="2020-08-18T03:32:00Z">
+    <test name="BusinessEnvironment " duration-ms="387880" started-at="2020-08-18T10:02:34Z" finished-at="2020-08-18T10:09:02Z">
       <class name="com.testng.testcase.testOneDateAttest">
-        <test-method status="PASS" signature="test0WordAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test0WordAttest" duration-ms="5891" started-at="2020-08-18T03:26:24Z" finished-at="2020-08-18T03:26:30Z">
+        <test-method status="PASS" signature="test0WordAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test0WordAttest" duration-ms="5980" started-at="2020-08-18T10:02:36Z" finished-at="2020-08-18T10:02:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test0WordAttest -->
-        <test-method status="PASS" signature="test1SearchWorldName()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test1SearchWorldName" duration-ms="280" started-at="2020-08-18T03:26:30Z" finished-at="2020-08-18T03:26:31Z">
+        <test-method status="PASS" signature="test1SearchWorldName()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test1SearchWorldName" duration-ms="285" started-at="2020-08-18T10:02:42Z" finished-at="2020-08-18T10:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1SearchWorldName -->
-        <test-method status="PASS" signature="test2PngAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test2PngAttest" duration-ms="5698" started-at="2020-08-18T03:26:31Z" finished-at="2020-08-18T03:26:36Z">
+        <test-method status="PASS" signature="test2PngAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test2PngAttest" duration-ms="5692" started-at="2020-08-18T10:02:43Z" finished-at="2020-08-18T10:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2PngAttest -->
-        <test-method status="PASS" signature="test3SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test3SearchPngName" duration-ms="253" started-at="2020-08-18T03:26:36Z" finished-at="2020-08-18T03:26:36Z">
+        <test-method status="PASS" signature="test3SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test3SearchPngName" duration-ms="259" started-at="2020-08-18T10:02:48Z" finished-at="2020-08-18T10:02:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3SearchPngName -->
-        <test-method status="PASS" signature="test4YinPinAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test4YinPinAttest" duration-ms="5477" started-at="2020-08-18T03:26:36Z" finished-at="2020-08-18T03:26:42Z">
+        <test-method status="PASS" signature="test4YinPinAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test4YinPinAttest" duration-ms="5799" started-at="2020-08-18T10:02:49Z" finished-at="2020-08-18T10:02:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4YinPinAttest -->
-        <test-method status="PASS" signature="test5YinPinSearchName()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test5YinPinSearchName" duration-ms="245" started-at="2020-08-18T03:26:42Z" finished-at="2020-08-18T03:26:42Z">
+        <test-method status="PASS" signature="test5YinPinSearchName()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test5YinPinSearchName" duration-ms="251" started-at="2020-08-18T10:02:54Z" finished-at="2020-08-18T10:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5YinPinSearchName -->
-        <test-method status="PASS" signature="test6VideoAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test6VideoAttest" duration-ms="5500" started-at="2020-08-18T03:26:42Z" finished-at="2020-08-18T03:26:48Z">
+        <test-method status="PASS" signature="test6VideoAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test6VideoAttest" duration-ms="5547" started-at="2020-08-18T10:02:55Z" finished-at="2020-08-18T10:03:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6VideoAttest -->
-        <test-method status="PASS" signature="test7SearchVideoName()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test7SearchVideoName" duration-ms="292" started-at="2020-08-18T03:26:48Z" finished-at="2020-08-18T03:26:48Z">
+        <test-method status="PASS" signature="test7SearchVideoName()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test7SearchVideoName" duration-ms="284" started-at="2020-08-18T10:03:00Z" finished-at="2020-08-18T10:03:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test7SearchVideoName -->
-        <test-method status="PASS" signature="test8OtherAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test8OtherAttest" duration-ms="5472" started-at="2020-08-18T03:26:48Z" finished-at="2020-08-18T03:26:53Z">
+        <test-method status="PASS" signature="test8OtherAttest()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test8OtherAttest" duration-ms="5624" started-at="2020-08-18T10:03:01Z" finished-at="2020-08-18T10:03:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test8OtherAttest -->
-        <test-method status="PASS" signature="test9SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@15d9bc04]" name="test9SearchPngName" duration-ms="2298" started-at="2020-08-18T03:26:53Z" finished-at="2020-08-18T03:26:56Z">
+        <test-method status="PASS" signature="test9SearchPngName()[pri:0, instance:com.testng.testcase.testOneDateAttest@646be2c3]" name="test9SearchPngName" duration-ms="2287" started-at="2020-08-18T10:03:06Z" finished-at="2020-08-18T10:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test9SearchPngName -->
       </class> <!-- com.testng.testcase.testOneDateAttest -->
       <class name="com.testng.testcase.testThreeProcessEvidence">
-        <test-method status="PASS" signature="test1SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test1SelectSearch" duration-ms="1677" started-at="2020-08-18T03:31:38Z" finished-at="2020-08-18T03:31:39Z">
+        <test-method status="PASS" signature="test1SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test1SelectSearch" duration-ms="1655" started-at="2020-08-18T10:07:36Z" finished-at="2020-08-18T10:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1SelectSearch -->
-        <test-method status="PASS" signature="test2SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test2SelectSearch" duration-ms="1338" started-at="2020-08-18T03:31:39Z" finished-at="2020-08-18T03:31:41Z">
+        <test-method status="PASS" signature="test2SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test2SelectSearch" duration-ms="1362" started-at="2020-08-18T10:07:37Z" finished-at="2020-08-18T10:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2SelectSearch -->
-        <test-method status="PASS" signature="test3SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test3SelectSearch" duration-ms="1348" started-at="2020-08-18T03:31:41Z" finished-at="2020-08-18T03:31:42Z">
+        <test-method status="PASS" signature="test3SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test3SelectSearch" duration-ms="1341" started-at="2020-08-18T10:07:39Z" finished-at="2020-08-18T10:07:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3SelectSearch -->
-        <test-method status="PASS" signature="test4SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test4SelectSearch" duration-ms="1340" started-at="2020-08-18T03:31:42Z" finished-at="2020-08-18T03:31:43Z">
+        <test-method status="PASS" signature="test4SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test4SelectSearch" duration-ms="1364" started-at="2020-08-18T10:07:40Z" finished-at="2020-08-18T10:07:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4SelectSearch -->
-        <test-method status="PASS" signature="test5SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test5SelectSearch" duration-ms="1440" started-at="2020-08-18T03:31:43Z" finished-at="2020-08-18T03:31:45Z">
+        <test-method status="PASS" signature="test5SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test5SelectSearch" duration-ms="1435" started-at="2020-08-18T10:07:41Z" finished-at="2020-08-18T10:07:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5SelectSearch -->
-        <test-method status="PASS" signature="test6SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test6SelectSearch" duration-ms="1347" started-at="2020-08-18T03:31:45Z" finished-at="2020-08-18T03:31:46Z">
+        <test-method status="PASS" signature="test6SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test6SelectSearch" duration-ms="1356" started-at="2020-08-18T10:07:43Z" finished-at="2020-08-18T10:07:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6SelectSearch -->
-        <test-method status="FAIL" signature="test7SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@77be656f]" name="test7SelectSearch" duration-ms="11795" started-at="2020-08-18T03:31:46Z" finished-at="2020-08-18T03:31:58Z">
+        <test-method status="FAIL" signature="test7SelectSearch()[pri:0, instance:com.testng.testcase.testThreeProcessEvidence@23a5fd2]" name="test7SelectSearch" duration-ms="1647" started-at="2020-08-18T10:07:44Z" finished-at="2020-08-18T10:07:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [共 2 条] but found [共 1 条]]]>
@@ -86,7 +86,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testThreeProcessEvidence.test7SelectSearch(testThreeProcessEvidence.java:210)
+at com.testng.testcase.testThreeProcessEvidence.test7SelectSearch(testThreeProcessEvidence.java:217)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,68 +119,80 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
         </test-method> <!-- test7SelectSearch -->
       </class> <!-- com.testng.testcase.testThreeProcessEvidence -->
       <class name="com.testng.testcase.testThreeDateAttest">
-        <test-method status="PASS" signature="test1TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test1TimeScopeSearch" duration-ms="5861" started-at="2020-08-18T03:27:10Z" finished-at="2020-08-18T03:27:16Z">
+        <test-method status="PASS" signature="test1TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test1TimeScopeSearch" duration-ms="5961" started-at="2020-08-18T10:03:23Z" finished-at="2020-08-18T10:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1TimeScopeSearch -->
-        <test-method status="PASS" signature="test2TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test2TimeScopeSearch" duration-ms="6526" started-at="2020-08-18T03:27:16Z" finished-at="2020-08-18T03:27:22Z">
+        <test-method status="PASS" signature="test2TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test2TimeScopeSearch" duration-ms="6452" started-at="2020-08-18T10:03:29Z" finished-at="2020-08-18T10:03:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2TimeScopeSearch -->
-        <test-method status="PASS" signature="test3TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test3TimeScopeSearch" duration-ms="6459" started-at="2020-08-18T03:27:22Z" finished-at="2020-08-18T03:27:29Z">
+        <test-method status="PASS" signature="test3TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test3TimeScopeSearch" duration-ms="6451" started-at="2020-08-18T10:03:35Z" finished-at="2020-08-18T10:03:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3TimeScopeSearch -->
-        <test-method status="PASS" signature="test4TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test4TimeScopeSearch" duration-ms="6455" started-at="2020-08-18T03:27:29Z" finished-at="2020-08-18T03:27:35Z">
+        <test-method status="PASS" signature="test4TimeScopeSearch()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test4TimeScopeSearch" duration-ms="6466" started-at="2020-08-18T10:03:41Z" finished-at="2020-08-18T10:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4TimeScopeSearch -->
-        <test-method status="PASS" signature="test5ViewDetails()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test5ViewDetails" duration-ms="9783" started-at="2020-08-18T03:27:35Z" finished-at="2020-08-18T03:27:45Z">
+        <test-method status="PASS" signature="test5ViewDetails()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test5ViewDetails" duration-ms="9815" started-at="2020-08-18T10:03:48Z" finished-at="2020-08-18T10:03:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5ViewDetails -->
-        <test-method status="PASS" signature="test6DeleteData()[pri:0, instance:com.testng.testcase.testThreeDateAttest@516be40f]" name="test6DeleteData" duration-ms="6084" started-at="2020-08-18T03:27:45Z" finished-at="2020-08-18T03:27:51Z">
+        <test-method status="PASS" signature="test6DeleteData()[pri:0, instance:com.testng.testcase.testThreeDateAttest@77be656f]" name="test6DeleteData" duration-ms="6159" started-at="2020-08-18T10:03:58Z" finished-at="2020-08-18T10:04:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6DeleteData -->
       </class> <!-- com.testng.testcase.testThreeDateAttest -->
       <class name="com.testng.testcase.testTwoDataAttest">
-        <test-method status="PASS" signature="test1TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@473b46c3]" name="test1TypeSelect" duration-ms="4728" started-at="2020-08-18T03:26:56Z" finished-at="2020-08-18T03:27:01Z">
+        <test-method status="PASS" signature="test1TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@797badd3]" name="test1TypeSelect" duration-ms="4693" started-at="2020-08-18T10:03:08Z" finished-at="2020-08-18T10:03:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1TypeSelect -->
-        <test-method status="PASS" signature="test2TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@473b46c3]" name="test2TypeSelect" duration-ms="2205" started-at="2020-08-18T03:27:01Z" finished-at="2020-08-18T03:27:03Z">
+        <test-method status="PASS" signature="test2TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@797badd3]" name="test2TypeSelect" duration-ms="2214" started-at="2020-08-18T10:03:13Z" finished-at="2020-08-18T10:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2TypeSelect -->
-        <test-method status="PASS" signature="test3TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@473b46c3]" name="test3TypeSelect" duration-ms="2207" started-at="2020-08-18T03:27:03Z" finished-at="2020-08-18T03:27:05Z">
+        <test-method status="PASS" signature="test3TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@797badd3]" name="test3TypeSelect" duration-ms="2211" started-at="2020-08-18T10:03:15Z" finished-at="2020-08-18T10:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3TypeSelect -->
-        <test-method status="PASS" signature="test4TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@473b46c3]" name="test4TypeSelect" duration-ms="2201" started-at="2020-08-18T03:27:05Z" finished-at="2020-08-18T03:27:07Z">
+        <test-method status="PASS" signature="test4TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@797badd3]" name="test4TypeSelect" duration-ms="2210" started-at="2020-08-18T10:03:18Z" finished-at="2020-08-18T10:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4TypeSelect -->
-        <test-method status="PASS" signature="test5TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@473b46c3]" name="test5TypeSelect" duration-ms="2823" started-at="2020-08-18T03:27:07Z" finished-at="2020-08-18T03:27:10Z">
+        <test-method status="PASS" signature="test5TypeSelect()[pri:0, instance:com.testng.testcase.testTwoDataAttest@797badd3]" name="test5TypeSelect" duration-ms="2821" started-at="2020-08-18T10:03:20Z" finished-at="2020-08-18T10:03:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5TypeSelect -->
       </class> <!-- com.testng.testcase.testTwoDataAttest -->
-      <class name="com.testng.testcase.testFourProcessEvidence">
-        <test-method status="FAIL" signature="test1SelectSearch()[pri:0, instance:com.testng.testcase.testFourProcessEvidence@19dc67c2]" name="test1SelectSearch" duration-ms="948" started-at="2020-08-18T03:31:58Z" finished-at="2020-08-18T03:31:59Z">
+      <class name="com.testng.testcase.testOneWebEvidence">
+        <test-method status="PASS" signature="test1addWebEvidenceData()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test1addWebEvidenceData" duration-ms="15173" started-at="2020-08-18T10:07:49Z" finished-at="2020-08-18T10:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1addWebEvidenceData -->
+        <test-method status="PASS" signature="test2addWebEvidenceDatas()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test2addWebEvidenceDatas" duration-ms="38348" started-at="2020-08-18T10:08:05Z" finished-at="2020-08-18T10:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2addWebEvidenceDatas -->
+        <test-method status="PASS" signature="test3TimeSearchWebData()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test3TimeSearchWebData" duration-ms="1944" started-at="2020-08-18T10:08:43Z" finished-at="2020-08-18T10:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3TimeSearchWebData -->
+        <test-method status="FAIL" signature="test4TimeSearchWebData()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test4TimeSearchWebData" duration-ms="12352" started-at="2020-08-18T10:08:45Z" finished-at="2020-08-18T10:08:57Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [共 1 条] but found [null]]]>
+              <![CDATA[expected [共 3 条] but found [暂无数据]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [共 1 条] but found [null]
+              <![CDATA[java.lang.AssertionError: expected [共 3 条] but found [暂无数据]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testFourProcessEvidence.test1SelectSearch(testFourProcessEvidence.java:52)
+at com.testng.testcase.testOneWebEvidence.test4TimeSearchWebData(testOneWebEvidence.java:203)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,21 +222,25 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1SelectSearch -->
-        <test-method status="FAIL" signature="test2SelectSearch()[pri:0, instance:com.testng.testcase.testFourProcessEvidence@19dc67c2]" name="test2SelectSearch" duration-ms="724" started-at="2020-08-18T03:31:59Z" finished-at="2020-08-18T03:32:00Z">
+        </test-method> <!-- test4TimeSearchWebData -->
+        <test-method status="PASS" signature="test5TimeSearchWebData()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test5TimeSearchWebData" duration-ms="1946" started-at="2020-08-18T10:08:57Z" finished-at="2020-08-18T10:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5TimeSearchWebData -->
+        <test-method status="FAIL" signature="test6TimeSearchWebData()[pri:0, instance:com.testng.testcase.testOneWebEvidence@dd3b207]" name="test6TimeSearchWebData" duration-ms="2274" started-at="2020-08-18T10:08:59Z" finished-at="2020-08-18T10:09:02Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [共 1 条] but found [null]]]>
+              <![CDATA[expected [共 3 条] but found [暂无数据]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [共 1 条] but found [null]
+              <![CDATA[java.lang.AssertionError: expected [共 3 条] but found [暂无数据]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testng.testcase.testFourProcessEvidence.test2SelectSearch(testFourProcessEvidence.java:84)
+at com.testng.testcase.testOneWebEvidence.test6TimeSearchWebData(testOneWebEvidence.java:254)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -252,94 +268,104 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6TimeSearchWebData -->
+      </class> <!-- com.testng.testcase.testOneWebEvidence -->
+      <class name="com.testng.testcase.testFourProcessEvidence">
+        <test-method status="PASS" signature="test1SelectSearch()[pri:0, instance:com.testng.testcase.testFourProcessEvidence@78a2da20]" name="test1SelectSearch" duration-ms="2148" started-at="2020-08-18T10:07:46Z" finished-at="2020-08-18T10:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1SelectSearch -->
+        <test-method status="PASS" signature="test2SelectSearch()[pri:0, instance:com.testng.testcase.testFourProcessEvidence@78a2da20]" name="test2SelectSearch" duration-ms="1607" started-at="2020-08-18T10:07:48Z" finished-at="2020-08-18T10:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2SelectSearch -->
       </class> <!-- com.testng.testcase.testFourProcessEvidence -->
       <class name="com.testng.testcase.testFourDateAttest">
-        <test-method status="PASS" signature="test1BatchAttest()[pri:0, instance:com.testng.testcase.testFourDateAttest@3c0a50da]" name="test1BatchAttest" duration-ms="10456" started-at="2020-08-18T03:27:51Z" finished-at="2020-08-18T03:28:02Z">
+        <test-method status="PASS" signature="test1BatchAttest()[pri:0, instance:com.testng.testcase.testFourDateAttest@19dc67c2]" name="test1BatchAttest" duration-ms="11236" started-at="2020-08-18T10:04:04Z" finished-at="2020-08-18T10:04:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1BatchAttest -->
-        <test-method status="PASS" signature="test3InformationVerification()[pri:0, instance:com.testng.testcase.testFourDateAttest@3c0a50da]" name="test3InformationVerification" duration-ms="581" started-at="2020-08-18T03:28:02Z" finished-at="2020-08-18T03:28:02Z">
+        <test-method status="PASS" signature="test3InformationVerification()[pri:0, instance:com.testng.testcase.testFourDateAttest@19dc67c2]" name="test3InformationVerification" duration-ms="682" started-at="2020-08-18T10:04:15Z" finished-at="2020-08-18T10:04:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3InformationVerification -->
-        <test-method status="PASS" signature="test4DeleteDatas()[pri:0, instance:com.testng.testcase.testFourDateAttest@3c0a50da]" name="test4DeleteDatas" duration-ms="3483" started-at="2020-08-18T03:28:02Z" finished-at="2020-08-18T03:28:06Z">
+        <test-method status="PASS" signature="test4DeleteDatas()[pri:0, instance:com.testng.testcase.testFourDateAttest@19dc67c2]" name="test4DeleteDatas" duration-ms="3376" started-at="2020-08-18T10:04:16Z" finished-at="2020-08-18T10:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4DeleteDatas -->
-        <test-method status="PASS" signature="test5UpdateDataAttest()[pri:0, instance:com.testng.testcase.testFourDateAttest@3c0a50da]" name="test5UpdateDataAttest" duration-ms="5930" started-at="2020-08-18T03:28:06Z" finished-at="2020-08-18T03:28:12Z">
+        <test-method status="PASS" signature="test5UpdateDataAttest()[pri:0, instance:com.testng.testcase.testFourDateAttest@19dc67c2]" name="test5UpdateDataAttest" duration-ms="5947" started-at="2020-08-18T10:04:19Z" finished-at="2020-08-18T10:04:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5UpdateDataAttest -->
-        <test-method status="PASS" signature="test6PageData()[pri:0, instance:com.testng.testcase.testFourDateAttest@3c0a50da]" name="test6PageData" duration-ms="1844" started-at="2020-08-18T03:28:12Z" finished-at="2020-08-18T03:28:13Z">
+        <test-method status="PASS" signature="test6PageData()[pri:0, instance:com.testng.testcase.testFourDateAttest@19dc67c2]" name="test6PageData" duration-ms="1874" started-at="2020-08-18T10:04:25Z" finished-at="2020-08-18T10:04:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6PageData -->
       </class> <!-- com.testng.testcase.testFourDateAttest -->
       <class name="com.testng.testcase.testTwoProcessEvidence">
-        <test-method status="PASS" signature="test1TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@797badd3]" name="test1TimeSearchData" duration-ms="2800" started-at="2020-08-18T03:31:28Z" finished-at="2020-08-18T03:31:31Z">
+        <test-method status="PASS" signature="test1TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@62bd765]" name="test1TimeSearchData" duration-ms="2379" started-at="2020-08-18T10:07:26Z" finished-at="2020-08-18T10:07:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1TimeSearchData -->
-        <test-method status="PASS" signature="test2TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@797badd3]" name="test2TimeSearchData" duration-ms="2001" started-at="2020-08-18T03:31:31Z" finished-at="2020-08-18T03:31:33Z">
+        <test-method status="PASS" signature="test2TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@62bd765]" name="test2TimeSearchData" duration-ms="2043" started-at="2020-08-18T10:07:29Z" finished-at="2020-08-18T10:07:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2TimeSearchData -->
-        <test-method status="PASS" signature="test3TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@797badd3]" name="test3TimeSearchData" duration-ms="2133" started-at="2020-08-18T03:31:33Z" finished-at="2020-08-18T03:31:35Z">
+        <test-method status="PASS" signature="test3TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@62bd765]" name="test3TimeSearchData" duration-ms="1927" started-at="2020-08-18T10:07:31Z" finished-at="2020-08-18T10:07:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3TimeSearchData -->
-        <test-method status="PASS" signature="test4TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@797badd3]" name="test4TimeSearchData" duration-ms="1916" started-at="2020-08-18T03:31:35Z" finished-at="2020-08-18T03:31:37Z">
+        <test-method status="PASS" signature="test4TimeSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@62bd765]" name="test4TimeSearchData" duration-ms="1893" started-at="2020-08-18T10:07:33Z" finished-at="2020-08-18T10:07:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4TimeSearchData -->
-        <test-method status="PASS" signature="test5NameSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@797badd3]" name="test5NameSearchData" duration-ms="906" started-at="2020-08-18T03:31:37Z" finished-at="2020-08-18T03:31:38Z">
+        <test-method status="PASS" signature="test5NameSearchData()[pri:0, instance:com.testng.testcase.testTwoProcessEvidence@62bd765]" name="test5NameSearchData" duration-ms="916" started-at="2020-08-18T10:07:35Z" finished-at="2020-08-18T10:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5NameSearchData -->
       </class> <!-- com.testng.testcase.testTwoProcessEvidence -->
       <class name="com.testng.testcase.testOneProcessEvidence">
-        <test-method status="PASS" signature="test1CancelProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@646be2c3]" name="test1CancelProcessEvidence" duration-ms="16012" started-at="2020-08-18T03:28:13Z" finished-at="2020-08-18T03:28:29Z">
+        <test-method status="PASS" signature="test1CancelProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@221af3c0]" name="test1CancelProcessEvidence" duration-ms="16070" started-at="2020-08-18T10:04:27Z" finished-at="2020-08-18T10:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1CancelProcessEvidence -->
-        <test-method status="PASS" signature="test2AddProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@646be2c3]" name="test2AddProcessEvidence" duration-ms="24715" started-at="2020-08-18T03:28:29Z" finished-at="2020-08-18T03:28:54Z">
+        <test-method status="PASS" signature="test2AddProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@221af3c0]" name="test2AddProcessEvidence" duration-ms="34719" started-at="2020-08-18T10:04:43Z" finished-at="2020-08-18T10:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2AddProcessEvidence -->
-        <test-method status="PASS" signature="test3CancelQueueProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@646be2c3]" name="test3CancelQueueProcessEvidence" duration-ms="14268" started-at="2020-08-18T03:28:54Z" finished-at="2020-08-18T03:29:08Z">
+        <test-method status="PASS" signature="test3CancelQueueProcessEvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@221af3c0]" name="test3CancelQueueProcessEvidence" duration-ms="14276" started-at="2020-08-18T10:05:18Z" finished-at="2020-08-18T10:05:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3CancelQueueProcessEvidence -->
-        <test-method status="PASS" signature="test4ProcessEvidenceDetails()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@646be2c3]" name="test4ProcessEvidenceDetails" duration-ms="125538" started-at="2020-08-18T03:29:08Z" finished-at="2020-08-18T03:31:14Z">
+        <test-method status="PASS" signature="test4ProcessEvidenceDetails()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@221af3c0]" name="test4ProcessEvidenceDetails" duration-ms="100449" started-at="2020-08-18T10:05:32Z" finished-at="2020-08-18T10:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4ProcessEvidenceDetails -->
-        <test-method status="PASS" signature="test5DownloadProcessEnvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@646be2c3]" name="test5DownloadProcessEnvidence" duration-ms="13977" started-at="2020-08-18T03:31:14Z" finished-at="2020-08-18T03:31:28Z">
+        <test-method status="PASS" signature="test5DownloadProcessEnvidence()[pri:0, instance:com.testng.testcase.testOneProcessEvidence@221af3c0]" name="test5DownloadProcessEnvidence" duration-ms="13862" started-at="2020-08-18T10:07:13Z" finished-at="2020-08-18T10:07:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5DownloadProcessEnvidence -->
       </class> <!-- com.testng.testcase.testOneProcessEvidence -->
       <class name="com.testng.testcase.testLogin">
-        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@1e9e725a]" name="ClearData" is-config="true" duration-ms="2002" started-at="2020-08-18T03:26:07Z" finished-at="2020-08-18T03:26:09Z">
+        <test-method status="PASS" signature="ClearData()[pri:0, instance:com.testng.testcase.testLogin@3c0a50da]" name="ClearData" is-config="true" duration-ms="1635" started-at="2020-08-18T10:02:19Z" finished-at="2020-08-18T10:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearData -->
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@1e9e725a]" name="startDriver" is-config="true" duration-ms="13161" started-at="2020-08-18T03:26:09Z" finished-at="2020-08-18T03:26:22Z">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testng.testcase.testLogin@3c0a50da]" name="startDriver" is-config="true" duration-ms="12952" started-at="2020-08-18T10:02:21Z" finished-at="2020-08-18T10:02:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@1e9e725a]" name="loginTest1" duration-ms="2540" started-at="2020-08-18T03:26:22Z" finished-at="2020-08-18T03:26:24Z">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.testng.testcase.testLogin@3c0a50da]" name="loginTest1" duration-ms="2741" started-at="2020-08-18T10:02:34Z" finished-at="2020-08-18T10:02:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="ClearDownLoadFiles()[pri:0, instance:com.testng.testcase.testLogin@1e9e725a]" name="ClearDownLoadFiles" is-config="true" duration-ms="2" started-at="2020-08-18T03:32:00Z" finished-at="2020-08-18T03:32:00Z">
+        <test-method status="PASS" signature="ClearDownLoadFiles()[pri:0, instance:com.testng.testcase.testLogin@3c0a50da]" name="ClearDownLoadFiles" is-config="true" duration-ms="3" started-at="2020-08-18T10:09:02Z" finished-at="2020-08-18T10:09:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearDownLoadFiles -->
-        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@1e9e725a]" name="endDriver" is-config="true" duration-ms="1227" started-at="2020-08-18T03:32:00Z" finished-at="2020-08-18T03:32:01Z">
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.testng.testcase.testLogin@3c0a50da]" name="endDriver" is-config="true" duration-ms="1162" started-at="2020-08-18T10:09:02Z" finished-at="2020-08-18T10:09:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endDriver -->

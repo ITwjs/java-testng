@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.756">
+           time="9.158">
   <properties />
   
   
-      <testcase name="test1TimeSearchData" time="2.800" />
-      <testcase name="test2TimeSearchData" time="2.001" />
-      <testcase name="test3TimeSearchData" time="2.133" />
-      <testcase name="test4TimeSearchData" time="1.916" />
-      <testcase name="test5NameSearchData" time="0.906" />
+      <testcase name="test1TimeSearchData" time="2.379" />
+      <testcase name="test2TimeSearchData" time="2.043" />
+      <testcase name="test3TimeSearchData" time="1.927" />
+      <testcase name="test5NameSearchData" time="0.916" />
+      <testcase name="test4TimeSearchData" time="1.893" />
   
 </testsuite>

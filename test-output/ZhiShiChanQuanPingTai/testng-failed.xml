@@ -7,16 +7,16 @@
   </listeners>
   <test thread-count="5" name="BusinessEnvironment (failed)">
     <classes>
-      <class name="com.testng.testcase.testFourProcessEvidence">
+      <class name="com.testng.testcase.testOneWebEvidence">
         <methods>
-          <include name="test1SelectSearch"/>
           <include name="startDriver"/>
           <include name="endDriver"/>
+          <include name="test4TimeSearchWebData"/>
           <include name="ClearData"/>
           <include name="ClearDownLoadFiles"/>
-          <include name="test2SelectSearch"/>
+          <include name="test6TimeSearchWebData"/>
         </methods>
-      </class> <!-- com.testng.testcase.testFourProcessEvidence -->
+      </class> <!-- com.testng.testcase.testOneWebEvidence -->
       <class name="com.testng.testcase.testThreeProcessEvidence">
         <methods>
           <include name="startDriver"/>

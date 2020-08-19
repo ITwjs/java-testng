@@ -1,654 +1,166 @@
-2020-08-18 10:48:03.299 [main] INFO [com.common.MySqlDbOperator#setConnection:37] 数据库登录成功
-2020-08-18 10:48:04.440 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.503 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.535 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.564 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.602 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.636 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.672 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.725 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.772 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.799 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.820 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.844 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:04.888 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 10:48:19.983 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：NyjO
-2020-08-18 10:48:22.242 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 10:48:22.283 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 10:48:22.283 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 10:48:22.450 [main] INFO [org.testng.annotations.Test#test0WordAttest:24] 跳转到新增存证
-2020-08-18 10:48:25.696 [main] INFO [org.testng.annotations.Test#test0WordAttest:28] 上传world文件成功
-2020-08-18 10:48:35.916 [main] INFO [org.testng.annotations.Test#test0WordAttest:32] 存证成功
-2020-08-18 10:48:43.257 [main] INFO [org.testng.annotations.Test#test0WordAttest:39] 余额：可用积分：9,995.00
-2020-08-18 10:48:43.526 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:62] 获取文件名：world.docx
-2020-08-18 10:48:43.634 [main] INFO [org.testng.annotations.Test#test2PngAttest:80] 跳转到新增存证
-2020-08-18 10:48:43.715 [main] INFO [org.testng.annotations.Test#test2PngAttest:82] 勾选图片存证按钮
-2020-08-18 10:48:46.768 [main] INFO [org.testng.annotations.Test#test2PngAttest:86] 上传图片文件成功
-2020-08-18 10:48:47.029 [main] INFO [org.testng.annotations.Test#test2PngAttest:90] 存证成功
-2020-08-18 10:48:49.216 [main] INFO [org.testng.annotations.Test#test2PngAttest:97] 余额：可用积分：9,990.00
-2020-08-18 10:48:49.502 [main] INFO [org.testng.annotations.Test#test3SearchPngName:120] 获取文件名：laoshu.png
-2020-08-18 10:48:49.629 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:137] 跳转到新增存证
-2020-08-18 10:48:49.700 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:139] 勾选图片存证按钮
-2020-08-18 10:48:52.749 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:143] 上传MP3文件成功
-2020-08-18 10:48:52.965 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:147] 存证成功
-2020-08-18 10:49:00.020 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:154] 余额：可用积分：9,985.00
-2020-08-18 10:49:00.281 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:177] 获取文件名：yinpin.mp3
-2020-08-18 10:49:00.419 [main] INFO [org.testng.annotations.Test#test6VideoAttest:194] 跳转到新增存证
-2020-08-18 10:49:00.488 [main] INFO [org.testng.annotations.Test#test6VideoAttest:196] 勾选图片存证按钮
-2020-08-18 10:49:03.539 [main] INFO [org.testng.annotations.Test#test6VideoAttest:200] 上传mp4文件成功
-2020-08-18 10:49:03.766 [main] INFO [org.testng.annotations.Test#test6VideoAttest:204] 存证成功
-2020-08-18 10:49:06.100 [main] INFO [org.testng.annotations.Test#test6VideoAttest:211] 余额：可用积分：9,980.00
-2020-08-18 10:49:06.356 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:234] 获取文件名：P4.mp4
-2020-08-18 10:49:06.477 [main] INFO [org.testng.annotations.Test#test8OtherAttest:252] 跳转到新增存证
-2020-08-18 10:49:06.546 [main] INFO [org.testng.annotations.Test#test8OtherAttest:254] 勾选图片存证按钮
-2020-08-18 10:49:09.591 [main] INFO [org.testng.annotations.Test#test8OtherAttest:258] 上传压缩包文件成功
-2020-08-18 10:49:09.822 [main] INFO [org.testng.annotations.Test#test8OtherAttest:262] 存证成功
-2020-08-18 10:49:11.836 [main] INFO [org.testng.annotations.Test#test8OtherAttest:269] 余额：可用积分：9,975.00
-2020-08-18 10:49:14.165 [main] INFO [org.testng.annotations.Test#test9SearchPngName:293] 获取文件名：nacicatzc.zip
-2020-08-18 10:49:18.818 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:34] 列表记录个数：:存证条目（条）：1
-2020-08-18 10:49:18.853 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:36] 文档筛选存证名称为：world.docx
-2020-08-18 10:49:18.882 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:38] 存证文件类型为：文档
-2020-08-18 10:49:18.914 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:40] 文档存证保全号：F5CE1959611B4D348342B6608115EFB3
-2020-08-18 10:49:21.086 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:65] 列表记录个数：:存证条目（条）：1
-2020-08-18 10:49:21.106 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:67] 文档筛选存证名称为：laoshu.png
-2020-08-18 10:49:21.128 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:69] 存证文件类型为：图片
-2020-08-18 10:49:21.146 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:71] 文档存证保全号：7B6C82DC586F4DF1BAF84494AACEC5FF
-2020-08-18 10:49:23.289 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:96] 列表记录个数：:存证条目（条）：1
-2020-08-18 10:49:23.310 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:98] 文档筛选存证名称为：yinpin.mp3
-2020-08-18 10:49:23.330 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:100] 存证文件类型为：音频
-2020-08-18 10:49:23.352 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:102] 文档存证保全号：C18E70B83DA04F8EA029E17C4C0DDC0C
-2020-08-18 10:49:25.496 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:128] 列表记录个数：:存证条目（条）：1
-2020-08-18 10:49:25.518 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:130] 文档筛选存证名称为：P4.mp4
-2020-08-18 10:49:25.543 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:132] 存证文件类型为：视频
-2020-08-18 10:49:25.562 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:134] 文档存证保全号：BB22DC107B394CA5A5E740AAB7342CC4
-2020-08-18 10:49:27.700 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:159] 列表记录个数：:存证条目（条）：1
-2020-08-18 10:49:27.721 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:161] 文档筛选存证名称为：nacicatzc.zip
-2020-08-18 10:49:27.740 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:163] 存证文件类型为：其他
-2020-08-18 10:49:27.759 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:165] 文档存证保全号：435F3705E5784858AE98B5028EE20303
-2020-08-18 10:49:34.339 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:60] count:存证条目（条）：0
-2020-08-18 10:49:40.774 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:89] count:存证条目（条）：5
-2020-08-18 10:49:47.233 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:118] count:存证条目（条）：0
-2020-08-18 10:49:53.614 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:148] count:存证条目（条）：5
-2020-08-18 10:49:55.839 [main] INFO [org.testng.annotations.Test#test5ViewDetails:171] F5CE1959611B4D348342B6608115EFB3
-2020-08-18 10:50:03.409 [main] INFO [org.testng.annotations.Test#test5ViewDetails:186] 存证用户姓名：王家森
-2020-08-18 10:50:03.411 [main] INFO [org.testng.annotations.Test#test5ViewDetails:187] 存证用户电话：178****1968
-2020-08-18 10:50:03.411 [main] INFO [org.testng.annotations.Test#test5ViewDetails:188] 存证用户的身份证：342425********4233
-2020-08-18 10:50:03.411 [main] INFO [org.testng.annotations.Test#test5ViewDetails:189] 存证文件名称：world.docx
-2020-08-18 10:50:03.412 [main] INFO [org.testng.annotations.Test#test5ViewDetails:190] 存证文件hash：3a0b098d8854c32d54a9557023175ca3b401049e7864efac323c4e76d7212b72
-2020-08-18 10:50:03.412 [main] INFO [org.testng.annotations.Test#test5ViewDetails:191] 存证文件交易hash：983ccb4531dde8a5dcf36b7e43123bd53e0386180750a2f444a1309442a13331
-2020-08-18 10:50:05.122 [main] INFO [org.testng.annotations.Test#test6DeleteData:229] 取消成功
-2020-08-18 10:50:08.265 [main] INFO [org.testng.annotations.Test#test6DeleteData:235] 删除成功
-2020-08-18 10:50:20.217 [main] INFO [com.testng.testcase.testFourDateAttest#test1BatchAttest:69] 断言成功
-2020-08-18 10:50:20.218 [main] INFO [com.testng.testcase.testFourDateAttest#test1BatchAttest:70] 存证记录数：共 14 条
-2020-08-18 10:50:20.368 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:96] .doc，.docx，.dot，.dtd，.js，.json，.mpp，.pdf，.pot，.pps，.ppt，.ppts，.rtf，.wdb，.wps，.xhtml，.xlc，.xlm，.xls，.xlt，.xlw，.xml，.css，.csv，.htm，.html，.txt
-2020-08-18 10:50:20.465 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:99] .dwg，.dxf，.gif，.jp2，.jpe，.jpeg，.jpg，.png，.svf，.tif，.tiff，.bmp，.webp，.bmp，.pcx，.tif，.tga，.exif，.fpx，.svg，.psd，.cdr，.ico
-2020-08-18 10:50:20.559 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:102] .ac3，.au，.mp2，.ogg，.flac，.ape，.wav，.mp3，.aac，.wma
-2020-08-18 10:50:20.653 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:105] .3gpp，.mp4，.mpeg，.mpg，.3gp，.wmv，.asf，.asx，.rm，.rmvb，.3gp，.mov，.m4v，.avi，.dat，.mkv，.flv，.vob
-2020-08-18 10:50:20.739 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:108] .rar，.zip，.arj，.z，.iso，.jar，.bz2，.gz，.tar，.ace，.lzh，.cab，.arj
-2020-08-18 10:50:24.162 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:152] 不输入标签，提交存证提示：请输入标签名选择或新增
-2020-08-18 10:50:24.163 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:154] 不上传文件，提交存证提示：请上传需存证的证件
-2020-08-18 10:50:24.163 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:155] 断言成功
-2020-08-18 10:50:30.682 [main] INFO [com.testng.testcase.testFourDateAttest#test5UpdateDataAttest:188] 上传文件名称成功修改为：worldtest.docx
-2020-08-18 10:50:30.682 [main] INFO [com.testng.testcase.testFourDateAttest#test5UpdateDataAttest:189] 断言成功
-2020-08-18 10:50:32.513 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:214] 列表第一页存证条数为：10
-2020-08-18 10:50:32.513 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:216] 列表第二页存证条数为： 5
-2020-08-18 10:50:32.513 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:217] 断言成功
-2020-08-18 10:50:48.602 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:95] 取证状态为：取证取消
-2020-08-18 10:50:48.602 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:97] 剩余余额：可用积分：9,920.00
-2020-08-18 10:50:48.603 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:98] 断言成功
-2020-08-18 10:51:13.406 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:143] 取证状态为：上传中
-2020-08-18 10:51:13.406 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:145] 剩余余额为：可用积分：9,770.00
-2020-08-18 10:51:13.406 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:146] 断言成功
-2020-08-18 10:51:27.762 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:189] 排队取消，取证状态为：取证取消
-2020-08-18 10:51:27.763 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:191] 剩余余额为：可用积分：9,770.00
-2020-08-18 10:51:27.763 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:192] 断言成功
-2020-08-18 10:51:36.060 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:51:36.817 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:51:44.817 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:51:45.370 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:51:53.371 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:51:53.846 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:01.847 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:02.372 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:10.373 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:10.877 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:18.877 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:19.404 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:27.404 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:27.924 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:35.925 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:36.457 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:44.457 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:45.001 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:52:53.003 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:52:53.486 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 10:53:01.487 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 10:53:01.926 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 取证成功
-2020-08-18 10:53:01.927 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:210] 取证成功
-2020-08-18 10:53:01.927 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:211] 取证成功，退出循环
-2020-08-18 10:53:07.538 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:239] 保全号为：502433373386444800
-2020-08-18 10:53:07.540 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:240] 文件hash：6546e6715165bec9bc2adc79e8516f11a121a58de51bf59a93f515b7fb6b8dd5
-2020-08-18 10:53:07.540 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:241] 区块链交易hash：5fa5a9148d18b98d9e43878c636481ccdaa9d7e3b7d71e03ef208fa929916f3a
-2020-08-18 10:53:07.541 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:242] 取证类型+过程取证
-2020-08-18 10:53:07.541 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:243] 取证名称：testprocess2
-2020-08-18 10:53:07.541 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:244] 取证用户：王家森
-2020-08-18 10:53:07.541 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:245] 取证用户ID：3424**********4233
-2020-08-18 10:53:07.541 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:246] 取证用户手机号：178****1968
-2020-08-18 10:53:07.592 [main] INFO [com.common.MySqlDbOperator#setConnection:37] 数据库登录成功
-2020-08-18 10:53:07.603 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDta:54] 查询结果：502433373386444800
-2020-08-18 10:53:07.609 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDta:54] 查询结果：6546e6715165bec9bc2adc79e8516f11a121a58de51bf59a93f515b7fb6b8dd5
-2020-08-18 10:53:21.640 [main] INFO [com.common.ReadDownLoadFiles#getDownLoadFilesName:23] 文件名：0yxlsyx9qo6jtnu3e6k4.zip
-2020-08-18 10:53:24.293 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1TimeSearchData:53] 列表记录数：暂无数据
-2020-08-18 10:53:24.294 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1TimeSearchData:59] 断言成功
-2020-08-18 10:53:26.219 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2TimeSearchData:80] 列表记录数：共 1 条
-2020-08-18 10:53:26.219 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2TimeSearchData:86] 断言成功
-2020-08-18 10:53:28.139 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3TimeSearchData:107] 列表记录数：暂无数据
-2020-08-18 10:53:28.140 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3TimeSearchData:113] 断言成功
-2020-08-18 10:53:30.006 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4TimeSearchData:134] 列表记录数：共 1 条
-2020-08-18 10:53:30.007 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4TimeSearchData:140] 断言成功
-2020-08-18 10:53:30.795 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:156] 列表记录数：共 1 条
-2020-08-18 10:53:30.823 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:158] 过程取证名称为：testprocess2
-2020-08-18 10:53:30.924 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:166] 断言成功
-2020-08-18 10:53:42.630 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:40] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-19 09:49:08.595 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:49:10.042 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.104 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.161 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.205 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.253 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.309 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.363 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.410 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.441 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.488 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.543 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.581 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.619 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:49:10.622 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:49:26.396 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：UKZp
+2020-08-19 09:49:28.720 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
+2020-08-19 09:49:28.731 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
+2020-08-19 09:49:28.732 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
+2020-08-19 09:49:35.984 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:36.985 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:37.987 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:38.989 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:39.990 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:40.991 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:41.991 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:42.991 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:43.991 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:44.992 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:49:45.029 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:49:45.032 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：WAIT
+2020-08-19 09:49:45.032 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:49:48.064 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:49:48.067 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:49:48.067 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:49:48.068 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:72] 网页截图成功
+2020-08-19 09:49:51.716 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:88] 断言成功
+2020-08-19 09:49:51.716 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:89] 余额：可用积分：10,000.00
+2020-08-19 09:49:51.716 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:90] 取证列表当前条数为：共 1 条
+2020-08-19 09:50:08.921 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:09.923 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:10.925 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:11.925 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:12.926 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:13.927 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:14.927 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:15.928 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:16.929 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:17.930 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:18.931 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:19.931 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:20.932 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:21.932 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:22.932 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:23.933 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:24.933 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:25.934 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:26.934 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:27.935 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:50:27.935 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:121] 数据库截图状态校验中...
+2020-08-19 09:50:27.963 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:50:27.965 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:50:27.965 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:50:27.965 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:50:27.966 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:128] 网页截图成功
+2020-08-19 09:50:47.816 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:145] 断言成功
+2020-08-19 09:50:47.816 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:146] 余额：可用积分：9,995.00
+2020-08-19 09:50:47.816 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:147] 取证列表当前条数为：共 3 条
+2020-08-19 09:50:59.766 [main] INFO [com.testng.testcase.testOneWebEvidence#test3TimeSearchWebData:172] 断言成功
+2020-08-19 09:50:59.766 [main] INFO [com.testng.testcase.testOneWebEvidence#test3TimeSearchWebData:173] 列表取证记录为：暂无数据
+2020-08-19 09:53:58.737 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:53:59.741 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:53:59.796 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:53:59.861 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:53:59.906 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:53:59.957 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.001 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.061 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.119 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.157 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.210 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.267 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.310 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.348 [main] INFO [com.common.MySqlDbOperator#setControldata:88] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
+2020-08-19 09:54:00.353 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:54:14.793 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：Ysaf
+2020-08-19 09:54:17.095 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
+2020-08-19 09:54:17.100 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
+2020-08-19 09:54:17.102 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
+2020-08-19 09:54:21.522 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:22.522 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:23.522 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:24.523 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:25.524 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:26.524 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:27.525 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:28.525 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:29.525 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:30.525 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:64] 网页取证：正在截图中...
+2020-08-19 09:54:30.560 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:54:30.562 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:54:30.563 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:54:30.564 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:72] 网页截图成功
+2020-08-19 09:54:34.254 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:88] 断言成功
+2020-08-19 09:54:34.255 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:89] 余额：可用积分：10,000.00
+2020-08-19 09:54:34.255 [main] INFO [com.testng.testcase.testOneWebEvidence#test1addWebEvidenceData:90] 取证列表当前条数为：共 1 条
+2020-08-19 09:54:41.742 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:42.743 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:43.743 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:44.743 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:45.744 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:46.744 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:47.745 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:48.745 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:49.747 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:50.748 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:51.749 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:52.750 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:53.750 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:54.750 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:55.751 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:56.751 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:57.752 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:58.752 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:54:59.752 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:55:00.753 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:118] 网页取证：正在截图中...
+2020-08-19 09:55:00.753 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:121] 数据库截图状态校验中...
+2020-08-19 09:55:00.773 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:55:00.775 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：WAIT
+2020-08-19 09:55:00.775 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：WAIT
+2020-08-19 09:55:00.776 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:55:03.777 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:121] 数据库截图状态校验中...
+2020-08-19 09:55:03.834 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:55:03.836 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:55:03.837 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：WAIT
+2020-08-19 09:55:03.837 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:55:06.838 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:121] 数据库截图状态校验中...
+2020-08-19 09:55:06.862 [main] INFO [com.common.MySqlDbOperator#setConnection:38] 数据库登录成功
+2020-08-19 09:55:06.864 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:55:06.865 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDtas:73] 查询结果：SUCCESS
+2020-08-19 09:55:06.866 [main] INFO [com.common.MySqlDbOperator#dbClose:44] 关闭数据库连接
+2020-08-19 09:55:06.866 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:128] 网页截图成功
+2020-08-19 09:55:15.824 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:145] 断言成功
+2020-08-19 09:55:15.825 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:146] 余额：可用积分：9,995.00
+2020-08-19 09:55:15.825 [main] INFO [com.testng.testcase.testOneWebEvidence#test2addWebEvidenceDatas:147] 取证列表当前条数为：共 3 条
+2020-08-19 09:55:17.840 [main] INFO [com.testng.testcase.testOneWebEvidence#test3TimeSearchWebData:172] 断言成功
+2020-08-19 09:55:17.840 [main] INFO [com.testng.testcase.testOneWebEvidence#test3TimeSearchWebData:173] 列表取证记录为：暂无数据
+2020-08-19 09:55:25.171 [main] INFO [com.testng.testcase.testOneWebEvidence#test4TimeSearchWebData:198] 断言成功
+2020-08-19 09:55:25.172 [main] INFO [com.testng.testcase.testOneWebEvidence#test4TimeSearchWebData:199] 列表取证记录为：共 3 条
+2020-08-19 09:55:27.121 [main] INFO [com.testng.testcase.testOneWebEvidence#test5TimeSearchWebData:224] 断言成功
+2020-08-19 09:55:27.121 [main] INFO [com.testng.testcase.testOneWebEvidence#test5TimeSearchWebData:225] 列表取证记录为：暂无数据
+2020-08-19 09:55:39.102 [main] ERROR [com.testng.testcase.testOneWebEvidence#test6TimeSearchWebData:247] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-08-18 10:53:42.639 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 等待取证筛选结果，断言成功。
-2020-08-18 10:53:44.034 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:66] 列表取证记录：暂无数据
-2020-08-18 10:53:44.035 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 取证中筛选结果，断言成功。
-2020-08-18 10:53:45.381 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:89] 列表取证记录为：暂无数据
-2020-08-18 10:53:45.381 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 排队中取证筛选结果，断言成功。
-2020-08-18 10:53:46.731 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:113] 列表取证记录为：暂无数据
-2020-08-18 10:53:46.731 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 上传中筛选结果，断言成功。
-2020-08-18 10:53:48.266 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:142] 取证成功筛选结果，断言成功。
-2020-08-18 10:53:48.267 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 过程取证时长为：13秒
-2020-08-18 10:53:49.621 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:164] 元素定位失败：org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]' is not a valid XPath expression.
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: fb80389cc29f528be5dcb2e49afa99ad
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]}
-2020-08-18 10:53:49.622 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 断言失败，原因：java.lang.AssertionError: expected [暂无数据] but found [testprocess2]
-2020-08-18 10:53:49.622 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 断言失败，开始截图...
-2020-08-18 10:53:50.248 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818105349.jpg
-2020-08-18 10:53:50.552 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:195] 元素定位失败：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: fb80389cc29f528be5dcb2e49afa99ad
-2020-08-18 10:53:50.553 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:205] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 10:53:50.553 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 断言失败，开始截图...
-2020-08-18 10:53:51.056 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818105350.jpg
-2020-08-18 10:54:02.424 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:39] 元素定位失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
+2020-08-19 09:55:39.106 [main] ERROR [com.testng.testcase.testOneWebEvidence#test6TimeSearchWebData:254] 断言失败，开始截图
+2020-08-19 09:55:39.662 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200819095539.jpg
+2020-08-19 09:57:43.981 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：rfPb
+2020-08-19 09:57:46.178 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
+2020-08-19 09:57:46.182 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
+2020-08-19 09:57:46.183 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
+2020-08-19 10:01:28.353 [main] ERROR [com.testng.testcase.testOneWebEvidence#test6TimeSearchWebData:247] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
 Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
 System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: driver.version: RemoteWebDriver
-2020-08-18 10:54:02.425 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:47] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 10:54:02.425 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败，开始截图...
-2020-08-18 10:54:03.004 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818105402.jpg
-2020-08-18 10:54:03.329 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:71] 元素定位失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: fb80389cc29f528be5dcb2e49afa99ad
-2020-08-18 10:54:03.329 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:79] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 10:54:03.330 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:80] 断言失败，开始截图...
-2020-08-18 10:54:03.780 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818105403.jpg
-2020-08-18 10:54:03.908 [main] INFO [com.common.ReadDownLoadFiles#refreshFileList:67] 开始删除文件：E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\downloadfiles\0yxlsyx9qo6jtnu3e6k4.zip
-2020-08-18 10:56:54.941 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：Imwm
-2020-08-18 10:56:57.145 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 10:56:57.148 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 10:56:57.149 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 10:58:26.152 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:39] 元素定位失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 10:58:26.154 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:47] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 10:58:26.155 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败，开始截图...
-2020-08-18 10:58:26.641 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818105826.jpg
-2020-08-18 11:01:55.827 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:79] 断言失败原因：java.lang.AssertionError: expected [testprocess2] but found [取证成功]
-2020-08-18 11:01:55.828 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:80] 断言失败，开始截图...
-2020-08-18 11:02:29.072 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：rPNH
-2020-08-18 11:02:31.131 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:02:31.133 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:02:31.134 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:03:09.507 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：CbGM
-2020-08-18 11:03:11.542 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:03:11.544 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:03:11.544 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:03:21.562 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:39] 元素定位失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 11:03:21.563 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:47] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 11:03:21.563 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败，开始截图...
-2020-08-18 11:03:22.031 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818110321.jpg
-2020-08-18 11:03:28.194 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:79] 断言失败原因：java.lang.AssertionError: expected [testprocess2] but found [testprocess3]
-2020-08-18 11:03:28.195 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:80] 断言失败，开始截图...
-2020-08-18 11:03:28.669 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818110328.jpg
-2020-08-18 11:06:41.136 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：JCaj
-2020-08-18 11:06:43.301 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:06:43.306 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:06:43.307 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:07:32.548 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:39] 元素定位失败，原因：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 11:07:32.551 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:47] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 11:07:32.551 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败，开始截图...
-2020-08-18 11:08:08.248 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：YpCQ
-2020-08-18 11:08:10.363 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:08:10.366 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:08:10.366 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:08:16.949 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败原因：java.lang.AssertionError: expected [testprocess3] but found [取证取消]
-2020-08-18 11:08:16.950 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:49] 断言失败，开始截图...
-2020-08-18 11:08:17.489 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818110816.jpg
-2020-08-18 11:09:27.455 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:78] 标签：testlable2筛选成功
-2020-08-18 11:09:59.236 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：hMRI
-2020-08-18 11:10:01.294 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:10:01.300 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:10:01.301 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:10:12.056 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:46] 标签：testlable3筛选成功
-2020-08-18 11:10:14.412 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:78] 标签：testlable2筛选成功
-2020-08-18 11:11:03.706 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：dZFc
-2020-08-18 11:11:05.745 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:11:05.748 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:11:05.749 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:11:23.589 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:40] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 11:11:23.590 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 等待取证筛选结果，断言成功。
-2020-08-18 11:11:30.221 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:66] 列表取证记录：暂无数据
-2020-08-18 11:11:30.222 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 取证中筛选结果，断言成功。
-2020-08-18 11:11:33.732 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:89] 列表取证记录为：暂无数据
-2020-08-18 11:11:33.733 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 排队中取证筛选结果，断言成功。
-2020-08-18 11:11:35.079 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:113] 列表取证记录为：暂无数据
-2020-08-18 11:11:35.080 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 上传中筛选结果，断言成功。
-2020-08-18 11:11:38.999 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:142] 取证成功筛选结果，断言成功。
-2020-08-18 11:11:39.000 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 过程取证时长为：13秒
-2020-08-18 11:11:54.078 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:164] 元素定位失败：org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]' is not a valid XPath expression.
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: 7934e395b4983d99f0f9878fdf45d37e
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]}
-2020-08-18 11:13:06.505 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 断言失败，原因：java.lang.AssertionError: expected [暂无数据] but found [testprocess2]
-2020-08-18 11:13:06.967 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 断言失败，开始截图...
-2020-08-18 11:13:08.132 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818111307.jpg
-2020-08-18 11:13:55.802 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:195] 元素定位失败：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: 7934e395b4983d99f0f9878fdf45d37e
-2020-08-18 11:13:55.805 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:205] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 11:13:55.805 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 断言失败，开始截图...
-2020-08-18 11:14:19.620 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：NCfJ
-2020-08-18 11:14:21.690 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:14:21.693 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:14:21.694 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:16:19.893 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:40] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 11:16:19.894 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 等待取证筛选结果，断言成功。
-2020-08-18 11:16:21.383 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:66] 列表取证记录：暂无数据
-2020-08-18 11:16:21.383 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 取证中筛选结果，断言成功。
-2020-08-18 11:16:23.150 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:89] 列表取证记录为：暂无数据
-2020-08-18 11:16:23.151 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 排队中取证筛选结果，断言成功。
-2020-08-18 11:16:24.564 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:113] 列表取证记录为：暂无数据
-2020-08-18 11:16:24.564 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 上传中筛选结果，断言成功。
-2020-08-18 11:16:26.209 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:142] 取证成功筛选结果，断言成功。
-2020-08-18 11:16:26.210 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 过程取证时长为：13秒
-2020-08-18 11:16:30.088 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:164] 元素定位失败：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: d67333dd64c5ac43d9e4251a35eb5bcf
-2020-08-18 11:23:16.560 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 断言失败，原因：java.lang.AssertionError: expected [暂无数据] but found [testprocess2]
-2020-08-18 11:23:16.561 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 断言失败，开始截图...
-2020-08-18 11:23:38.371 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：GczU
-2020-08-18 11:23:40.487 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:23:40.492 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:23:40.493 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:23:43.845 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 列表取证记录为：暂无数据
-2020-08-18 11:23:43.846 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:45] 等待取证筛选结果，断言成功。
-2020-08-18 11:23:45.217 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 列表取证记录：暂无数据
-2020-08-18 11:23:45.217 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:68] 取证中筛选结果，断言成功。
-2020-08-18 11:23:46.621 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 列表取证记录为：暂无数据
-2020-08-18 11:23:46.622 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:91] 排队中取证筛选结果，断言成功。
-2020-08-18 11:23:47.994 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 列表取证记录为：暂无数据
-2020-08-18 11:23:47.995 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:115] 上传中筛选结果，断言成功。
-2020-08-18 11:23:49.475 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 取证成功筛选结果，断言成功。
-2020-08-18 11:23:49.476 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:144] 过程取证时长为：13秒
-2020-08-18 11:25:36.987 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:165] 元素定位失败：org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]' is not a valid XPath expression.
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: 1272ee32faf7b6a50a5bdeefd1bd3499
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/div/span]}
-2020-08-18 11:25:37.003 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 断言失败，原因：java.lang.AssertionError: expected [暂无数据] but found [testprocess2]
-2020-08-18 11:25:37.003 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:173] 断言失败，开始截图...
-2020-08-18 11:26:07.556 [main] INFO [com.common.MySqlDbOperator#setConnection:37] 数据库登录成功
-2020-08-18 11:26:08.665 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：UPDATE  per_user_details set points = '10000' where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.734 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.766 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data_sub where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.797 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from  news where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.833 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from notify_push where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.872 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from obtain_address where wid = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.908 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from `order` where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:08.957 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from data where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:09.015 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from pro_order where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:09.053 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from process_evidence where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:09.078 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_detail where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:09.103 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from user_give where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:09.126 [main] INFO [com.common.MySqlDbOperator#setControldata:68] 执行成功：delete from web_forensics where user_id = (select user_id from user where mobile = '17805121968');
-2020-08-18 11:26:22.816 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：LNXg
-2020-08-18 11:26:24.860 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 11:26:24.864 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 11:26:24.865 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 11:26:25.020 [main] INFO [org.testng.annotations.Test#test0WordAttest:24] 跳转到新增存证
-2020-08-18 11:26:28.234 [main] INFO [org.testng.annotations.Test#test0WordAttest:28] 上传world文件成功
-2020-08-18 11:26:28.644 [main] INFO [org.testng.annotations.Test#test0WordAttest:32] 存证成功
-2020-08-18 11:26:30.757 [main] INFO [org.testng.annotations.Test#test0WordAttest:39] 余额：可用积分：9,995.00
-2020-08-18 11:26:31.038 [main] INFO [org.testng.annotations.Test#test1SearchWorldName:62] 获取文件名：world.docx
-2020-08-18 11:26:31.140 [main] INFO [org.testng.annotations.Test#test2PngAttest:80] 跳转到新增存证
-2020-08-18 11:26:31.219 [main] INFO [org.testng.annotations.Test#test2PngAttest:82] 勾选图片存证按钮
-2020-08-18 11:26:34.268 [main] INFO [org.testng.annotations.Test#test2PngAttest:86] 上传图片文件成功
-2020-08-18 11:26:34.519 [main] INFO [org.testng.annotations.Test#test2PngAttest:90] 存证成功
-2020-08-18 11:26:36.735 [main] INFO [org.testng.annotations.Test#test2PngAttest:97] 余额：可用积分：9,990.00
-2020-08-18 11:26:36.988 [main] INFO [org.testng.annotations.Test#test3SearchPngName:120] 获取文件名：laoshu.png
-2020-08-18 11:26:37.081 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:137] 跳转到新增存证
-2020-08-18 11:26:37.165 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:139] 勾选图片存证按钮
-2020-08-18 11:26:40.206 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:143] 上传MP3文件成功
-2020-08-18 11:26:40.456 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:147] 存证成功
-2020-08-18 11:26:42.466 [main] INFO [org.testng.annotations.Test#test4YinPinAttest:154] 余额：可用积分：9,985.00
-2020-08-18 11:26:42.711 [main] INFO [org.testng.annotations.Test#test5YinPinSearchName:177] 获取文件名：yinpin.mp3
-2020-08-18 11:26:42.798 [main] INFO [org.testng.annotations.Test#test6VideoAttest:194] 跳转到新增存证
-2020-08-18 11:26:42.859 [main] INFO [org.testng.annotations.Test#test6VideoAttest:196] 勾选图片存证按钮
-2020-08-18 11:26:45.905 [main] INFO [org.testng.annotations.Test#test6VideoAttest:200] 上传mp4文件成功
-2020-08-18 11:26:46.148 [main] INFO [org.testng.annotations.Test#test6VideoAttest:204] 存证成功
-2020-08-18 11:26:48.211 [main] INFO [org.testng.annotations.Test#test6VideoAttest:211] 余额：可用积分：9,980.00
-2020-08-18 11:26:48.504 [main] INFO [org.testng.annotations.Test#test7SearchVideoName:234] 获取文件名：P4.mp4
-2020-08-18 11:26:48.615 [main] INFO [org.testng.annotations.Test#test8OtherAttest:252] 跳转到新增存证
-2020-08-18 11:26:48.687 [main] INFO [org.testng.annotations.Test#test8OtherAttest:254] 勾选图片存证按钮
-2020-08-18 11:26:51.741 [main] INFO [org.testng.annotations.Test#test8OtherAttest:258] 上传压缩包文件成功
-2020-08-18 11:26:51.988 [main] INFO [org.testng.annotations.Test#test8OtherAttest:262] 存证成功
-2020-08-18 11:26:53.977 [main] INFO [org.testng.annotations.Test#test8OtherAttest:269] 余额：可用积分：9,975.00
-2020-08-18 11:26:56.275 [main] INFO [org.testng.annotations.Test#test9SearchPngName:293] 获取文件名：nacicatzc.zip
-2020-08-18 11:27:00.915 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:34] 列表记录个数：:存证条目（条）：1
-2020-08-18 11:27:00.944 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:36] 文档筛选存证名称为：world.docx
-2020-08-18 11:27:00.976 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:38] 存证文件类型为：文档
-2020-08-18 11:27:01.006 [main] INFO [com.testng.testcase.testTwoDataAttest#test1TypeSelect:40] 文档存证保全号：1C96EE88A8F544598A2B226784F44476
-2020-08-18 11:27:03.149 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:65] 列表记录个数：:存证条目（条）：1
-2020-08-18 11:27:03.170 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:67] 文档筛选存证名称为：laoshu.png
-2020-08-18 11:27:03.191 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:69] 存证文件类型为：图片
-2020-08-18 11:27:03.211 [main] INFO [com.testng.testcase.testTwoDataAttest#test2TypeSelect:71] 文档存证保全号：304655B7C1274CF0A0FB856C456BCFBB
-2020-08-18 11:27:05.361 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:96] 列表记录个数：:存证条目（条）：1
-2020-08-18 11:27:05.381 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:98] 文档筛选存证名称为：yinpin.mp3
-2020-08-18 11:27:05.401 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:100] 存证文件类型为：音频
-2020-08-18 11:27:05.420 [main] INFO [com.testng.testcase.testTwoDataAttest#test3TypeSelect:102] 文档存证保全号：F13B5D4166DA48FAA31132FBB5503566
-2020-08-18 11:27:07.556 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:128] 列表记录个数：:存证条目（条）：1
-2020-08-18 11:27:07.578 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:130] 文档筛选存证名称为：P4.mp4
-2020-08-18 11:27:07.600 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:132] 存证文件类型为：视频
-2020-08-18 11:27:07.621 [main] INFO [com.testng.testcase.testTwoDataAttest#test4TypeSelect:134] 文档存证保全号：E50722CE58374195A8CAA18FAA4A5CC1
-2020-08-18 11:27:09.765 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:159] 列表记录个数：:存证条目（条）：1
-2020-08-18 11:27:09.786 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:161] 文档筛选存证名称为：nacicatzc.zip
-2020-08-18 11:27:09.805 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:163] 存证文件类型为：其他
-2020-08-18 11:27:09.827 [main] INFO [com.testng.testcase.testTwoDataAttest#test5TypeSelect:165] 文档存证保全号：2E74C0DEB4B64AF1B6FC43A0FA25B732
-2020-08-18 11:27:16.307 [main] INFO [org.testng.annotations.Test#test1TimeScopeSearch:60] count:存证条目（条）：0
-2020-08-18 11:27:22.833 [main] INFO [org.testng.annotations.Test#test2TimeScopeSearch:89] count:存证条目（条）：5
-2020-08-18 11:27:29.292 [main] INFO [org.testng.annotations.Test#test3TimeScopeSearch:118] count:存证条目（条）：0
-2020-08-18 11:27:35.747 [main] INFO [org.testng.annotations.Test#test4TimeScopeSearch:148] count:存证条目（条）：5
-2020-08-18 11:27:37.989 [main] INFO [org.testng.annotations.Test#test5ViewDetails:171] 1C96EE88A8F544598A2B226784F44476
-2020-08-18 11:27:45.527 [main] INFO [org.testng.annotations.Test#test5ViewDetails:186] 存证用户姓名：王家森
-2020-08-18 11:27:45.528 [main] INFO [org.testng.annotations.Test#test5ViewDetails:187] 存证用户电话：178****1968
-2020-08-18 11:27:45.529 [main] INFO [org.testng.annotations.Test#test5ViewDetails:188] 存证用户的身份证：342425********4233
-2020-08-18 11:27:45.529 [main] INFO [org.testng.annotations.Test#test5ViewDetails:189] 存证文件名称：world.docx
-2020-08-18 11:27:45.529 [main] INFO [org.testng.annotations.Test#test5ViewDetails:190] 存证文件hash：3a0b098d8854c32d54a9557023175ca3b401049e7864efac323c4e76d7212b72
-2020-08-18 11:27:45.530 [main] INFO [org.testng.annotations.Test#test5ViewDetails:191] 存证文件交易hash：5780df225f119b4fb4402002a62ff44733998f76a2afdffc7c7e873895418ee0
-2020-08-18 11:27:47.221 [main] INFO [org.testng.annotations.Test#test6DeleteData:229] 取消成功
-2020-08-18 11:27:50.368 [main] INFO [org.testng.annotations.Test#test6DeleteData:235] 删除成功
-2020-08-18 11:28:02.070 [main] INFO [com.testng.testcase.testFourDateAttest#test1BatchAttest:69] 断言成功
-2020-08-18 11:28:02.071 [main] INFO [com.testng.testcase.testFourDateAttest#test1BatchAttest:70] 存证记录数：共 14 条
-2020-08-18 11:28:02.202 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:96] .doc，.docx，.dot，.dtd，.js，.json，.mpp，.pdf，.pot，.pps，.ppt，.ppts，.rtf，.wdb，.wps，.xhtml，.xlc，.xlm，.xls，.xlt，.xlw，.xml，.css，.csv，.htm，.html，.txt
-2020-08-18 11:28:02.302 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:99] .dwg，.dxf，.gif，.jp2，.jpe，.jpeg，.jpg，.png，.svf，.tif，.tiff，.bmp，.webp，.bmp，.pcx，.tif，.tga，.exif，.fpx，.svg，.psd，.cdr，.ico
-2020-08-18 11:28:02.394 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:102] .ac3，.au，.mp2，.ogg，.flac，.ape，.wav，.mp3，.aac，.wma
-2020-08-18 11:28:02.495 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:105] .3gpp，.mp4，.mpeg，.mpg，.3gp，.wmv，.asf，.asx，.rm，.rmvb，.3gp，.mov，.m4v，.avi，.dat，.mkv，.flv，.vob
-2020-08-18 11:28:02.588 [main] INFO [com.testng.testcase.testFourDateAttest#test3InformationVerification:108] .rar，.zip，.arj，.z，.iso，.jar，.bz2，.gz，.tar，.ace，.lzh，.cab，.arj
-2020-08-18 11:28:06.131 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:152] 不输入标签，提交存证提示：请输入标签名选择或新增
-2020-08-18 11:28:06.132 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:154] 不上传文件，提交存证提示：请上传需存证的证件
-2020-08-18 11:28:06.133 [main] INFO [com.testng.testcase.testFourDateAttest#test4DeleteDatas:155] 断言成功
-2020-08-18 11:28:12.064 [main] INFO [com.testng.testcase.testFourDateAttest#test5UpdateDataAttest:188] 上传文件名称成功修改为：worldtest.docx
-2020-08-18 11:28:12.065 [main] INFO [com.testng.testcase.testFourDateAttest#test5UpdateDataAttest:189] 断言成功
-2020-08-18 11:28:13.908 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:214] 列表第一页存证条数为：10
-2020-08-18 11:28:13.908 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:216] 列表第二页存证条数为： 5
-2020-08-18 11:28:13.909 [main] INFO [com.testng.testcase.testFourDateAttest#test6PageData:217] 断言成功
-2020-08-18 11:28:29.921 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:95] 取证状态为：取证取消
-2020-08-18 11:28:29.922 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:97] 剩余余额：可用积分：9,920.00
-2020-08-18 11:28:29.922 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1CancelProcessEvidence:98] 断言成功
-2020-08-18 11:28:54.636 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:143] 取证状态为：上传中
-2020-08-18 11:28:54.637 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:145] 剩余余额为：可用积分：9,770.00
-2020-08-18 11:28:54.637 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2AddProcessEvidence:146] 断言成功
-2020-08-18 11:29:08.904 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:189] 排队取消，取证状态为：取证取消
-2020-08-18 11:29:08.905 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:191] 剩余余额为：可用积分：9,770.00
-2020-08-18 11:29:08.905 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3CancelQueueProcessEvidence:192] 断言成功
-2020-08-18 11:29:17.232 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:29:17.766 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:29:25.766 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:29:26.403 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:29:34.404 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:29:34.904 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:29:42.906 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:29:43.405 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:29:51.407 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:29:51.913 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:29:59.914 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:00.331 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:08.331 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:08.884 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:16.885 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:17.433 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:25.434 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:25.942 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:33.944 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:34.439 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:42.439 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:43.045 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:51.045 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:30:51.633 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:30:59.635 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:31:00.213 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 上传中
-2020-08-18 11:31:08.214 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:216] 取证上传中，页面刷新。
-2020-08-18 11:31:08.779 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:219] 取证成功
-2020-08-18 11:31:08.779 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:210] 取证成功
-2020-08-18 11:31:08.780 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:211] 取证成功，退出循环
-2020-08-18 11:31:14.380 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:239] 保全号为：502442858792357889
-2020-08-18 11:31:14.381 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:240] 文件hash：139823bb913ab8120831320830e3c8b2eb030deb80255a073c0396a1a76ef2fe
-2020-08-18 11:31:14.381 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:241] 区块链交易hash：99e6cc1e464f39159354764f31b26ef90f2b1b7bbcff642dbb282cb128edb48d
-2020-08-18 11:31:14.382 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:242] 取证类型+过程取证
-2020-08-18 11:31:14.382 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:243] 取证名称：testprocess2
-2020-08-18 11:31:14.382 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:244] 取证用户：王家森
-2020-08-18 11:31:14.382 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:245] 取证用户ID：3424**********4233
-2020-08-18 11:31:14.383 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4ProcessEvidenceDetails:246] 取证用户手机号：178****1968
-2020-08-18 11:31:14.433 [main] INFO [com.common.MySqlDbOperator#setConnection:37] 数据库登录成功
-2020-08-18 11:31:14.438 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDta:54] 查询结果：502442858792357889
-2020-08-18 11:31:14.443 [main] INFO [com.common.MySqlDbOperator#getSelectOnerDta:54] 查询结果：139823bb913ab8120831320830e3c8b2eb030deb80255a073c0396a1a76ef2fe
-2020-08-18 11:31:28.420 [main] INFO [com.common.ReadDownLoadFiles#getDownLoadFilesName:23] 文件名：kkftcz4bbgv3ye3inz9e.zip
-2020-08-18 11:31:31.222 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1TimeSearchData:53] 列表记录数：暂无数据
-2020-08-18 11:31:31.223 [main] INFO [com.testng.testcase.testOneProcessEvidence#test1TimeSearchData:59] 断言成功
-2020-08-18 11:31:33.223 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2TimeSearchData:80] 列表记录数：共 1 条
-2020-08-18 11:31:33.224 [main] INFO [com.testng.testcase.testOneProcessEvidence#test2TimeSearchData:86] 断言成功
-2020-08-18 11:31:35.357 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3TimeSearchData:107] 列表记录数：暂无数据
-2020-08-18 11:31:35.357 [main] INFO [com.testng.testcase.testOneProcessEvidence#test3TimeSearchData:113] 断言成功
-2020-08-18 11:31:37.272 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4TimeSearchData:134] 列表记录数：共 1 条
-2020-08-18 11:31:37.273 [main] INFO [com.testng.testcase.testOneProcessEvidence#test4TimeSearchData:140] 断言成功
-2020-08-18 11:31:38.050 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:156] 列表记录数：共 1 条
-2020-08-18 11:31:38.078 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:158] 过程取证名称为：testprocess2
-2020-08-18 11:31:38.179 [main] INFO [com.testng.testcase.testOneProcessEvidence#test5NameSearchData:166] 断言成功
-2020-08-18 11:31:39.856 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 列表取证记录为：暂无数据
-2020-08-18 11:31:39.856 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:45] 等待取证筛选结果，断言成功。
-2020-08-18 11:31:41.193 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 列表取证记录：暂无数据
-2020-08-18 11:31:41.194 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:68] 取证中筛选结果，断言成功。
-2020-08-18 11:31:42.542 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 列表取证记录为：暂无数据
-2020-08-18 11:31:42.542 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:91] 排队中取证筛选结果，断言成功。
-2020-08-18 11:31:43.881 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 列表取证记录为：暂无数据
-2020-08-18 11:31:43.882 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:115] 上传中筛选结果，断言成功。
-2020-08-18 11:31:45.321 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 取证成功筛选结果，断言成功。
-2020-08-18 11:31:45.322 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:144] 过程取证时长为：11秒
-2020-08-18 11:31:46.668 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:169] 取证结果记录为：暂无数据
-2020-08-18 11:31:46.668 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:170] 取证失败筛选结果，断言成功。
-2020-08-18 11:31:57.979 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:196] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 11:31:57.980 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 11:31:57.980 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:207] 断言失败，开始截图...
-2020-08-18 11:31:58.464 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818113157.jpg
-2020-08-18 11:31:59.001 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:40] 元素定位失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: 52da1d9a8869806c4e335358e956b224
-2020-08-18 11:31:59.002 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:48] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 11:31:59.003 [main] INFO [com.testng.testcase.testFourProcessEvidence#test1SelectSearch:49] 断言失败，开始截图...
-2020-08-18 11:31:59.418 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818113159.jpg
-2020-08-18 11:31:59.712 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:72] 元素定位失败，原因：org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=80.0.3987.162)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\98117\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.162, webStorageEnabled: true}
-Session ID: 52da1d9a8869806c4e335358e956b224
-2020-08-18 11:31:59.712 [main] ERROR [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:80] 断言失败原因：java.lang.AssertionError: expected [共 1 条] but found [null]
-2020-08-18 11:31:59.713 [main] INFO [com.testng.testcase.testFourProcessEvidence#test2SelectSearch:81] 断言失败，开始截图...
-2020-08-18 11:32:00.144 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818113159.jpg
-2020-08-18 11:32:00.223 [main] INFO [com.common.ReadDownLoadFiles#refreshFileList:67] 开始删除文件：E:\ObjectInformation\ZhiChanPingTai\UI\src\test\java\com\downloadfiles\kkftcz4bbgv3ye3inz9e.zip
-2020-08-18 14:15:18.079 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：FzmA
-2020-08-18 14:15:20.205 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 14:15:20.211 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 14:15:20.211 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 14:15:23.551 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:44] 列表取证记录为：暂无数据
-2020-08-18 14:15:23.552 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:45] 等待取证筛选结果，断言成功。
-2020-08-18 14:15:24.915 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:67] 列表取证记录：暂无数据
-2020-08-18 14:15:24.916 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:68] 取证中筛选结果，断言成功。
-2020-08-18 14:15:26.276 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:90] 列表取证记录为：暂无数据
-2020-08-18 14:15:26.277 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:91] 排队中取证筛选结果，断言成功。
-2020-08-18 14:15:27.617 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:114] 列表取证记录为：暂无数据
-2020-08-18 14:15:27.617 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:115] 上传中筛选结果，断言成功。
-2020-08-18 14:15:29.085 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:143] 取证成功筛选结果，断言成功。
-2020-08-18 14:15:29.086 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:144] 过程取证时长为：11秒
-2020-08-18 14:15:30.466 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:169] 取证结果记录为：暂无数据
-2020-08-18 14:15:30.466 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:170] 取证失败筛选结果，断言成功。
-2020-08-18 14:15:40.788 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:196] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 14:15:40.800 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 14:15:40.801 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:207] 断言失败，开始截图...
-2020-08-18 14:15:41.269 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818141540.jpg
-2020-08-18 14:36:31.044 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：UNpR
-2020-08-18 14:36:33.219 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 14:36:33.225 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 14:36:33.226 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 14:36:36.530 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:46] 列表取证记录为：暂无数据
-2020-08-18 14:36:36.531 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:47] 等待取证筛选结果，断言成功。
-2020-08-18 14:36:37.946 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:69] 列表取证记录：暂无数据
-2020-08-18 14:36:37.946 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:70] 取证中筛选结果，断言成功。
-2020-08-18 14:36:39.304 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:92] 列表取证记录为：暂无数据
-2020-08-18 14:36:39.305 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:93] 排队中取证筛选结果，断言成功。
-2020-08-18 14:36:40.658 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:116] 列表取证记录为：暂无数据
-2020-08-18 14:36:40.659 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:117] 上传中筛选结果，断言成功。
-2020-08-18 14:36:42.125 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:145] 取证成功筛选结果，断言成功。
-2020-08-18 14:36:42.126 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:146] 过程取证时长为：11秒
-2020-08-18 14:36:49.633 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 取证结果记录为：暂无数据
-2020-08-18 14:36:49.634 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 取证失败筛选结果，断言成功。
-2020-08-18 14:37:10.501 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 14:37:10.504 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:216] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 14:37:10.505 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:217] 断言失败，开始截图...
-2020-08-18 14:38:07.124 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：suEM
-2020-08-18 14:38:09.224 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 14:38:09.226 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 14:38:09.226 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 14:38:12.612 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:46] 列表取证记录为：暂无数据
-2020-08-18 14:38:12.612 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:47] 等待取证筛选结果，断言成功。
-2020-08-18 14:38:13.960 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:69] 列表取证记录：暂无数据
-2020-08-18 14:38:13.960 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:70] 取证中筛选结果，断言成功。
-2020-08-18 14:38:15.307 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:92] 列表取证记录为：暂无数据
-2020-08-18 14:38:15.308 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:93] 排队中取证筛选结果，断言成功。
-2020-08-18 14:38:16.656 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:116] 列表取证记录为：暂无数据
-2020-08-18 14:38:16.656 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:117] 上传中筛选结果，断言成功。
-2020-08-18 14:38:18.113 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:145] 取证成功筛选结果，断言成功。
-2020-08-18 14:38:18.114 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:146] 过程取证时长为：11秒
-2020-08-18 14:39:19.129 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 取证结果记录为：暂无数据
-2020-08-18 14:39:19.129 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 取证失败筛选结果，断言成功。
-2020-08-18 14:39:30.460 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
-2020-08-18 14:39:30.461 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:216] 断言失败，原因：java.lang.AssertionError: expected [共 2 条] but found [共 1 条]
-2020-08-18 14:39:30.461 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:217] 断言失败，开始截图...
-2020-08-18 14:39:31.244 [main] INFO [org.testng.annotations.Test#screenShot:24] 截图成功：E:\ObjectInformation\ZhiChanPingTai\UI\screenshotFail\20200818143930.jpg
-2020-08-18 14:41:00.620 [main] INFO [org.testng.annotations.Test#loginTest1:23] 登录验证码：mXXZ
-2020-08-18 14:41:02.535 [main] INFO [org.testng.annotations.Test#loginTest1:33] 获取的user_number:数据存证
-2020-08-18 14:41:02.538 [main] INFO [org.testng.annotations.Test#loginTest1:44] 数据存证用户登录成功
-2020-08-18 14:41:02.538 [main] INFO [org.testng.annotations.Test#loginTest1:45] 登录测试用例通过
-2020-08-18 14:41:05.888 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:46] 列表取证记录为：暂无数据
-2020-08-18 14:41:05.888 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test1SelectSearch:47] 等待取证筛选结果，断言成功。
-2020-08-18 14:41:07.255 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:69] 列表取证记录：暂无数据
-2020-08-18 14:41:07.255 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test2SelectSearch:70] 取证中筛选结果，断言成功。
-2020-08-18 14:41:08.610 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:92] 列表取证记录为：暂无数据
-2020-08-18 14:41:08.610 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test3SelectSearch:93] 排队中取证筛选结果，断言成功。
-2020-08-18 14:41:09.982 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:116] 列表取证记录为：暂无数据
-2020-08-18 14:41:09.983 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test4SelectSearch:117] 上传中筛选结果，断言成功。
-2020-08-18 14:41:11.488 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:145] 取证成功筛选结果，断言成功。
-2020-08-18 14:41:11.489 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test5SelectSearch:146] 过程取证时长为：11秒
-2020-08-18 14:43:27.370 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:171] 取证结果记录为：暂无数据
-2020-08-18 14:43:27.371 [main] INFO [com.testng.testcase.testThreeProcessEvidence#test6SelectSearch:172] 取证失败筛选结果，断言成功。
-2020-08-18 15:30:29.184 [main] ERROR [com.testng.testcase.testThreeProcessEvidence#test7SelectSearch:206] 元素定位失败：org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: timeout
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'DESKTOP-081URFE', ip: '192.168.162.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: driver.version: RemoteWebDriver
+2020-08-19 10:01:28.355 [main] ERROR [com.testng.testcase.testOneWebEvidence#test6TimeSearchWebData:254] 断言失败，开始截图

@@ -124,7 +124,10 @@ public class testOneProcessEvidence extends UiBase {
             WebElement iframe = driver.findElement(By.xpath("//*[@id=\"iframe-copy\"]"));
             driver.switchTo().frame(iframe);
             driver.findElement(By.xpath("//*[@id=\"que-wrapper\"]/div[2]/button[2]")).click();
-            Thread.sleep(10000);
+            for(int i=0;i<20;i++){
+                Thread.sleep(1000);
+                log.info("过程取证：正在取证中...");
+            }
             driver.findElement(By.xpath("//*[@id=\"idOuterDiv\"]/p[1]")).click();//结束取证
             Thread.sleep(1000);
             driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div/div/div[2]/button")).click();
@@ -250,8 +253,8 @@ public class testOneProcessEvidence extends UiBase {
         try {
             MySqlDbOperator db= new MySqlDbOperator();
             db.setConnection();
-            this.BaoQuanNoSqlData =db.getSelectOnerDta("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","attestation_id");
-            this.FileHahSqlData = db.getSelectOnerDta("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","zip_sm3");
+            this.BaoQuanNoSqlData =db.getSelectOnerData("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","attestation_id");
+            this.FileHahSqlData = db.getSelectOnerData("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","zip_sm3");
 //            this.DealHashSqlData = db.getSelectOnerDta("SELECT * FROM process_evidence where user_id = '282' and status = 'SUCCESS'","attestation_id");
             db.dbClose();
         }catch (Exception erro){

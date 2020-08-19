@@ -8,8 +8,13 @@
     <test name="BusinessEnvironment "  verbose="1">
         <classes>
             <class name="com.testng.testcase.testLogin" />
-            <class name="com.testng.testcase.testThreeProcessEvidence" />
+<!--            <class name="com.testng.testcase.testThreeProcessEvidence" />-->
 <!--            <class name="com.testng.testcase.testFourProcessEvidence" />-->
+            <class name="com.testng.testcase.testOneWebEvidence">
+                <methods>
+                    <include name="test6TimeSearchWebData" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

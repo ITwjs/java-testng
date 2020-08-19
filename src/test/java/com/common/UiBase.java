@@ -56,7 +56,7 @@ public  class UiBase {
         }
         dba.dbClose();
     }
-//    @AfterSuite
+    @AfterSuite
     public void ClearDownLoadFiles(){
         ReadDownLoadFiles download = new ReadDownLoadFiles();
         download.refreshFileList();

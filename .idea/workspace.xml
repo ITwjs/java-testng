@@ -2,28 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb1a0c1-824e-4f25-a0ce-5eff588c25e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneWebEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshotFail/20200819095539.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeWebEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTowWebEvidence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneWebEvidence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneWebEvidence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneWebEvidence_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debugtestng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/debugtestng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.2020-08-13-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.2020-08-14-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.2020-08-17-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.2020-08-13-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.2020-08-14-0.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/main.2020-08-17-0.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/ReadDownLoadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200729162452.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200729162457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200729162501.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200729162506.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200729162510.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161241.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161430.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813161721.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813162257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813163327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170254.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170945.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170946.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170958.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200813170959.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102022.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102417.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102459.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102514.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102721.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102844.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102856.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814102857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814105448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814105538.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814105539.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814105551.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814105552.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814113757.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814113758.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814113810.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200814113811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094406.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094522.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094537.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094755.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094816.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094837.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817094848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817135927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140216.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140247.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200817140309.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818105349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818105350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818105402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818105403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818105826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818110321.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818110328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818110816.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818111307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818113157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818113159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818141540.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshotFail/20200818143930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/MySqlDbOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/UiBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/common/screenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/downloadfiles/yppgm24m2zda449vs97b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourDateAttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/ReadDownLoadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/ReadDownLoadFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneWebEvidence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneWebEvidence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/MySqlDbOperator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/UiBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/common/screenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testFourDateAttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testFourDateAttest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneProcessEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testOneProcessEvidence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoProcessEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testTwoProcessEvidence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testThreeProcessEvidence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng/testcase/testThreeProcessEvidence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/BusinessEnvironment .xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ZhiShiChanQuanPingTai/testng-failed.xml" afterDir="false" />
@@ -31,13 +112,14 @@
       <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_chronology.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testFourProcessEvidence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testLogin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneDateAttest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testOneProcessEvidence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeDateAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeDateAttest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testThreeProcessEvidence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDataAttest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoDataAttest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoProcessEvidence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.testng.testcase.testTwoProcessEvidence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/ZhiShiChanQuanPingTai/classes.html" afterDir="false" />
@@ -50,10 +132,12 @@
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourDateAttest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testFourProcessEvidence_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testLogin_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneDateAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testOneProcessEvidence_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeDateAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeDateAttest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testThreeProcessEvidence_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoDataAttest_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoProcessEvidence_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.testng.testcase.testTwoProcessEvidence_results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
@@ -130,8 +214,8 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml">
-    <configuration name="ReadDownLoadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.ReadDownLoadFiles" />
+    <configuration name="MySqlDbOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.MySqlDbOperator" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +227,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="screenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.screenShot" />
+    <configuration name="ReadDownLoadFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.ReadDownLoadFiles" />
       <module name="UI" />
       <extension name="coverage">
         <pattern>
@@ -199,18 +283,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReadDownLoadFiles" />
-      <item itemvalue="Application.screenShot" />
       <item itemvalue="Application.test" />
       <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
       <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
+      <item itemvalue="Application.MySqlDbOperator" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/ObjectInformation/ZhiChanPingTai/UI/debugtestng.xml" />
         <item itemvalue="TestNG.D:/ObjectInformation/BaoQuanWang/UI/testng.xml" />
+        <item itemvalue="Application.MySqlDbOperator" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ReadDownLoadFiles" />
-        <item itemvalue="Application.screenShot" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596789190341</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改部分断言问题和日志打印问题">
+      <created>1597736011069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597736011070</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -301,7 +392,8 @@
     <MESSAGE value="修改 maven仓库配置+修改窗口句柄切换问题" />
     <MESSAGE value="配置浏览器下载路径，解决嵌套窗口iframe元素定位问题" />
     <MESSAGE value="表单数据用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="表单数据用例" />
+    <MESSAGE value="修改部分断言问题和日志打印问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部分断言问题和日志打印问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,7 +405,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testOneProcessEvidence.java</url>
-          <line>208</line>
+          <line>211</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -330,16 +422,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testTwoProcessEvidence.java</url>
           <line>70</line>
           <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testFourProcessEvidence.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/testng/testcase/testThreeProcessEvidence.java</url>

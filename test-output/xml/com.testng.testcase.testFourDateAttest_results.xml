@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="22.294">
+           time="23.115">
   <properties />
   
   
-      <testcase name="test1BatchAttest" time="10.456" />
-      <testcase name="test6PageData" time="1.844" />
-      <testcase name="test3InformationVerification" time="0.581" />
-      <testcase name="test5UpdateDataAttest" time="5.930" />
-      <testcase name="test4DeleteDatas" time="3.483" />
+      <testcase name="test5UpdateDataAttest" time="5.947" />
+      <testcase name="test1BatchAttest" time="11.236" />
+      <testcase name="test4DeleteDatas" time="3.376" />
+      <testcase name="test6PageData" time="1.874" />
+      <testcase name="test3InformationVerification" time="0.682" />
   
 </testsuite>
